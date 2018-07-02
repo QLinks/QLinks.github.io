@@ -1,2 +1,2 @@
 # QLinks
-Quick Links: qlinks.github.io
+Quick Links: https://qlinks.github.io
