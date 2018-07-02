@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta name="author" content="Benz Rodrigo">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Calculator</title>
+</head>
+
+<body>
+	<form name="salarycal" mebthod="post">
+	<label type="text" ><b>BASIC PAY:</b</label><input type="number" name="basicinput" placeholder="$ 0.00" width="30%">
+		<input onclick=paycal() type="button" value="Calculate">
+
+<!-- Input Days Worked -->
+	<fieldset type="text"> <legend type="text"><b>Hours/Days Worked</b></legend>
+	<table>
+		<tr> <td align="left" colSpan="2" width="40%"><b>Total Days Worked:</b></td>
+                <td align="right" colSpan="1"><input type="number" name="daysInput" placeholder="(Days)" width="30%"></td>
+		<tr><td align="left" colSpan="2" width="40%"><b>Night Differential:</b></td>
+                <td align="right" colSpan="1"><input type="number" name="nDiffInput" placeholder="(Hours)" width="30%"></td>
+		</table>	
+	</fieldset>
+
+<!-- Input Holidays Days Worked -->
+	<fieldset type="text"> <legend type="text"><b>Holidays</b></legend>
+	<table>
+		<tr> <td align="left" colSpan="2" width="40%"><b>Regular:</b></td>
+                <td align="right" colSpan="1"><input type="number" name="hDayRegInput" placeholder="(Days)" width="30%"></td>
+		<td align="right" colSpan="1"><input type="number" name="nDiffHDayRegInput" placeholder="(NDiff Hours)" width="30%"></td>
+		<tr> <td align="left" colSpan="2" width="40%"><b>Special:</b></td>
+                <td align="right" colSpan="1"><input type="number" name="hDaySpclInput" placeholder="(Days)" width="30%"></td>
+		</table>
+	</fieldset>
+
+<!-- Show Result Computation -->
+	<fieldset type="text"> <legend type="text"><b>Gross Earnings</b></legend>
+	<table>
+		<tr><td align="left" colSpan="2">
+                Daily Rate: <input type="numb" name="rateDaily" readonly>&nbsp;
+                Hourly Rate: <input type="numb" name="rateHourly" readonly></td>
+		<tr><td align="left" colSpan="2">Total Hours Worked:
+			<input type="numb" name="totalHours" readonly>&nbsp;
+			$<input type="numb" name="payHours" readonly></td>
+		<tr><td align="left" colSpan="2">N.Diff-Reg Rate:
+			<input type="numb" name="rateNDiff" readonly>&nbsp;
+			$<input type="numb" name="payNDiff" readonly></td>
+		<tr><td align="left" colSpan="2">Holiday Reg: $<input type="numb" name="payHDayReg" readonly></td>
+		<tr><td align="left" colSpan="2">N.Diff-Holiday Reg Rate:
+			<input type="numb" name="rateNDiffHDayR" readonly>&nbsp;
+			$<input type="numb" name="payNDiffHDayR" readonly></td>
+		<tr><td align="left" colSpan="2">Holiday Special: $<input type="numb" name="payHDaySpcl" readonly></td>
+		<tr><td align="left" colSpan="1">----------Gross Total:</td>
+			<td align="right" colSpan="1">$<input type="numb" name="payGrossTotal" readonly></td>
+		</tr>
+		</table>
+	</fieldset>
+	</form>
+
+<Script language="JavaScript">
+	function paycal() {
+		basicAnn=document.salarycal.basicinput.value*12/26;
+		getRateDaily=basicAnn/10;
+		getHourlyRate=getRateDaily/8
+		getTotalHours=document.salarycal.daysInput.value*8;
+		document.salarycal.rateDaily.value=getRateDaily;
+		document.salarycal.rateHourly.value=getHourlyRate;
+		document.salarycal.totalHours.value=getTotalHours;
+		getRateNDiff=getHourlyRate*.20;
+		getRateNDiffHdayR=getHourlyRate*.40;
+		getRateHDaySpcl=getRateDaily*.20;
+		document.salarycal.rateNDiff.value=getRateNDiff;
+		document.salarycal.rateNDiffHDayR.value=getRateNDiffHdayR;
+		grossPayHours=getTotalHours*getHourlyRate;
+		document.salarycal.payHours.value=grossPayHours;
+		grosspayNDiff=document.salarycal.nDiffInput.value*getRateNDiff;
+		document.salarycal.payNDiff.value=grosspayNDiff;
+		grosspayHDayReg=document.salarycal.hDayRegInput.value*getRateDaily;
+		document.salarycal.payHDayReg.value=grosspayHDayReg;
+		grosspayNDiffHdayR=document.salarycal.nDiffHDayRegInput.value*getRateNDiffHdayR;
+		document.salarycal.payNDiffHDayR.value=grosspayNDiffHdayR;
+		grosspayHDaySpcl=document.salarycal.hDaySpclInput.value*getRateHDaySpcl;
+		document.salarycal.payHDaySpcl.value=grosspayHDaySpcl;
+		totalGrossNDiff=grosspayNDiff+grosspayNDiffHdayR;
+		totalGrossHday=grosspayHDayReg+grosspayHDaySpcl
+		totalGross=grossPayHours+totalGrossNDiff+totalGrossHday;
+		document.salarycal.payGrossTotal.value=totalGross;
+		}
+</script>
+
+  </body>
