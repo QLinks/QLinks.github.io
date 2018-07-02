@@ -9,6 +9,7 @@
 </head>
 
 <body>
+	<form id="previewform" action="">
 	<form name="salarycal" mebthod="post">
 	<label type="text" ><b>BASIC PAY:</b</label><input type="number" name="basicPay" placeholder="$ 0.00" width="30%">
 		<input onClick="paycal();" name="calBtn" id="calBtn" type="button" value="Calculate">
@@ -57,8 +58,8 @@
 		</tr>
 		</table>
 	</fieldset>
-	</form>
-
+	</form>		
+</fomm>	
 <Script language="JavaScript">
 	function paycal() {
 		basicAnn=document.salarycal.basicPay.value*12/26;
@@ -111,6 +112,7 @@
 		$("calBtn").onclick = function(){calculate_click();};
 		$("basicPay").focus();
 </script>
-
+		<script src="/htmlpreview.min.js"></script>
+		<script>HTMLPreview.init();</script>
 	</body>
 </html>
