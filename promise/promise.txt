@@ -1,0 +1,419 @@
+<h2>Warmly Welcome</h2>
+<br>
+<h3>Opening</h3>
+<p>“Thank you for calling AT&T, my name is (your name), may I please have your first and last name?"
+<br>
+"Thank you (customer’s name) how can I help you today?”</p>
+<br>
+<h3>Acknowledge the Concern</h3>
+<p>“I understand that [restate issue]”</p>
+ 
+ 
+  ·        
+  Empathize
+  o    “I would be (your
+  emotion if you’re the customer) if I were in your shoes…”
+ 
+ 
+  ·        
+  Reassure
+  o    “I can help you with
+  that!”
+ 
+ 
+  *If no account
+  automatically show on Rio, ask for the Phone # linked to the Account
+  
+ 
+ 
+  ·        
+  If name is different on the account (Rio
+  Dashboard)
+  o    ”For security
+  purposes, can you please verify the account holder’s name?”
+ 
+ 
+  ·        
+  If there is password on account (Rio Dashboard)
+  o    “For security
+  purposes, can you please verify the password on the account?”
+ 
+ 
+  ·        
+  If caller is not the account holder (check
+  authorized user list in contact list in Rio)
+  
+ 
+ 
+  ·         Acknowledge loyalty (Check activation date in acct)
+  o    “Thank you for being
+  such a valuable customer since [Year]. We truly appreciate your business with
+  us.”
+ 
+ 
+  *Create Call Intent
+  (Shopping Cart)
+  
+ 
+ 
+  ·         Check call history; if there’s a call log for the last 30 days
+  (Call Logging)
+  o    “(Customer’s name),
+  the last time you have called was on [call log date] about [previous call
+  issue], is it already fixed?”
+ 
+ 
+  *Open Account on
+  CAP
+  
+ 
+ 
+  ·        
+  Provide the CBR Verbatim
+  o    “May I get a contact telephone number that we may use to reach
+  you by phone or text with information about your AT&T services?”
+ 
+ 
+  
+  
+ 
+ 
+  Uncover Needs
+  CHECK HOW-TO TOOL
+ 
+ 
+  ·        
+  Ask for Secondary Concerns before you start
+  Probing (HOMERUN)
+  o    “Is there any other
+  billing, programming or technical concerns that I can help you with for
+  today?”
+ 
+ 
+  *Actively Listen /
+  *Take Ownership (don’t blame others) / *Make it Short & Simple
+  
+ 
+ 
+  ·        
+  Ask Open Ended Questions, First
+  o    “Can you please
+  describe what is happening?” “Can you please tell me more about the issue
+  that you are facing?”
+ 
+ 
+  *Blue/Gray screen,
+  No Display--
+  o    “(customer’s name),
+  can you describe to me what you see on your screen?”
+ 
+ 
+  *Error Message on
+  Screen(711,771, etc.)--
+  o    “What is the error
+  message?”
+ 
+ 
+  
+  o    “When did it start?
+  (*Fix Flow)
+ 
+ 
+  
+  o    “Have you made any
+  changes to the account?” (*Fix & Setup)
+ 
+ 
+  
+  o    "Have you made any troubleshooting
+  steps?"
+ 
+ 
+  *Probing: Channel,
+  No Sound Issues--
+  o    “Are you able to
+  change channels or increase the volume?”
+ 
+ 
+  
+  o    “Is it only a few
+  channels thats not working or all of the channels?”
+ 
+ 
+  *Probing: Receiver
+  Issue--
+  o    “Is this your first
+  time setting up your receiver or was this a replacement?”
+ 
+ 
+  
+  o    “How many receivers
+  are affected?”
+ 
+ 
+  *NOTE:
+  Receiver/Remote Issue - Get Receiver Model--
+  o    “Press and hold down the INFO button on your remote for a few
+  seconds until the Info & Test screen appears. You’ll see your receiver’s
+  model number in the “Receiver” line.”
+ 
+ 
+  *Probing: Remote
+  Control Issue--
+  o    “Is this your first
+  time setting up the remote or was this a replacement?"
+ 
+ 
+  
+  o    “If I may ask, are the
+  Batteries inside the remote brand new?”
+ 
+ 
+  
+  o    “Please Press the Menu
+  button, did something pop-up on the screen?”
+ 
+ 
+  *NOTE: Remote
+  Control Issue: Get Model--
+  o    “May I have the Model number of your Remote, its found on the
+  upper left-hand corner and it starts with RC followed by 2 numbers?”
+ 
+ 
+  ·        
+  Clarify for understanding
+  o    “Ok, before I proceed I want to make sure I have the correct
+  information. Based on what you shared [clarify with the customer your
+  understanding of the issue.]”
+ 
+ 
+  ·        
+  Package Compare/Upgrade or Change Services
+  o    “What channels do you
+  watch the most?" “What is your favorite show?"
+ 
+ 
+  
+  o    “What types of shows
+  do you normally find you and your family record on your DVR?"
+ 
+ 
+  
+  o    “What is your target
+  price range per month?"
+ 
+ 
+  
+  o    “Do you or does anyone
+  in your family watch sports?"
+ 
+ 
+  
+  o    “Now that we know your
+  favorite shows, let’s talk about what other packages might fit your
+  needs."
+ 
+ 
+  
+  
+ 
+ 
+  Personalize
+  Solutions
+   
+ 
+ 
+  ·         Inform customer of the possible symptoms and causes of the
+  issue (refer to MyCSP)
+  o    “We are facing [Repeat
+  Issue]. The possible causes are [causes of the issue].”
+ 
+ 
+  ·         Setting of  expectation
+  o    “Here’s the game plan,
+  we are going to do troubleshooting to get you back to enjoy watching your
+  favorite shows, is that alright?”
+ 
+ 
+  *Run WFE real-time
+  and follow it by heart; NO SKIPPING of steps or deviating
+  
+ 
+ 
+  ·        
+  Always provide the purpose of each step
+  o    “We are going to reset
+  your receiver. This is to refresh the DirecTV signal from the satellite to
+  your receiver.”
+ 
+ 
+  ·        
+  Always be detailed when providing instructions
+  o    “To reset the box, we have to be in front of it. On the front
+  panel, there is an access card door at the right side. Push the door open and
+  you would see a red button. The red button is the reset button. Please press
+  it to reset”
+ 
+ 
+  
+  
+ 
+ 
+  Gaining Agreement
+   
+ 
+ 
+  ·        
+  Verify the solution
+  o    “To make sure that it
+  is working 100%, please try your other favorite channels.”
+ 
+ 
+  
+  o    “Are you now able to
+  change the Volume?”
+ 
+ 
+  ·        
+  Recap & Personalize the solution (*Repeat
+  Issue + Steps Done + Resolution)
+  o    “Earlier, we were having a “no signal” issue and we did some
+  troubleshooting steps. We were able to fix it by resetting the receiver.”
+ 
+ 
+  
+  o    “Thank you for allowing me to assist you with [Insert
+  information]. I am going to review everything we have done today. I have
+  [Insert information]. Have I completely handled your requests?”
+ 
+ 
+  ·         Pitch Protection Plan's (*Check eligibility in Rio; system
+  coverage, past due, eligibility and shopping cart)
+  o    “Rappor Topics: Children, People on the Go, Students, Devices
+  & Gadgets".
+ 
+ 
+  
+  o    “1) Have
+  you encountered this issue in the past? 2) How long have you hade your Receiver/TV, is it still under
+  warranty?"
+ 
+ 
+  
+  o    “3) Have
+  you had a Technician come over to fix you equipment? 4) How often do you watch your
+  TV?"
+ 
+ 
+  *No
+  Protection Plan--
+  o    “By the way, [customers name], I [reviewed your account] or
+  [while waiting for the ...] and I saw that your one of the few customers
+  thats not yet taking advantage of our Protection Plan. I wan't  you to know about this, cause A lot of our
+  customers has really enjoyed the benefits of this Plan. Like imagine no more
+  $99.99 charge for Technician Visits, $0.00 for shipping handling for remote
+  & receiver replacement".
+ 
+ 
+  *Protection Plan Upgrade--
+  o    “By the way [customers name], I saw in your account that you
+  still have the Basic Protection Plan, I would recommend to upgrade it to the
+  Premiere Plan. Now what are the benefits, it will conver Accidental Damage
+  for your other devices, like your TV's, Laptops & Tablets. You just need
+  to register does devices online by going directv.com/protection, login to
+  your account. We will try to fix it 1st, but if we cant fix it will replace
+  it.”
+ 
+ 
+  
+  o    “with the Premiere, its not just your Remote & Receiver
+  thats covered. It also insures your TV's, Laptop's, & Tablets, and
+  coverage also includes ADH. It work's like this, if ever 1 of your devices
+  gets damage accidentaly, cause we never what will happen right? We will try
+  to fix it, but if we can't fix it will replace it. It's an insurance, and it
+  will give you peace of mind".
+ 
+ 
+  *Assumptive Closing--
+  o    “and after 2 Years, you will be eligible for an equipment
+  upgrade. Sow, I'll be adding this to your cart sow you can get started?"
+ 
+ 
+  ·        
+  Required Disclosures (Before adding DTV Protection
+  Plan)
+  o    “You've made a great decision. There are just a couple of
+  things I am required to cover with you before I add DIRECTV Protection Plan
+  (Premier) to your account."
+ 
+ 
+  ·         DPP - DIRECTV Protection Plan - $8.99
+  o    “The $8.99 per month billing begins in 30 days. The first 30
+  days are a no claim period, and you'll see this reflected on your bill at $0.
+  You will receive the full terms and conditions within 10 business days."
+ 
+ 
+  ·        
+  DPPP - DIRECTV Protection Plan Premier - $20.99
+  (DPPP_ADH - $4.99)
+  o    “The $20.99 ($25.98 for DPPP-ADH) per month billing begins in
+  30 days. The first 30 days are a no-claim period, and you'll see this
+  reflected on your bill at $0. Their is a $50 service fee on claims for TVs,
+  computers, laptops, and tablets. This is a process and handling fee which
+  covers some of the costs associated with the repair and shipping of your
+  product. AT&T (DIRECTV) knows you depend on your technology which is the
+  reason we are committed to providing you with the quickest turn-around time in
+  the industry. You will receive the full terms and conditions within 10
+  business days."
+ 
+ 
+  ·        
+  Ask for Secondary Concern (HOMERUN)
+  o    “Before I let you go,
+  Is there any other Billing, Programming or Technical concerns that I can help
+  you with for today?”
+ 
+ 
+  
+  
+ 
+ 
+  Thoroughly Educate
+   
+ 
+ 
+  ·         Promote Digital Adoption, make sure it is related to the reason
+  of calling and mention other features (*Check in RIO if cx has already
+  registered)
+  o    “You can always visit our amazing website www.directv.com, to
+  check, update and manage your account like checking your bill, make your
+  payment, upgrade your package, follow-up on a technician request and add
+  equipment. Their are also some troubleshooting steps you can find on the
+  website."
+ 
+ 
+  
+  o    “You can also take advantage of our DirecTV app, watch your
+  Movies while on the go”
+ 
+ 
+  
+  
+ 
+ 
+  Sincerely Thank
+   
+ 
+ 
+  ·        
+  Lasting Impression
+  o    “(customer’s name), I
+  hope I have provided you excellent service today.”
+ 
+ 
+  ·        
+  Closing
+  o    “Allow me to Thank you
+  for choosing AT&T. This is (your name). Make it a great day!”
+ 
+
