@@ -10,7 +10,7 @@
 		color: #333;
 	}
 	h1 {
-		font-size: 20px;
+		font-size: 80px;
 	}
 	a {
 		color: #666;
@@ -28,19 +28,26 @@
 		position: fixed; left: 0;
 		text-align: center; color: #666;
 	}
+	fieldset {
+		max-width: 370px; background-color: #f2f2f2;
+		border: 2px solid #050094; border-radius: 5px;
+	}
+	legend {
+		font-family:"Arial"; font-style:bold; background-color:#0085cc;
+	}
 	</style>
 </head>
 <body>
 <form id="previewform" action="">
-	<a href="https://github.com/qlinks"><h2>QLinks</h2></a>
-	<fieldset name="trainTools">
+	<a href="https://github.com/qlinks"><h1>QLinks</h1></a>
+	<fieldset name="trainTools" type="text">
 		<legend>TRAINNING TOOLS</legend>
 		<p><a href="http://captraining.stage.att.com/wps/myportal/UCPHome">TRAIN-CAP</a>&nbsp;
 		<a href="http://172.30.50.51/dtvtrecommunications_enu/start.swe">TRAIN-RIO</a>&nbsp;
 		<a href="https://trn.oms.directv.com/login.aspx">TRAIN-OMS</a>&nbsp;
 		<a href="https://test.salesforce.com/">TRAIN-OOM</a>
 		</p></legend></fieldset>
-	<fieldset name="refTools">
+	<fieldset name="refTools" type="text">
 		<legend>LEARNING, REFERENCES, OTHERS</legend>
 		<p><a href="http://mycsp.web.att.com/mycspportal/">MY CSP</a>&nbsp;
 		<a href="http://mcsinitialtraining.web.att.com:8110/ncportal/roles/dbs-pplan-st/index.html">CLC</a>&nbsp;
@@ -49,20 +56,20 @@
 		<a href="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">DATA-LOOKUP TOOL</a>&nbsp;
 		<a href="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">HOW-TO TOOL</a>
 		</p></legend></fieldset>
-	<fieldset name="liveTools">
+	<fieldset name="liveTools" type="text">
 		<legend>LIVE TOOLS</legend>
 		<p><a href="https://cap-ucp.web.att.com/wps/myportal/UCPHome">CAP-WFE</a>&nbsp;
 		<a href="http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com">DTV RIO</a>&nbsp;
 		<a href="https://oms.directv.com/">DTV OMS</a>&nbsp;
 		<a href="http://support.directv.com">SUPPORT.DTV</a>
 		</p></legend></fieldset>
-	<fieldset name="aloricaTools">
+	<fieldset name="aloricaTools" type="text">
 		<legend>ALORICA LINKS</legend>
 		<p><a href="https://eis.alorica.net/">EIS</a>&nbsp;
 		<a href="http://ebsprodapp.alorica.com:8020/">ORACLE</a>&nbsp;
 		<a href="https://engage.alorica.com/engage-portal-login/?redirect_to=https://engage.alorica.com/">ENGAGE</a>
 		</p></legend></fieldset>
-	<fieldset name="myTools">
+	<fieldset name="myTools" type="text">
 		<legend>MY TOOLS</legend>
 		<p><a href="https://qlinks.github.io/textbox">MyTEXTBOX</a>&nbsp;
 		<a href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc">MY DOCS</a>&nbsp;
@@ -71,9 +78,10 @@
 		<a href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/StikyNotes.exe?raw=true">StikyNotes(exe)</a>&nbsp;
 		<a href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/notepad.exe?raw=true">Notepad(exe)</a>
 		</p></legend></fieldset>
-	<div class="footer"><p>Quick Links | <a class="github-button" href="https://github.com/qlinks" data-show-count="false" aria-label="Follow @qlinks on GitHub">@QLinks</a> (qlinks.mail@yandex.com)
-		<br>A Free for All Tool. Maintain & Developed by Benz Rodrigo <a class="github-button" href="https://github.com/iambenzrodrigo" data-show-count="false" aria-label="Follow @iambenzrodrigo on GitHub">@iambenzrodrigo</a>
-		</p></div>
+	<div class="footer">
+		<p>Quick Links | A Free for All Tool. <a class="github-button" href="https://github.com/qlinks" data-show-count="false" aria-label="Follow @qlinks on GitHub">@QLinks</a> (qlinks.mail@yandex.com)
+		<br>Maintain and Developed by Benz Rodrigo <a class="github-button" href="https://github.com/iambenzrodrigo" data-show-count="false" aria-label="Follow @iambenzrodrigo on GitHub">@iambenzrodrigo</a>
+	</p></div>
 	</form>
 <!-- Script to Launch HTML. -->
 	<script src="/htmlpreview.min.js"></script>
