@@ -68,10 +68,9 @@
 		</p></fieldset>
 		<fieldset name="otherTools" type="text">
 			<legend>OTHER LINKS AND TOOLS</legend>
-			<p><button onclick="window.location.href='https://eis.alorica.net/'">EIS</button>&nbsp;
-			<button onclick="window.location.href='http://ebsprodapp.alorica.com:8020/'">ORACLE</button>&nbsp;
-			<button onclick="window.location.href='https://engage.alorica.com/engage-portal-login/?redirect_to=https://engage.alorica.com/'">ENGAGE</button>&nbsp;
-			<button onclick="window.location.href='https://qlinks.github.io/textbox/'">MyTextBOX</button>&nbsp;</p>
+			<p><input type="button" value="MyTextBox" onclick="openTBox()">&nbsp;
+			<input type="button" value="EIS" onclick="openEIS()">&nbsp;
+			<input type="button" value="ORACLE" onclick="openOra()">&nbsp;</p>
 			<p><a class="github-button" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" data-icon="octicon-repo-forked" data-size="large" >My Docs</a>&nbsp;
 			<a class="github-button" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true" data-icon="octicon-cloud-download" data-size="large">1130807</a>&nbsp;
 			<a class="github-button" href="https://github.com/qlinks/qlinks.github.io/blob/master/doc/Calc.xlsx?raw=true" data-icon="octicon-cloud-download" data-size="large">PayCalu</a>&nbsp;
@@ -89,5 +88,16 @@
 	<script>HTMLPreview.init();</script>
 	<!-- Place this tag in your head or just before your close body tag. -->
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
-</body>
+	<Script language=JavaScript>
+		function openTBox() {
+			window.open("https://qlinks.github.io/textbox/");
+			}
+		function openEIS() {
+			window.open("https://eis.alorica.net/");
+			}
+		function openOra() {
+			window.open("https://ebsprodapp.alorica.com:8020/");
+			}
+		</Script>
+	</body>
 </html>
