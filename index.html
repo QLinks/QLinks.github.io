@@ -62,10 +62,9 @@
 		</p></fieldset>
 		<fieldset name="liveTools" type="text">
 			<legend>LIVE TOOLS</legend>
-			<p><a href="https://cap-ucp.web.att.com/wps/myportal/UCPHome">CAP-WFE</a>&nbsp;
-			<a href="http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com">DTV RIO</a>&nbsp;
-			<a href="https://oms.directv.com/">DTV OMS</a>&nbsp;
-			<a href="http://support.directv.com">SUPPORT.DTV</a>
+			<p><input type="button" value="ATT-WFE" onclick="openWFE()">&nbsp;
+			<input type="button" value="ATT-RIO" onclick="openRIO()">&nbsp;
+			<input type="button" value="ATT-OMS" onclick="openOMS()">&nbsp;
 		</p></fieldset>
 		<fieldset name="otherTools" type="text">
 			<legend>OTHER LINKS AND TOOLS</legend>
@@ -91,14 +90,17 @@
 	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	<Script language=JavaScript>
 		function openTBox() {
-			window.open("https://qlinks.github.io/textbox/");
-			}
+			window.open("https://qlinks.github.io/textbox/"); }
 		function openEIS() {
-			window.open("https://eis.alorica.net/");
-			}
+			window.open("https://eis.alorica.net/"); }
 		function openOra() {
-			window.open("http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ");
-			}
+			window.open("http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ"); }
+		function openWFE() {
+			window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome"); }
+		function openRIO() {
+			window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com"); }
+		function openOMS() {
+			window.open("https://oms.directv.com/"); }
 		</Script>
 	</body>
 </html>
