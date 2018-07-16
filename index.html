@@ -101,8 +101,10 @@
 				</p></fieldset>
 		<fieldset name="liveTools" type="text">
 			<legend><B>LIVE PROD TOOLS AND OTHERS</B></legend>
+				<p>
+<!-- TEST DROP DOWN FUNCTION
 			<div class="dropdown">
-				<p><button onclick="dtvToolsdrop()" class="dropbtn">CLICK:DIRECTV TOOLS</button>
+				<button onclick="dtvToolsdrop()" class="dropbtn">CLICK:DIRECTV TOOLS</button>
 				<div id="toolsDropdown" class="dropdown-content">
 					<input type="text" placeholder="Search.." id="searchInput" onkeyup="dtvToolsFilter()">
 					<a href="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">How To Tool</a>
@@ -111,11 +113,17 @@
 					<a href="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">Channel and Packages</a>
 					<a href="https://www.directvdeals.com/my-directv/channel-guide/">DTV Channel Guide</a>
 					<a href="https://support.directv.com/">DTV Support</a>
-					</div></div>&nbsp;			
-				<button onclick="openMyCSP">MY CSP</button>&nbsp;
+					</div></div>&nbsp; -->
+				<button onclick="openHOWTO">HOW-TO Tool</button>&nbsp;
+				<button onclick="openDATA">DATA-Lookup</button>&nbsp;
+				<button onclick="openChannelPack">Channel/Packages</button>&nbsp;
+				<button onclick="openPRODTO">Product Tool</button>&nbsp;
+				<button onclick="openMyCSP">MY CSP</button>&nbsp;&nbsp;
 				<button onclick="openWFE()">ATT-WFE</button>&nbsp;
 				<button onclick="openRIO()">ATT-RIO</button>&nbsp;
-				<button onclick="openOMS()">ATT-OMS</button>
+				<button onclick="openOMS()">ATT-OMS</button></p>
+			<p><button onclick="openDTVCG">DTV-All Channels</button>&nbsp;
+				<button onclick="openDTVSUP">DTV-Support</button>&nbsp;
 				</p></Fieldset>
 		<Fieldset name="otherTools" type="text">
 			<legend><B>OTHER LINKS AND TOOLS</B></legend>
@@ -153,27 +161,22 @@
 				windowTBOX.resizeTo(500, 800);
 				windowTBOX.focus();
 				}
-		function openEIS() {
-			window.open("https://eis.alorica.net/");
-			}
-		function openORA() {
-			window.open("http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ"); 
-			}
-		function openMyCSP() {
-			windowMyCSP = window.open("http://mycsp.web.att.com/mycspportal/");
-			}
-		function openWFE() {
-			window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome");
-			}
-		function openRIO() {
-			window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com");
-			}
-		function openOMS() {
-			window.open("https://oms.directv.com/");
-			}
+		function openEIS() { window.open("https://eis.alorica.net/");}
+		function openORA() { window.open("http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ"); }
+		function openMyCSP() { windowMyCSP = window.open("http://mycsp.web.att.com/mycspportal/"); }
+		function openWFE() { window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome"); }
+		function openRIO() { window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com"); }
+		function openOMS() { window.open("https://oms.directv.com/"); }
 	</script>
 	
 	<Script>
+		function openHOWTO() { window.open("http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm"); }
+		function openPRODTO() { window.open("http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm"); }
+		function openDATA() { window.open("http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm"); }
+		function openChannelPack() { window.open("https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm"); }
+		function openDTVCG() { window.open("https://www.directvdeals.com/my-directv/channel-guide/"); }
+		function openDTVSUP() { window.open("https://support.directv.com/"); }
+		
 		function dtvToolsdrop() {
 			document.getElementById("toolsDropdown").classList.toggle("show");
 			}
