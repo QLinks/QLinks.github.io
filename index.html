@@ -52,7 +52,7 @@
 	.dropbtn:hover, .dropbtn:focus {
     background-color: #3e8e41;
 		}
-	#searchTools {
+	#searchInput {
     border-box: box-sizing;
     background-image: url('searchicon.png');
     background-position: 14px 12px;
@@ -62,8 +62,7 @@
     border: none;
     border-bottom: 1px solid #ddd;
 		}
-	#searchTools:focus {outline: 3px solid #ddd;
-		}
+	#searchInput:focus {outline: 3px solid #ddd;}
 	.dropdown {
     position: relative;
     display: inline-block;
@@ -83,10 +82,8 @@
     text-decoration: none;
     display: block;
 		}
-	.dropdown a:hover {background-color: #ddd;
-		}
-	.show {display: block;
-		}
+	.dropdown a:hover {background-color: #ddd;}
+	.show {display: block;}
 	</STYLE>
 </HEAD>
 	
@@ -94,7 +91,7 @@
 	<form id="previewform" action="">
 		<a href="https://github.com/qlinks"><h2>QLinks</h2></a>
 		<fieldset name="trainTools" type="text">
-			<legend><B>TRAINNING</B></legend>
+			<legend><B>TRAINNING TOOLS</B></legend>
 			<p><a href="http://captraining.stage.att.com/wps/myportal/UCPHome">TRAIN-CAP</a>&nbsp;
 				<a href="http://172.30.50.51/dtvtrecommunications_enu/start.swe">TRAIN-RIO</a>&nbsp;
 				<a href="https://trn.oms.directv.com/login.aspx">TRAIN-OMS</a>&nbsp;
@@ -105,17 +102,17 @@
 		<fieldset name="liveTools" type="text">
 			<legend><B>LIVE PROD TOOLS AND OTHERS</B></legend>
 			<div class="dropdown">
-				<button onclick="dtvToolsdrop()" class="dropbtn">CLICK:DIRECTV TOOLS</button>
+				<p><button onclick="dtvToolsdrop()" class="dropbtn">CLICK:DIRECTV TOOLS</button>
 				<div id="toolsDropdown" class="dropdown-content">
-					<input type="text" placeholder="Search.." id="searchTools" onkeyup="dtvToolsFilter()">
+					<input type="text" placeholder="Search.." id="searchInput" onkeyup="dtvToolsFilter()">
 					<a href="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">How To Tool</a>
 					<a href="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">Product Tool</a>
 					<a href="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">Data Lookup Tool</a>
 					<a href="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">Channel and Packages</a>
 					<a href="https://www.directvdeals.com/my-directv/channel-guide/">DTV Channel Guide</a>
 					<a href="https://support.directv.com/">DTV Support</a>
-					</div></div>					
-			<p><button onclick="openMyCSP">MY CSP</button>&nbsp;
+					</div></div>&nbsp;			
+				<button onclick="openMyCSP">MY CSP</button>&nbsp;
 				<button onclick="openWFE()">ATT-WFE</button>&nbsp;
 				<button onclick="openRIO()">ATT-RIO</button>&nbsp;
 				<button onclick="openOMS()">ATT-OMS</button>
@@ -176,14 +173,13 @@
 			}
 	</script>
 	
-/* When the user clicks on the button, toggle between hiding and showing the dropdown content */
 	<Script>
 		function dtvToolsdrop() {
 			document.getElementById("toolsDropdown").classList.toggle("show");
 			}
 		function dtvToolsFilter() {
 			var input, filter, ul, li, a, i;
-			input = document.getElementById("searchTools");
+			input = document.getElementById("searchInput");
 			filter = input.value.toUpperCase();
 			div = document.getElementById("toolsDropdown");
 			a = div.getElementsByTagName("a");
