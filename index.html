@@ -29,6 +29,14 @@
 		background-color: #FAFFA6;
 		padding: 0.1em;
 		}
+	.btn {
+		background-color: #0000FF;
+		color: #FFFFFF;
+		cursor: pointer;
+	}
+	.btn:hover {
+		background-color: #0000A0;
+	}
 	#footer {
 		margin: 20px 0;
 		color: #666;
@@ -61,9 +69,9 @@
 				<button onclick="openDATA()">DATA-Lookup</button>&nbsp;
 				<button onclick="openChannelPack()">Channel/Packages</button>&nbsp;
 				<button onclick="openPRODTO()">Product Tool</button>&nbsp;&nbsp;&nbsp;
-				<button onclick="openWFE()">ATT-WFE</button>&nbsp;
-				<button onclick="openRIO()">ATT-RIO</button>&nbsp;
-				<button onclick="openOMS()">ATT-OMS</button></p>
+				<button class="btn" onclick="openWFE()">ATT-WFE</button>&nbsp;
+				<button class="btn" onclick="openRIO()">ATT-RIO</button>&nbsp;
+				<button class="btn" onclick="openOMS()">ATT-OMS</button></p>
 			<p><button onclick="openST()">SALES</button>&nbsp;
 				<button onclick="openMyCSP()">MY CSP</button>&nbsp;
 				<button onclick="openDTVCG()">DTV-All Channels</button>&nbsp;
