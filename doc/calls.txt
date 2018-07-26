@@ -1,17 +1,26 @@
 1----------------------------
-NAME: GABRIELLA WARDELL
-ACCT: 22485320
+NAME: 
+BAN: 
+PHONE: 
 
-ISSUE: not able to loging to dtv app, asking, error saying that username and password doesnt match, 
-FIX: walk thru forgot password
+ISSUE: 
+
+FIX: 
 
 2----------------------------
-NAME: ROBERT RILEY
-ACCT: 56623289
+NAME: 
+BAN: 
+PHONE: 
 
-ISSUE: remote problem, buttons stuck, their is a delay when changing channel-all box
-cx has reset box
+ISSUE: 
 
-FIX: process remote replacement 289273671, send out tech
+FIX: 
 
+3----------------------------
+NAME: 
+BAN: 
+PHONE:
 
+ISSUE:
+
+FIX:
