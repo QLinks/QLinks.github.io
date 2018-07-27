@@ -1,11 +1,11 @@
 # QLinks
 -------------------------------
-Quick Links [QLinks.Github.com]
+Quick Links [http://QLinks.Github.com]
 
 This is a work in progress, links to some tools and more.
 
 Support:
-  Project: Quick Links [Github.com/QLinks]
-  Email: [mailto:qlinks.mail@yandex.com]
+  Project: Quick Links [http://Github.com/QLinks]
+  Email: qlinks.mail@yandex.com
   
- Created and Develop by Benz Rodrigo [Github.com/iambenzrodrigo]
+ Created and Develop by Benz Rodrigo [http://Github.com/iambenzrodrigo]
