@@ -1,4 +1,11 @@
-# QLinks (Quick Links - https://github.com/qlinks)
-  This is a work in progress, links to some tools and more.
-  Contribute on Github https://github.com/qlinks | Profile: https://github.com/quicklinks | Email: qlinks.mail@yandex.com
-  Developed by Benz Rodrigo (https://github.com/iambenzrodrigo)
+# QLinks
+-------------------------------
+Quick Links [QLinks.Github.com]
+
+This is a work in progress, links to some tools and more.
+
+Support:
+  Project: Quick Links [Github.com/QLinks]
+  Email: [mailto:qlinks.mail@yandex.com]
+  
+ Created and Develop by Benz Rodrigo [Github.com/iambenzrodrigo]
