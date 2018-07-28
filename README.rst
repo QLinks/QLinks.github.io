@@ -1,4 +1,4 @@
-QLinks
+QLinks [Quick Links]
 -------------------------------
 `Click Me <https://qLinks.github.io>`__ to go to main page, or type in the address bar ``qlinks.github.io``
 
