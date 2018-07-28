@@ -10,7 +10,7 @@
 	
 <STYLE>
 	BODY {
-		font-family: Arial, Helvetica, sans-serif;
+		font-family: Arial, Helvetica, sans-serif; font-size: 12px;
 		}
 	* {
   box-sizing: border-box;
@@ -19,10 +19,7 @@
 	.container-main {
 		position: relative; overflow: hidden;
 		padding: 20px 0 30px 0;
-		border-radius: 5px;
-	}
-		.container-body {
-			float: none;
+		margin-top: 0;
 	}
 	
 	h1 {
@@ -34,7 +31,6 @@
 		}
 	a {
 		color: #666;
-		text-decoration: none; /* remove underline from anchors */
 		}
 	form {
 		padding: 15px; 
@@ -46,7 +42,7 @@
 		padding: 0.1em;
 		}
 	.btn {
-		font-size: 11px; font-style:bold; font-family:"Arial";
+		font-size: 11px; font-style:bold; font-family:"Lato", sans-serif;
 		background-color: #1E90FF; color: #FFFFFF;
 		border: none; border-radius: 5px;
 		padding: 5px 5px; margin: 2px 2px;
@@ -56,7 +52,8 @@
 	.btn:hover {
 		background-color: #0000A0;
 	}
-	#footer {
+	.footer {
+		text-align:center; font-size:10px;
 		margin: 20px 0;
 		color: #666;
 		}
@@ -73,7 +70,6 @@
 <BODY>
 	<DIV class="container-main">	
 	<form id="previewform" action="">
-		<div class="container-body">
 			<h2>QLinks | <a href="https://github.com/qlinks">qlinks.github.io</h2></a>
 			<fieldset name="mainTools" type="text">
 			<legend><B>MAIN PROD:TOOLS</B></legend>
@@ -116,9 +112,10 @@
 				</p></fieldset>
 
 <!-- Footer -->
-		<p id="footer">&copy; Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">View on Github</a></i>
-		<br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
-			<br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i></p>
+		<div class="footer">&copy; Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">View on Github</a></i>
+			<br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
+			<br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i>
+		</div>
 </form>
 
 <!-- Place this tag in your head or just before your close body tag. -->
@@ -155,7 +152,6 @@
 		function openDTVCG() { window.open("https://www.directvdeals.com/my-directv/channel-guide/"); }
 		function openDTVSUP() { window.open("https://support.directv.com/"); }
 	</script>
-	</DIV>
 	</DIV>
 	</BODY>
 <!-- Script to Launch HTML. -->
