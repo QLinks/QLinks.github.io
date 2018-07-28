@@ -3,7 +3,9 @@
 Launch Page by Clicking or typing the link: [http://QLinks.Github.com]
 
 QLinks, short for Quick Links. This is a work in progress, links to some tools and more.
+component, it offers:
 
+-  multiple cursors
 More Information Links:
 -   Github Organization: `Github.com/Qlinks <https://Github.com/QLinks>`__
 -   Github Project: `QLinks/qlinks.github.io <https://Github.com/QLinks/qlinks.github.io>`__.
