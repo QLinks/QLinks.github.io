@@ -13,6 +13,9 @@
 		font: 12px 'Helvetica Neue', Helvetica, Arial, freesans, clean, sans-serif;
 		color: #333;
 		}
+	.container-main {
+		position: relative; overflow: hidden;
+	}
 	h1 {
 		font-size: 20px;
 		}
@@ -26,8 +29,6 @@
 	form {
 		padding: 15px; 
 		text-align: center;
-		position: relative; top: 0; left: 0;
-		transform: none;
 		}
 	strong {
 		color: #333;
@@ -61,6 +62,7 @@
 </HEAD>
 	
 <BODY>
+	<DIV class="container-main">	
 	<form id="previewform" action="">
 			<h2>QLinks | <a href="https://github.com/qlinks">qlinks.github.io</h2></a>
 			<fieldset name="mainTools" type="text">
@@ -147,6 +149,6 @@
 		function openDTVCG() { window.open("https://www.directvdeals.com/my-directv/channel-guide/"); }
 		function openDTVSUP() { window.open("https://support.directv.com/"); }
 	</script>
-	
+	</DIV>
 	</body>
 </html>
