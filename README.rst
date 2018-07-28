@@ -1,6 +1,5 @@
 QLinks
 -------------------------------
-=====
 `Click Me <https://qLinks.github.io>`__ to go to main page, or type in the address bar ``qlinks.github.io``
 
 QLinks, short for Quick Links. This is a work in progress, links to some tools and more.
