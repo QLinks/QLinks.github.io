@@ -10,4 +10,4 @@ More information and links for Quick Links:
 -  Github Project: `QLinks/qlinks.github.io <https://Github.com/QLinks/qlinks.github.io>`__.
 -  Contact Email: qlinks.mail@yandex.com
 
-Created and Develop by Benz Rodrigo | @`iambenzrodrigo <https://Github.com/iambenzrodrigo>`__
+Created and Develop by Benz Rodrigo | `@iambenzrodrigo <https://Github.com/iambenzrodrigo>`__
