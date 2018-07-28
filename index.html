@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<meta charset="utf-8">
 	<meta name="description" content="Easy launch and access to production tools and more.">
 	<meta name="keywords" content="QLinks, QuickLinks, Quick, Links">
@@ -15,47 +16,84 @@
 	* {
   box-sizing: border-box;
 		}
+		form {
+		text-align: center;
+		}
 	/* style the container */
 	.container-main {
 		position: relative; overflow: hidden;
 		padding: 20px 0 30px 0;
 		margin-top: 0;
 	}
-	
-	h1 {
-		font-size: 20px;
-		}
+	.col-box {
+		
+	}
+	/* line style */
+	.line {
+		position: absolute;
+		left: 50%;
+		transform: translate(-50%);
+		border: 2px solid #ddd;
+		width: 175px;
+	}
+	/* style the text and input */
 	h2 {
 		font-size: 16px; color: #0085cc;
 		font-style: bold;
-		}
-	a {
-		color: #666;
-		}
-	form {
-		padding: 15px; 
 		text-align: center;
 		}
+	h3 {
+		font-size: 16px; color: #ccc;
+		font-style: bold; text-align: center;
+	}
 	strong {
 		color: #333;
 		background-color: #FAFFA6;
 		padding: 0.1em;
 		}
-	.btn {
-		font-size: 11px; font-style:bold; font-family:"Lato", sans-serif;
+	/* style inputs and link buttons */
+	input, .btn {
+		width: 100%;
+		padding: 12px;
+		border: none;
+		border-radius: 4px;
+		margin: 5px 0;
+		opacity: 0.85;
+		font-size: 17px;
+		line-height: 20px;
+		}
+	input:hover, .btn:hover, .m-btn:hover {
+		opacity: 1;
+	}
+	input, .btn, .m-btn, a {
+		text-decoration: none; /* remove underline from anchors */
+		}
+	.m-btn {
+		font-size: 12px; font-family:"Lato", sans-serif;
 		background-color: #1E90FF; color: #FFFFFF;
-		border: none; border-radius: 5px;
+		border: none; border-radius: 4px;
 		padding: 5px 5px; margin: 2px 2px;
-		height:23px; width:120px;
+		width:120px;
+		opacity: 0.85;
+		display: inline-block;
 		cursor: pointer;
 	}
-	.btn:hover {
+	.m-btn:hover {
 		background-color: #0000A0;
 	}
 	.footer {
 		text-align:center; font-size:10px;
 		margin: 20px 0;
 		color: #666;
+		}
+	
+	/* Two-column layout */
+	.col {
+		float: left;
+		width: 50%;
+		margin: auto;
+		padding: 0 50px;
+		margin-top: 6px;
 		}
 	fieldset {
 		background-color: #f2f2f2;
@@ -68,14 +106,27 @@
 </HEAD>
 	
 <BODY>
-	<DIV class="container-main">	
-	<form id="previewform" action="">
-			<h2>QLinks | <a href="https://github.com/qlinks">qlinks.github.io</h2></a>
-			<fieldset name="mainTools" type="text">
-			<legend><B>MAIN PROD:TOOLS</B></legend>
-			<p><button class="btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
-				<button class="btn" onclick="openRIO()">ATT:RIO</button>
-				</fieldset>
+	<DIV class="container-main">
+		<form id="previewform" action="">
+			<h2>QLinks | <a href="https://github.com/qlinks">qlinks.github.io</h2></a>		
+			<div class="line"></div>
+			<div class=".col">
+				<h3>MAIN PROD:TOOLS</h3>
+			<p><button class="m-btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
+				<button class="m-btn" onclick="openRIO()">ATT:RIO</button>&nbsp;
+				<button class="m-btn" onclick="openMyCSP()">MY CSP</button>&nbsp;
+				<button class="m-btn" onclick="openST()">SALES TRACKER</button>&nbsp;
+			</div>
+			<div class=".col">
+				<h3>DTV TOOLS</h3>
+				<p><button onclick="openHOWTO()">HOW-TO Tool</button>&nbsp;
+				<button onclick="openDATA()">DATA-Lookup</button>&nbsp;
+				<button onclick="openChannelPack()">Channel/Packages</button>&nbsp;
+					<button onclick="openPRODTO()">Product Tool</button></p>		
+				<button class="m-btn" onclick="openOMS()">ATT-OMS LIVE</button></p>
+			<p><button onclick="openDTVCG()">DTV-All Channels</button>&nbsp;
+				<button onclick="openDTVSUP()">DTV-Support</button></p>
+		</div>
 		<fieldset name="trainTools" type="text">
 			<legend><B>TRAINNING TOOLS</B></legend>
 			<p><a href="http://captraining.stage.att.com/wps/myportal/UCPHome">TRAIN-CAP</a>&nbsp;
@@ -85,19 +136,6 @@
 				<a href="http://mcsinitialtraining.web.att.com:8110/ncportal/roles/dbs-pplan-st/index.html">CLC</a>&nbsp;
 				<a href="https://www.e-access.sbc.com/see">LSO</a>&nbsp;
 				</p></fieldset>
-		
-		<fieldset name="liveTools" type="text">
-			<legend><B>LIVE PROD TOOLS AND OTHERS</B></legend>
-				<p><button onclick="openHOWTO()">HOW-TO Tool</button>&nbsp;
-				<button onclick="openDATA()">DATA-Lookup</button>&nbsp;
-				<button onclick="openChannelPack()">Channel/Packages</button>&nbsp;
-					<button onclick="openPRODTO()">Product Tool</button></p>		
-				<button class="btn" onclick="openOMS()">ATT-OMS LIVE</button></p>
-			<p><button onclick="openST()">SALES TRACKER</button>&nbsp;
-				<button onclick="openMyCSP()">MY CSP</button>&nbsp;
-				<button onclick="openDTVCG()">DTV-All Channels</button>&nbsp;
-				<button onclick="openDTVSUP()">DTV-Support</button></p>
-		</fieldset>
 		<Fieldset name="otherTools" type="text">
 			<legend><B>OTHER LINKS AND TOOLS</B></legend>
 			<p><button onclick="openTBox()">OPEN-TextBox</button>&nbsp;
