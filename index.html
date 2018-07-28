@@ -3,6 +3,8 @@
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta charset="utf-8">
+	<meta name="description" content="Easy launch and access to production tools and more.">
+	<meta name="keywords" content="QLinks, QuickLinks, Quick, Links">
 	<meta name="author" content="Benz Rodrigo">
 	<TITLE>QLinks</TITLE>
 	
@@ -15,7 +17,8 @@
 		font-size: 20px;
 		}
 	h2 {
-		font-size: 16px;
+		font-size: 16px; color: #0085cc;
+		font-style: bold;
 		}
 	a {
 		color: #666;
@@ -30,10 +33,11 @@
 		padding: 0.1em;
 		}
 	.btn {
-		background-color: #1E90FF;
-		border: none;
-		color: #FFFFFF;
-		padding: 2px 5px 1px 5px;
+		background-color: #1E90FF; color: #FFFFFF;
+		font-style:bold; font-family:"Arial";
+		border: none; border-radius: 5px;
+		padding: 5px 5px; margin: 2px 2px;
+		height:23px; width:100px;
 		cursor: pointer;
 	}
 	.btn:hover {
@@ -44,6 +48,7 @@
 		color: #666;
 		}
 	fieldset {
+		max-width: 400px;
 		background-color: #f2f2f2;
 		border: 2px solid #050094; border-radius: 8px;
 		}
@@ -55,7 +60,12 @@
 	
 <BODY>
 	<form id="previewform" action="">
-		<a href="https://github.com/qlinks"><h2>QLinks [qlinks.github.io]</h2></a>
+		<h2>QLinks|<a href="https://github.com/qlinks">qlinks.github.io</h2></a>
+		<fieldset name="mainTools" type="text">
+			<legend><B>MAIN PROD:TOOLS</B></legend>
+			<p><button class="btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
+				<button class="btn" onclick="openRIO()">ATT:RIO</button>
+				</fieldset>
 		<fieldset name="trainTools" type="text">
 			<legend><B>TRAINNING TOOLS</B></legend>
 			<p><a href="http://captraining.stage.att.com/wps/myportal/UCPHome">TRAIN-CAP</a>&nbsp;
@@ -65,14 +75,13 @@
 				<a href="http://mcsinitialtraining.web.att.com:8110/ncportal/roles/dbs-pplan-st/index.html">CLC</a>&nbsp;
 				<a href="https://www.e-access.sbc.com/see">LSO</a>&nbsp;
 				</p></fieldset>
+		
 		<fieldset name="liveTools" type="text">
 			<legend><B>LIVE PROD TOOLS AND OTHERS</B></legend>
 				<p><button onclick="openHOWTO()">HOW-TO Tool</button>&nbsp;
 				<button onclick="openDATA()">DATA-Lookup</button>&nbsp;
 				<button onclick="openChannelPack()">Channel/Packages</button>&nbsp;
-					<button onclick="openPRODTO()">Product Tool</button></p>
-				<p><button class="btn" onclick="openWFE()">ATT-WFE LIVE</button>&nbsp;
-				<button class="btn" onclick="openRIO()">ATT-RIO LIVE</button>&nbsp;
+					<button onclick="openPRODTO()">Product Tool</button></p>		
 				<button class="btn" onclick="openOMS()">ATT-OMS LIVE</button></p>
 			<p><button onclick="openST()">SALES TRACKER</button>&nbsp;
 				<button onclick="openMyCSP()">MY CSP</button>&nbsp;
@@ -93,9 +102,9 @@
 				</p></fieldset>
 
 <!-- Footer -->
-		<p id="footer">&copy; Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">Follow on GitHub</a></i>
-		<br>Maintain and Developed by Benz Rodrigo | <i><a href="https://github.com/iambenzrodrigo">Follow @iambenzrodrigo on GitHub</a></i>
-			<br><i>This is a Free for all Tool. Contact: qlinks.mail@yandex.com</i></p>
+		<p id="footer">&copy; Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">View on Github</a></i>
+		<br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
+			<br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i></p>
 </form>
 
 <!-- Script to Launch HTML. -->
