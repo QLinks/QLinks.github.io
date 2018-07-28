@@ -10,3 +10,7 @@ More Information Links:
 -   Contact Email: qlinks.mail@yandex.com
   
 ``Created and Develop by Benz Rodrigo | @_`iambenzrodrigo <https://Github.com/iambenzrodrigo>`__.``
+
+If you use Caret and would like to show your appreciation, please
+consider donating to the `FSF's Fund to End Software
+Patents <https://my.fsf.org/civicrm/contribute/transact?reset=1&id=17>`__.
