@@ -26,6 +26,8 @@
 	form {
 		padding: 15px; 
 		text-align: center;
+		position: relative; top: 0; left: 0;
+		transform: none;
 		}
 	strong {
 		color: #333;
@@ -33,11 +35,11 @@
 		padding: 0.1em;
 		}
 	.btn {
+		font-size: 11px; font-style:bold; font-family:"Arial";
 		background-color: #1E90FF; color: #FFFFFF;
-		font-style:bold; font-family:"Arial";
 		border: none; border-radius: 5px;
 		padding: 5px 5px; margin: 2px 2px;
-		height:23px; width:100px;
+		height:23px; width:120px;
 		cursor: pointer;
 	}
 	.btn:hover {
@@ -48,7 +50,7 @@
 		color: #666;
 		}
 	fieldset {
-		max-width: 400px;
+		width: 400px;
 		background-color: #f2f2f2;
 		border: 2px solid #050094; border-radius: 8px;
 		}
@@ -60,8 +62,8 @@
 	
 <BODY>
 	<form id="previewform" action="">
-		<h2>QLinks|<a href="https://github.com/qlinks">qlinks.github.io</h2></a>
-		<fieldset name="mainTools" type="text">
+			<h2>QLinks | <a href="https://github.com/qlinks">qlinks.github.io</h2></a>
+			<fieldset name="mainTools" type="text">
 			<legend><B>MAIN PROD:TOOLS</B></legend>
 			<p><button class="btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
 				<button class="btn" onclick="openRIO()">ATT:RIO</button>
