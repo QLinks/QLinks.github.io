@@ -3,7 +3,7 @@ Add to index.html file
 
 <link rel="shortcut icon" type="image/x-icon" href="whatever_folder_name/favicon.ico">
 
-Icon Sizes
+Icon Sizes - Single
 16x16
 24x24
 32x32
@@ -13,3 +13,12 @@ Icon Sizes
 128x128
 192x192
 256x256
+
+Icon Sizes - Multi
+16-24
+16-24-32
+16-24-32-48
+16-24-32-48-64
+16-24-32-48-64-96
+16-24-32-48-64-96-128
+16-24-32-48-64-96-128-256
