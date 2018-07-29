@@ -2,3 +2,14 @@ Add to index.html file
 <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
 
 <link rel="shortcut icon" type="image/x-icon" href="whatever_folder_name/favicon.ico">
+
+Icon Sizes
+16x16
+24x24
+32x32
+48x48
+64x64
+96x96
+128x128
+192x192
+256x256
