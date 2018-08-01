@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!-- Created and Modefied by Benz Rodrigo //-->
 <HTML>
-  <Head>
+<HEAD>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -11,7 +11,7 @@
 	  <meta name="description" content="Easy launch and access to production tools and more.">
 	  <meta name="keywords" content="Github, QLinks, QuickLinks, Quick, Links,  DTV, Follow, Star, Fork, Octicon, API, iambenzrodrigo">
 	  
-<Style>
+<STYLE>
 	BODY {
 		font-family: Arial, Helvetica, sans-serif; font-size: 12px;
 		text-align: center;
@@ -31,17 +31,20 @@
 	.container-bottom {
 		text-align: center; background-color: #666;
 		border-radius: 0px 0px 4px 4px;
+    color:white;
 	}
-/*Line Designs and text inside */
+/*Line Designs and text Inside */
   /* horizontal line style */
 	.hline {
 		position: absolute; left: 50%;
 		transform: translate(-50%);
-		border: 2px solid #ddd; width: 200px;
+		border: 2px solid #ddd; width: 300px;
+    font-size: 10px;
 	}
   /* text inside the horizontal line */
   .hline-innertext {
-    osition: absolute; left: 50%;
+    
+    position: absolute; left: 50%;
     transform: translate(-50%, -50%);
     background-color: #f1f1f1;
     border: 1px solid #ccc; border-radius: 50%;
@@ -55,6 +58,7 @@
   }
   /* text inside the vertical line */
   .vline-innertext {
+    font-size: 10px;
     position: absolute; top: 50%;
     transform: translate(-50%, -50%);
     background-color: #f1f1f1;
@@ -62,9 +66,9 @@
     padding: 8px 10px;
   }
   
-	/* style the text and input */
+/* Style for text and input */
 	h2 {
-		font-size: 16px; color: #0085cc;
+		font-size: 20px; color: #0085cc;
 		font-style: bold;
 		text-align: center;
 		}
@@ -72,6 +76,9 @@
 		font-size: 14px; color: #000000;
 		font-style: bold; text-align: center;
 	}
+  i {
+    font-size: 10px;
+  }
 	strong {
 		color: #333;
 		background-color: #FAFFA6;
@@ -79,19 +86,20 @@
 		}
 	/* style inputs and link buttons */
 	input, .btn {
-		width: 100%;
-		padding: 12px;
+    color:black; background-color:white;
+		width: 250px;
+    padding: 10px;
 		border: none;
 		border-radius: 4px;
 		margin: 5px 0;
 		opacity: 0.85;
-		font-size: 17px;
+		font-size: 11px;
 		line-height: 20px;
 		}
 	input:hover, .btn:hover, .m-btn:hover {
 		opacity: 1;
 	}
-	input, .btn, .m-btn, a {
+	input, .btn, .m-btn, .d-btn, a {
 		text-decoration: none; /* remove underline from anchors */
 		}
 	.m-btn {
@@ -100,12 +108,12 @@
 		font-style: bold;
 		border: none; border-radius: 4px;
 		padding: 5px 5px; margin: 2px 2px;
-		width:120px;
+		width:100px;
 		opacity: 0.85;
 		display: inline-block;
 		cursor: pointer;
 	}
-	.m-btn:hover {
+	.m-btn:hover, .d-btn:hover {
 		background-color: #0000A0;
 	}
 	.d-btn, .s-box {
@@ -118,12 +126,11 @@
 		display: inline-block;
 		cursor: pointer;
 	}
-	.d-btn:hover {
-		background-color: #0000A0;
 	.footer {
 		text-align:center; font-size:10px;
 		margin: 20px 0;
-		color: #666;
+		color: white;
+    padding: 5px 5px;
 	}
 	
 /* Two-column layout */
@@ -138,122 +145,84 @@
     display: table;
     clear: both;
   }
-
-	fieldset {
-		background-color: #f2f2f2;
-		border: 2px solid #050094; border-radius: 8px;
-	}
-	
-.dropdown .dropbtn {
-    cursor: pointer;
-    font-size: 16px;
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-}
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-}
-.dropdown-content a:hover {
-    background-color: #ddd;
-}
-	.show {display: block;}
-	</style>
+   
+</STYLE>
 </HEAD>
 	
 <BODY>
 	<DIV class="container-main">
-		<form id="previewform" action="">
+    <FORM id="previewform" action="">
 		  <H2>DTV:QLinks</H2>
-		    <div class="hline">
-		      <span class="hl-innertext"><a href="https://github.com/qlinks">qlinks.github.io</a></span>
-		      </div>
-		  <div class="row">
-	  <br><br>
+        <div class="hline">
+          <span>Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">View on Github</a></i></span>
+        </div>
+    <div class="row"><br><br>
+        
 		  <div class="col">
-		    <label>MAIN PROD:TOOLS</label><br>
+		    <label>PRODUCTION:LIVE TOOLS</label><br>
 		    <button class="m-btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
 				<button class="m-btn" onclick="openRIO()">ATT:RIO</button>&nbsp;
 				<button class="m-btn" onclick="openOMS()">ATT:OMS</button>&nbsp;
 				<button class="m-btn" onclick="openMyCSP()">MY CSP</button>&nbsp;
-				<select class="m-btn" id="dtvTools" onchange="location = this.value;">
-				  <option value="http://belegendary.alorica.com/Operations/ATT/Lists/Cebu%20%20ATT%20Entertainment%20%20Sales%20Tacker/AllItems.aspx">SALES TRACKER</option>
+				<select class="s-box" id="dtvTools" onchange="location = this.value;">
+          <option value="https://qlinks.github.io/">DTV:TOOLS</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">HOW-TO TOOL</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">DATA-LOOKUP</option>
-				  <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">PROD-TOOL</option>
-				  <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHANNEL-&#38;-PACKAGES</option>
-				  
-				  <option value=""></option>
-				  <option value=""></option>
-				  <option value=""></option>
-				  <option value=""></option>
-				  </select>
+				  <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">PRODUCT TOOL</option>
+				  <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHAN &#38; PACKS</option>
+        </select>
 			</div>
+        
 			<div class="col">
-				<label>DTV TOOLS</label><BR>
-				<button class="d-btn" onclick="openTBox()">OPEN-TextBox</button>&nbsp;
-        <button class="d-btn" onclick="openEIS()">EIS</button>&nbsp;
-				<select class="s-box" id="dtvWeb" onchange="location = this.value;">
-				  <option value="dtvlinks">DTV:WEB-LINKS</option>
+				<label>OTHER TOOLS &#38; LINKS</label><br>
+        <button class="d-btn" onclick="openSales()">SALES TRACKER</button>&nbsp;
+				<button class="d-btn" onclick="openTBox()">OPEN:TEXTBOX</button>&nbsp;
+        <select class="s-box" id="aloWeb" onchange="location = this.value;">
+          <option value="https://www.alorica.com//">Links:Alorica</option>
+          <option value="https://eis.alorica.net/">ALO:EIS</option>
+          <option value="http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ">ALO:ORACLE</option>
+          <option value="https://engage.alorica.com/engage-portal-login/?redirect_to=https://engage.alorica.com/">ALO:ENGAGE</option>
+          <option value="https://selfservice.alorica.com:9251/showLogin.cc">ALO:SELFSERVICE</option>
+        </select>&nbsp;
+        <select class="s-box" id="dtvWeb" onchange="location = this.value;">
+				  <option value="dtvlinks">Links:DirecTV</option>
 				  <option value="https://www.directv.com">DIRECTV.COM</option>
-				  <option value="https://support.directv.com/">DTV:SUPPORT</option>
+				  <option value="https://support.directv.com/">SUPPORT.DTV.COM</option>
 				  <option value="https://www.directvdeals.com/my-directv/channel-guide/">DTV:DEALS-CHAN</option>
-				</select>&nbsp;
-				<button class="d-btn" onclick="openORA()">ORACLE</button>&nbsp;
-				<button class="d-btn" onclick="openENG()">ENGAGE</button>
+				</select>
 	  	</div>
+      
 	  	<div class="col">
-	  	  <label>OTHERS</label><p>
-				<a class="github-button" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" data-icon="octicon-repo-forked" data-size="large" >My DOCS</a>&nbsp;
-				<a class="github-button" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true" data-icon="octicon-cloud-download" data-size="large">1130807</a>&nbsp;
-				<a class="github-button" href="https://github.com/qlinks/qlinks.github.io/blob/master/doc/Calc.xlsx?raw=true" data-icon="octicon-cloud-download" data-size="large">PayCalu</a>&nbsp;
-				<a class="github-button" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/StikyNotes.exe?raw=true" data-icon="octicon-cloud-download" data-size="large">StikyNotes</a>&nbsp;
-				<a class="github-button" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/notepad.exe?raw=true" data-icon="octicon-cloud-download" data-size="large">Notepad</a>
-				</p></div>
-				
-		</div>
-	
+	  	  <p>
+				</p>
+      </div>
+      
+    </div><!-- end for first row -->
+      
 
-		  
-	  
-	  	    
-	  	    
-	  	    
-	  	    
-		    <div class="col"><!-- footer content -->
-		      <div class="footer">&copy; Quick Links (qlinks.github.io) | <i><a href="https://github.com/qlinks">View on Github</a></i>
-		      <br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
-		      <br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i>
-		      </div>
-		  
+    </FORM>
+  </DIV>
+  <DIV class="container-bottom"><!-- footer content -->
+    <p><a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" data-icon="octicon-repo-forked/">My Docs</a>&nbsp;
+      <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true">Master File</a>&nbsp;
+				<a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/doc/Calc.xlsx?raw=true">PayCalu</a>&nbsp;
+        <a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/notepad.exe?raw=true">Notepad</a>&nbsp;
+				<a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/StikyNotes.exe?raw=true">StikyNotes</a>
+      </p>
+    <div class="footer">&copy; Quick Links | 2018 All Rights Reserved.
+		  <br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
+		  <br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i>
+    </div>
+  </DIV>
 
- 
-</div>
-  </form>
-  
+</BODY>
+
 <!-- Place this tag in your head or just before your close body tag. -->
-	<Script async defer src="https://buttons.github.io/buttons.js"></script>
+	<script async defer src="https://buttons.github.io/buttons.js"></script>
 	
-<!-- Script Button on Click. -->
-	<script language=JavaScript>
-		var windowTBOX;
+<!-- Script Button open for Production Tools -->
+<SCRIPT language=JavaScript>
+    var windowTBOX;
 		var windowFeatures = 'location=no,toolbar=no,menubar=no,scrollbars=yes,resizable=yes';
 		var strBOXFeatures = "toolbar=no,menubar=no,location=no,resizable=no,scrollbars=no,status=yes";
 		
@@ -264,18 +233,18 @@
 				windowTBOX.resizeTo(600, 800);
 				windowTBOX.focus();
 				}
-		function openEIS() { window.open("https://eis.alorica.net/");}
-		function openORA() { window.open("http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ"); }
-		function openENG() { window.open("https://engage.alorica.com/engage-portal-login/?redirect_to=https://engage.alorica.com/");}
+    
+    function openWFE() { window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome"); }
+    function openRIO() { window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com"); }
 		function openMyCSP() { windowMyCSP = window.open("http://mycsp.web.att.com/mycspportal/"); }
-		function openWFE() { window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome"); }
-		function openRIO() { window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com"); }
 		function openOMS() { window.open("https://oms.directv.com/"); }
-	</script>
+    
+    function openSales() { window.open("http://belegendary.alorica.com/Operations/ATT/Lists/Cebu%20%20ATT%20Entertainment%20%20Sales%20Tacker/AllItems.aspx/"); }
+    
+    </SCRIPT>  
 
-	</BODY>
 	
 <!-- Script to Launch HTML. -->
-	<script src="/htmlview.min.js"></script>
+  <script src="/htmlview.min.js"></script>
 	<script>HTMLView.init();</script>
-</html>
+</HTML>
