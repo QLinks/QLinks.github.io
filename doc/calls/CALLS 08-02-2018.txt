@@ -1,0 +1,256 @@
+01----------------------
+NAME: WANDA YEOMANS
+BAN: 64390703
+PHONE: 2293224740
+
+ISSUE: order ondemand thru txt, receiver not connected to broadband.
+FIX: inform cx about requirements, credited account per cx request to cancel.
+
+02----------------------
+NAME: REGINA VENNER
+BAN: 28902043
+PHONE: 4703363281
+
+ISSUE: asking to getback the channels
+FIX: resend service auth
+accepted 289581304
+
+03----------------------
+NAME: TONNY CHEZEM
+BAN: 36060299
+PHONE: 5732439054
+
+ISSUE: white screen 45mins, cx reset, connecting
+FIX: status green light green status
+
+04----------------------
+NAME: IDA CHILDS
+BAN: 52226956
+PHONE: 9047573497
+
+ISSUE: tv not working, had lighting strike
+FIX: SEND OUT TECH
+
+05----------------------
+NAME: DENNIS COSENTINO
+BAN: 17617337
+PHONE: 8037277786
+
+ISSUE: reactivate receiver 3349
+FIX: reactive receiver -1hr
+
+06----------------------
+NAME: ROBERT TAYLOR
+BAN: 25041401
+PHONE: 5108625130
+
+ISSUE: nfl package, upgrade
+
+07----------------------
+NAME: CHARLENE WILLIAMS
+BAN: 36514109
+PHONE: 9195207968
+
+ISSUE: tech mistakenly took for prisim box 9195207968
+
+08----------------------
+NAME: FREDDIE MONTGOMERY
+BAN: 65439992
+PHONE: 5737786730
+
+ISSUE: no signal
+
+09----------------------
+NAME: GERALD LALONDE
+BAN: 47095922
+PHONE: 9898841415
+
+ISSUE: DOD, electrical storm, already called yesterday and did troubleshooting
+
+DISPATCH
+
+10----------------------
+NAME: LINDYS BILLUPS
+BAN: 2553861
+PHONE: 5868552790 5865882126
+
+ISSUE: confirm appointment
+
+11----------------------
+NAME: RONALD MESSER
+BAN: 34118348
+PHONE: 204756879
+
+ISSUE: client turn-off by itself, and picture freezes
+
+FIX: 289598438 replaced box.
+DISPATCH
+
+12----------------------
+NAME: ELBERT SMALLS
+BAN: 70507929
+PHONE: 3025393360
+3025474198
+
+ISSUE: 775 error message
+001738332327
+FIX: DISPATCH
+
+13----------------------
+NAME: TIFFANY GATES
+BAN: 63516722
+PHONE: 8179173284
+
+ISSUE: 777 errror
+FIX: DISPATCH
+
+14----------------------
+NAME: RICHARD MERCHANT
+BAN: 53611267
+PHONE: 4044906731
+
+ISSUE: service interuption
+
+15----------------------
+NAME: KEVIN HILL
+BAN: 70800342
+PHONE: 8167586115
+
+ISSUE: remote not working, reprogramed remote
+
+16----------------------
+NAME: PAMELA YAEGER
+BAN: 26439634
+PHONE: 8319153662
+ROGERS WILLIAMS 8319152462
+ISSUE: not working, reset
+
+FIX: add husbands name to account
+DISPATCH
+
+17----------------------
+NAME: MARY HIGGS
+BAN: 76344266
+PHONE: 2528235680
+
+ISSUE: status on account, no servers detected
+FIX: bix box no longer their, cx husband took it with him
+
+18----------------------
+NAME: DROPCALL
+BAN: 
+
+19----------------------
+NAME: JONAI AKIMBROUGH
+BAN: 29846259
+PHONE: 5708319358
+
+ISSUE: setup on demand
+FIX: DOD
+
+20----------------------
+NAME: MIKE MCFARLAND
+BAN: 64492481
+PHONE: 4056094503
+
+ISSUE: 771 signal lost
+FIX: no bad weather
+
+DISPATCH-ESCALATION
+
+21----------------------
+NAME: VICTORIA GALINDO
+BAN: 5278462
+PHONE: 4026872612
+
+ISSUE: 354 dogtv-start aug 1st, added for 1 month promotion inform cx that its 1month free
+
+22----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+23----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+24----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+25----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+26----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+27----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+28----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+29----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+30----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
