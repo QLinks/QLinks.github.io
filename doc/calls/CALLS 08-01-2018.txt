@@ -1,0 +1,264 @@
+01----------------------
+NAME: SANDRA WILKINS
+BAN: 18183919
+PHONE: 4346091987
+
+ISSUE: change sched of upgrade appointment, cx not available
+FIX: rescheduled on aug-25
+
+02----------------------
+NAME: MARY ANN WALTERS
+BAN: 6510223
+PHONE: 3153452659
+
+ISSUE: 775, unplug box, check cables, just 1 box having this issue
+FIX: dispatch 08-01
+
+03----------------------
+NAME: FRANCES HOPPE
+BAN: 6592634
+PHONE: 5408473012
+
+ISSUE: list-not able to find recordings, not able to delete recordings-file doesnt delete
+FIX: now able to delete
+
+04----------------------
+NAME: GORDON HAMMETT
+BAN: 4554733
+PHONE: 9365371092
+
+ISSUE: calling back about previ issue
+FIX: order wasnt made, order remote 289527422 
+
+05----------------------
+NAME: LESLIE JAMES
+BAN: 82075708
+PHONE: 2695033831
+
+ISSUE: box not turning, kitchen, cx has to reset the box, RC65
+FIX: order remote 289527666 
+
+06----------------------
+NAME: BENEDICT TASHQUINTH
+BAN: 15168645
+PHONE: 4809477673
+
+ISSUE: 775, all boxes, no power outage
+FIX: SERVICE CALL
+
+07----------------------
+NAME: CASPER BEMIS
+BAN: 13191099
+PHONE: 6038764051
+
+ISSUE: program remote, RC66RX, tv volume is fix after program,
+sony kdl46r450a directv code
+FIX: still not fixed
+
+08----------------------
+NAME: JOSE SALAZAR
+BAN: 2507470
+PHONE: 2094200495
+
+ISSUE: location error, turn off other box
+FIX: inform cx about maximum number of streaming, decline further assistance
+
+09----------------------
+NAME: SANDRA KEHLER
+BAN: 40861759
+PHONE: 4404794312
+
+ISSUE: 775, only 1 box, no changes on location
+FIX: SEND OUT TECH
+
+10----------------------
+NAME: RONALD BEA
+BAN: 81389507
+PHONE: 5639408260
+
+ISSUE: reconnect internet
+FIX: reset wireless connection
+
+11----------------------
+NAME: DAREN MCCOY
+BAN: 53115850
+PHONE: 5102402157
+
+ISSUE: tv not working, cx deff, box turning on-off
+FIX: dod, text only, client is deff
+
+12----------------------
+NAME: CAROL CONNER
+BAN: 68583304
+PHONE: 6417632699
+
+ISSUE: reconnect internet
+FIX: error, their was an error
+
+13----------------------
+NAME: FAITH MCCABE
+BAN: 76945244
+PHONE: 7325836288
+
+ISSUE: has new tv, wants to have genie upgrade
+
+FIX: confirm number 289545210
+SALE
+
+14----------------------
+NAME: MARK WALLRAPP
+BAN: 4264707
+PHONE: 3104608580
+
+ISSUE: receiver not turning on-off G63DB7BP201891
+
+FIX: confirm id 289547152 
+
+15----------------------
+NAME: WILLIAM  TUCKER
+BAN: 29106646
+PHONE: 5803627545
+
+ISSUE: storm happen last week, 775 on all receivers
+
+FIX: check on cables, reset swim box
+SEND OUT TECH
+
+16----------------------
+NAME: ROSLYN TYMES
+BAN: 62065314
+PHONE: 7065666594
+
+ISSUE: password reset for dtv online account
+
+FIX: not accepting userid
+
+17----------------------
+NAME: CLYDE INGERSOLL
+BAN: 71514244
+PHONE: 8285952016
+
+ISSUE: cant send or receive email
+
+FIX: on going caddie issue
+
+18----------------------
+NAME: BENJAMIN SMITH
+BAN: 9482670
+PHONE: 5859058755 / 5857943168
+
+ISSUE: missing channels 204 264-269, started last night
+266
+FIX: set show all channels in display settings
+
+19----------------------
+NAME: KATHRYN BELL
+BAN: 82878228
+PHONE: 6366299935
+
+ISSUE: wireless connection lost on all receivers, cx unplug-plug, turn off-on, tried reset
+
+FIX: cant go down, sched callback for 20mins
+
+
+20----------------------
+NAME: JOSHUA HOPSON
+BAN: 286675015 RC1
+PHONE: 2708310166
+
+
+ISSUE: tech didnt show up for installation last thurs
+
+FIX: check on account, transfered to rc1 844-822-3352
+
+21----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+
+22----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+23----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+24----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+25----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+26----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+27----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+28----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+29----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
+30----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE:
+
+FIX:
+
