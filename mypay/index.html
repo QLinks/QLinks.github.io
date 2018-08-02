@@ -1,118 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+<HTML lang="en">
+<HEAD>
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
 	<meta name="author" content="Benz Rodrigo">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" >
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>BiWeekly</title>
-</head>
+	<Title>MyPay</Title>
+  
+<STYLE>
+  
+  </STYLE>
+</HEAD>
 
-<body>
-	<form id="previewform" action="">
-	<form name="salarycal" mebthod="post">
-	<label type="text" ><b>BASIC PAY:</b</label><input type="number" name="basicPay" placeholder="$ 0.00" width="30%">
-		<input onClick="paycal();" name="calBtn" id="calBtn" type="button" value="Calculate">
+<BODY>
+  
+	<FORM id="previewform" action="">
+		<label type="text" ><b>BASIC PAY:</b></label>
+    <input type="number" id="basic" width="30%" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)" autofocus>
+		<input onclick=cal() type="button" value="Calculate">
+    <br>
+    <table>
+      <tr><td align="left" colSpan="2">
+        Daily Rate: <input type="number" id="rateday" readonly>&nbsp;
+        Hourly Rate: <input type="number" id="ratehour" readonly></td></tr>
+    </table>
+    <br>
 
 <!-- Input Days Worked -->
-	<fieldset type="text"> <legend type="text"><b>Hours/Days Worked</b></legend>
+	<fieldset type="text">
+    <legend type="text"><b>REGULAR HOURS WORKED</b></legend>
 	<table>
-		<tr> <td align="left" colSpan="2" width="40%"><b>Total Days Worked:</b></td>
-                <td align="right" colSpan="1"><input type="number" name="regDays" placeholder="(Days)" width="30%"></td>
-		<tr><td align="left" colSpan="2" width="40%"><b>Night Differential:</b></td>
-                <td align="right" colSpan="1"><input type="number" name="nDiffInput" placeholder="(Hours)" width="30%"></td>
+		<tr><td align="left" colSpan="2" width="40%"><b>Regular Hrs.:</b></td>
+        <td align="right" colSpan="1"><input type="number" id="reghrs" width="30%" oninput="reg(this.value)" onchange="reg(this.value)"></td>
+		<tr><td align="left" colSpan="2" width="40%"><b>Nt. Diff-Reg. Hrs.:</b></td>
+        <td align="right" colSpan="1"><input type="number" id="regndif" width="30%" oninput="regnd(this.value)" onchange="regnd(this.value)"></td>
 		</table>	
 	</fieldset>
 
 <!-- Input Holidays Days Worked -->
-	<fieldset type="text"> <legend type="text"><b>Holidays</b></legend>
+	<fieldset type="text">
 	<table>
-		<tr> <td align="left" colSpan="2" width="40%"><b>Regular:</b></td>
-                <td align="right" colSpan="1"><input type="number" name="hDayRegInput" placeholder="(Days)" width="30%"></td>
-		<td align="right" colSpan="1"><input type="number" name="nDiffHDayRegInput" placeholder="(NDiff Hours)" width="30%"></td>
-		<tr> <td align="left" colSpan="2" width="40%"><b>Special:</b></td>
-                <td align="right" colSpan="1"><input type="number" name="hDaySpclInput" placeholder="(Days)" width="30%"></td>
+    <tr><td align="left" colSpan="2" width="40%"><b>HOLIDAY WORKED</b></td>
+      <td align="right" colSpan="1">Hrs.</td>
+      <td align="right" colSpan="1">Nt. Diff.</td></tr>
+		<tr><td align="left" colSpan="2" width="40%"><b>Reg. Holiday(s):</b></td>
+       <td align="right" colSpan="1"><input type="number" id="hdreg" width="10%" oninput="hdreg(this.value)" onchange="hdreg(this.value)"></td>
+		    <td align="right" colSpan="1"><input type="number" id="hrndif" width="10%"></td></tr>
+		<tr><td align="left" colSpan="2" width="40%"><b>Spec. Holiday(s):</b></td>
+        <td align="right" colSpan="1"><input type="number" id="hdspec" width="10%"></td>
+        <td align="right" colSpan="1"><input type="number" id="hsndif" width="10%"></td></tr>
 		</table>
 	</fieldset>
 
 <!-- Show Result Computation -->
 	<fieldset type="text"> <legend type="text"><b>Gross Earnings</b></legend>
-	<table>
-		<tr><td align="left" colSpan="2">
-                Daily Rate: <input type="numb" name="rateDaily" readonly>&nbsp;
-                Hourly Rate: <input type="numb" name="rateHourly" readonly></td>
-		<tr><td align="left" colSpan="2">Total Hours Worked:
-			<input type="numb" name="totalRegHours" readonly>&nbsp;
-			$<input type="numb" name="payRegHours" readonly></td>
-
-		<tr><td align="left" colSpan="2">N.Diff-Reg Rate:
-			<input type="numb" name="rateNDiff" readonly>&nbsp;
-			$<input type="numb" name="payNDiff" readonly></td>
-		<tr><td align="left" colSpan="2">Holiday Reg: $<input type="numb" name="payHDayReg" readonly></td>
-		<tr><td align="left" colSpan="2">N.Diff-Holiday Reg Rate:
-			<input type="numb" name="rateNDiffHDayR" readonly>&nbsp;
-			$<input type="numb" name="payNDiffHDayR" readonly></td>
-		<tr><td align="left" colSpan="2">Holiday Special: $<input type="numb" name="payHDaySpcl" readonly></td>
-		<tr><td align="left" colSpan="1">----------Gross Total:</td>
-			<td align="right" colSpan="1">$<input type="numb" name="payGrossTotal" readonly></td>
-		</tr>
+	<table>                
+		<tr><td align="left" colSpan="2">Regular Hrs.:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="preghrs" readonly></td></tr>
+		<tr><td align="left" colSpan="2">N.Diff-Regular Hrs.:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="pregndif" readonly></td></tr>
+    
+		<tr><td align="left" colSpan="2">Reg. Holiday:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayreg" readonly></td></tr>
+		<tr><td align="left" colSpan="2">N.Diff-Reg. Holiday:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayrndif" readonly></td></tr>
+    
+    <tr><td align="left" colSpan="2">Spec. Holiday:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayspec" readonly></td></tr>
+		<tr><td align="left" colSpan="2">N.Diff-Spec. Holiday:</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdaysndif" readonly></td></tr>
+    <tr><td align="left" colSpan="2"><b>TOTAL GROSS:</b></td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="tgross" readonly></td></tr>
 		</table>
 	</fieldset>
-	</form>		
-</fomm>	
-<Script language="JavaScript">
-	function paycal() {
-		basicAnn=document.salarycal.basicPay.value*12/26;
-		getRateDaily=basicAnn/10;
-		getHourlyRate=getRateDaily/8;
-		getTotalHours=document.salarycal.regDays.value*8;
-		document.salarycal.rateDaily.value=getRateDaily;
-		document.salarycal.rateHourly.value=getHourlyRate;
-		document.salarycal.totalRegHours.value=getTotalHours;
-		getRateNDiff=getHourlyRate*.20;
-		getRateNDiffHdayR=getHourlyRate*.40;
-		getRateHDaySpcl=getRateDaily*.20;
-		document.salarycal.rateNDiff.value=getRateNDiff;
-		document.salarycal.rateNDiffHDayR.value=getRateNDiffHdayR;
-		grossPayHours=getTotalHours*getHourlyRate;
-		document.salarycal.payRegHours.value=grossPayHours;
-		grosspayNDiff=document.salarycal.nDiffInput.value*getRateNDiff;
-		document.salarycal.payNDiff.value=grosspayNDiff;
-		grosspayHDayReg=document.salarycal.hDayRegInput.value*getRateDaily;
-		document.salarycal.payHDayReg.value=grosspayHDayReg;
-		grosspayNDiffHdayR=document.salarycal.nDiffHDayRegInput.value*getRateNDiffHdayR;
-		document.salarycal.payNDiffHDayR.value=grosspayNDiffHdayR;
-		grosspayHDaySpcl=document.salarycal.hDaySpclInput.value*getRateHDaySpcl;
-		document.salarycal.payHDaySpcl.value=grosspayHDaySpcl;
-		totalGrossNDiff=grosspayNDiff+grosspayNDiffHdayR;
-		totalGrossHday=grosspayHDayReg+grosspayHDaySpcl
-		totalGross=grossPayHours+totalGrossNDiff+totalGrossHday;
-		document.salarycal.payGrossTotal.value=totalGross;
-		}
-</script>
+  <script>
+    
+    function getRates(rate) {
+      var rateday = rate*12/26/10;
+      var ratehour = rate*12/26/10/8;
+      document.getElementById("rateday").value = rateday.toFixed(2);
+      document.getElementById("ratehour").value= ratehour.toFixed(2);
+    }
+    function reg(hrs) {
+      var phrs = hrs * document.getElementById("ratehour").value;
+      document.getElementById("preghrs").value = phrs.toFixed(2);
+    }
+    function regnd(nd) {
+      var ndreg = document.getElementById("basic").value*12/26/10/8*.20;
+      var prnd = nd * ndreg;
+      document.getElementById("pregndif").value = prnd.toFixed(2);
+    }
+    function hdreg(hd) {
+      var hdr = document.getElementById("ratehour").value * 2;
+      var prhd = hd * hdr;
+      document.getElementById("phdayreg").value = prhd.toFixed(2);
+    }
+  </script>
+    
+    </FORM>
 
-<script>
-	function regWorkDay() {
-		var basicPay = document.salarycal.basicPay.value;
-		var regHours = document.salarycal.regDays.value*8;
-			rateDaily = basicPay*12/26/10;
-			rateHourly = rateDaily/8;
-			payRegHours = regHours*rateHourly;
-		document.salarycal.rateDaily.value = rateDaily;
-		document.salarycal.rateHourly.value = rateDaily;
-		document.salarycal.totalRegHours.value = payRegHours;
-		}
-	function holidayWork() {
-		}
-	var $ = function (id) {
-		return document.getElementById(id);
-		}
-	var calculate_click = function () {
-		}
-		$("calBtn").onclick = function(){calculate_click();};
-		$("basicPay").focus();
-</script>
-		<script src="/htmlview.min.js"></script>
-		<script>HTMLview.init();</script>
-	</body>
-</html>
+</BODY>
+	<script src="/htmlview.min.js"></script>
+	<script>HTMLview.init();</script>
+</HTML>
