@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <Title>WFE|Flow</Title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>WFE FLOW GUIDE</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for issue.." title="Type in a issue">
+
+<table id="myTable">
+  <tr class="header">
+    <th style="width:60%;">ISSUE</th>
+    <th style="width:40%;">FSE FLOW</th>
+  </tr>
+  <tr>
+    <td>Blue Black Gray Screen</td>
+    <td>FIX:No Picture and No Sound</td>
+  </tr>
+  <tr>
+    <td>Snowy Screen/Static Interference</td>
+    <td>FIX:No Picture and No Sound</td>
+  </tr>
+  <tr>
+    <td>Picture Freezing</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Banner No Program</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Bars On Picture</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Audio OK, No Video</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Banner Does Not Match Program</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Black & White Picture</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Blurry / Jittery Picture</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Cannot Get HD Quality Picture</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Contrast Ratio & Maximum Resolution</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Screen Burn</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Lines On Picture</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>DIRECTV Logo On Screen</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Black Box On Screen</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Tinted Images</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>Closed Captioning</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td>No Signal</td>
+    <td>FIX:Picture Problems</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
+
