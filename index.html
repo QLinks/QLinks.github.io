@@ -124,7 +124,7 @@
 		cursor: pointer;
 	}
   .s-box {
-    font-size: 12px; font-family: "Arial", Lato, sans-serif; font-style: bold;
+    font-size: 11px; font-family: "Arial", Lato, sans-serif; font-style: bold;
     background-color: white; color: black;
     border: 1px solid #1E90FF; border-radius: 4px;
     padding: 6px 6px; margin: 2px 2px;
@@ -169,33 +169,34 @@
 				<button class="m-btn" onclick="openRIO()">ATT:RIO</button>&nbsp;
 				<button class="m-btn" onclick="openOMS()">ATT:OMS</button>&nbsp;
 				<button class="m-btn" onclick="openMyCSP()">MY CSP</button>&nbsp;
+				<button class="m-btn" onclick="openSales()">SALES TRACK</button>
+			</div>
+        
+			<div class="col">
+				<label>GUIDES, LINKS, &#38; OTHER TOOLS</label><br>
+				<button class="d-btn" onclick="openSWFE()">G:WFE-FSI FLOW</button>&nbsp;
 				<select class="s-box" id="dtvTools" onchange="location = this.value;">
           <option value="https://qlinks.github.io/">DTV:TOOLS</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">HOW-TO TOOL</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">DATA-LOOKUP</option>
 				  <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">PRODUCT TOOL</option>
 				  <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHAN &#38; PACKS</option>
-        </select>
-			</div>
-        
-			<div class="col">
-				<label>OTHER TOOLS &#38; LINKS</label><br>
-        <button class="d-btn" onclick="openSales()">SALES TRACKER</button>&nbsp;
-				<button class="d-btn" onclick="openTBox()">TEXTBOX</button>&nbsp;
-        <select class="s-box" id="aloWeb" onchange="location = this.value;">
-          <option value="https://www.alorica.com//">Links:Alorica</option>
+        </select>&nbsp;
+        <select class="s-box" id="dtvWeb" onchange="location = this.value;">
+				  <option value="dtvlinks">LINKS:DirecTV</option>
+				  <option value="https://www.directv.com">DIRECTV.COM</option>
+				  <option value="https://support.directv.com/">SUPPORT.DTV.COM</option>
+          <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">REMOTE CTRL CODE</option>
+				  <option value="https://www.directvdeals.com/my-directv/channel-guide/">DTVDEALS.COM</option>
+				</select>&nbsp;
+				<select class="s-box" id="aloWeb" onchange="location = this.value;">
+          <option value="https://www.alorica.com//">Alorica Apps</option>
           <option value="https://eis.alorica.net/">EIS</option>
           <option value="http://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ">ORACLE</option>
           <option value="https://engage.alorica.com/engage-portal-login/?redirect_to=https://engage.alorica.com/">ENGAGE</option>
           <option value="https://selfservice.alorica.com:9251/showLogin.cc">SELFSERVICE</option>
         </select>&nbsp;
-        <select class="s-box" id="dtvWeb" onchange="location = this.value;">
-				  <option value="dtvlinks">Links:DirecTV</option>
-				  <option value="https://www.directv.com">DIRECTV.COM</option>
-				  <option value="https://support.directv.com/">SUPPORT.DTV.COM</option>
-          <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">REMOTE CONTROL</option>
-				  <option value="https://www.directvdeals.com/my-directv/channel-guide/">DIRECTV DEALS</option>
-				</select>
+				<button class="d-btn" onclick="openTBox()">TEXTBOX</button>
 	  	</div>
       
 	  	<div class="col">
@@ -223,22 +224,19 @@
 
 </BODY>
 
-<!-- Place this tag in your head or just before your close body tag. -->
-	<script async defer src="https://buttons.github.io/buttons.js"></script>
-	
 <!-- Script Button open for Production Tools -->
-<SCRIPT language=JavaScript>
+  <script>
     var windowTBOX;
 		var windowFeatures = 'location=no,toolbar=no,menubar=no,scrollbars=yes,resizable=yes';
 		var strBOXFeatures = "toolbar=no,menubar=no,location=no,resizable=no,scrollbars=no,status=yes";
 		
 		function openTBox() {
 			windowTBOX = window.open("https://qlinks.github.io/textbox/", "MyTextbox","scrollbars=yes,resizable=no,top=0,left=0,width=450,height=1000");
-			}
+		}
 			function resizeWin() {
 				windowTBOX.resizeTo(650, 1000);
 				windowTBOX.focus();
-				}
+			}
     
     function openWFE() { window.open("https://cap-ucp.web.att.com/wps/myportal/UCPHome"); }
     function openRIO() { window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com"); }
@@ -247,9 +245,9 @@
     
     function openSales() { window.open("http://belegendary.alorica.com/Operations/ATT/Lists/Cebu%20%20ATT%20Entertainment%20%20Sales%20Tacker/AllItems.aspx/"); }
     
-    </SCRIPT>  
-
-	
+    function openSWFE() { window.open("https://qlinks.github.io/wfe/"); }
+    
+  </script>
 <!-- Script to Launch HTML. -->
   <script src="/htmlview.min.js"></script>
 	<script>HTMLView.init();</script>
