@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <HTML>
-  <HEAD>
+<HEAD>
   <Title>WFE Flow</Title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
@@ -17,9 +17,10 @@
     background-repeat: no-repeat;
     width: 100%;
     font-size: 12px;
-    padding: 12px 20px 12px 40px;
+    padding: 10px 20px 10px 40px;
     border: 1px solid #ddd;
-    margin-bottom: 12px;
+    margin-bottom: 2px;
+    border-radius: 5px;
   }
   #myTable {
     border-collapse: collapse;
@@ -37,29 +38,61 @@
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
   }
-
-</STYLE>
+  
+  /* container */
+  .top-container {
+    background-color: #f1f1f1;
+    padding: 2px;
+    text-align: center;
+  }
+  .search-box {
+    padding: 2px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  .content {
+    padding: 16px;
+  }
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  .sticky + .content {
+    padding-top: 102px;
+  }
+  </STYLE>
 </HEAD>
 
 <BODY>
   <FORM id="previewform" action="">
-
-<h3>WFE FLOW GUIDE</h3>
-
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for issue.." title="Type in a issue">
-
-<table id="myTable">
-  <tr class="header">
-    <th style="width:60%;">ISSUE</th>
-    <th style="width:40%;">FSE FLOW</th>
+    <div class="top-container">
+      <h3>GUIDE: WFE-FSI FLOW</h3>
+    </div>
+    <div class="search-box" id="mySearchBox">
+      <input type="text" id="myInput" onkeyup="searchWFE()" placeholder="Type in the possible issue or keywords of the concern. . ." title="Type in a issue">
+    </div>
+    <div class="content">
+    <Table id="myTable">
+      <tr class="header">
+        <th style="width:60%;">ISSUE</th>
+        <th style="width:40%;">FSI FLOW (Fix/Setup/Inform)</th>
+      </tr>
+      <tr>
+        <td>Blue Black Gray Screen</td>
+        <td>FIX:No Picture and No Sound</td>
+      </tr>
+      <tr>
+        <td>Snowy Screen/Static Interference</td>
+        <td>FIX:No Picture and No Sound</td>
+        </tr>
+      <tr>
+    <td>Set Top Box OSDs</td>
+    <td>FIX:Error Message On Screen</td>
   </tr>
   <tr>
-    <td>Blue Black Gray Screen</td>
-    <td>FIX:No Picture and No Sound</td>
-  </tr>
-  <tr>
-    <td>Snowy Screen/Static Interference</td>
-    <td>FIX:No Picture and No Sound</td>
+    <td>DIRECTV APP</td>
+    <td>FIX:Error Message On Screen</td>
   </tr>
   <tr>
     <td>Picture Freezing</td>
@@ -142,11 +175,11 @@
     <td>FIX:Remote Control</td>
   </tr>
   <tr>
-    <td>DVR / HD-DVR</td>
+    <td>DVR / HD-DVR (Deleted or Missed Recordings,Unknown or Mysterious Recordings,Recording Reruns or Multiple Copies,Recording Partial, Black or Goes to Delete)</td>
     <td>FIX:DVR - Recorded TV</td>
   </tr>
   <tr>
-    <td>Whole Home DVR</td>
+    <td>Whole Home DVR (Cannot Record a Program,Cannot Delete a Program,Cannot Play a Recorded Program,Cannot See Recordings/HD DVR Server)</td>
     <td>FIX:DVR - Recorded TV</td>
   </tr>
   <tr>
@@ -230,33 +263,462 @@
     <td>FIX:Program Guide & Channel Info.</td>
   </tr>
   <tr>
+    <td>Noisy Receiver</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Receiver Changes Channels on Its Own</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Receiver Hot Overheated</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Receiver Resets Itself</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Receiver Will Not Turn On/Off</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Slow Channel Change</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>System Locked Up</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>System Slowness-Receiver or Remote</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Receiver Ties Up Phone Line</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Consumer Electronics (PPP or PPP w/ADH)</td>
+    <td>FIX:Hardware Issues</td>
+  </tr>
+  <tr>
+    <td>Caller ID</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Closed Captioning & Subtitles Issue</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Pandora</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Trickmode</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Mobile Applications (DIRECTV,NFL Sunday Ticket,GenieGo,DIRECTV NOW,Other / Not Listed)</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Parental Controls</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>4K Ultra HD / 4K HDR</td>
+    <td>FIX:Features</td>
+  </tr>
+  <tr>
+    <td>Program DIRECTV Remote </td>
+    <td>SETUP:Remote Control</td>
+  </tr>
+  <tr>
+    <td>Program Black TiVo Remote</td>
+    <td>SETUP:Remote Control</td>
+  </tr>
+  <tr>
+    <td>New Genie</td>
+    <td>SETUP:Genie Setup</td>
+  </tr>
+  <tr>
+    <td>Phone or Tablet</td>
+    <td>SETUP:DIRECTV APP</td>
+  </tr>
+  <tr>
+    <td>DIRECTV.com</td>
+    <td>SETUP:DIRECTV APP</td>
+  </tr>
+  <tr>
+    <td>Mobile DVR</td>
+    <td>SETUP:DIRECTV APP</td>
+  </tr>
+  <tr>
+    <td>Connect Other Devices</td>
+    <td>SETUP:Help Connecting Other</td>
+  </tr>
+  <tr>
+    <td>Add Receiver</td>
+    <td>SETUP:Activation</td>
+  </tr>
+  <tr>
+    <td>Reactivate Device</td>
+    <td>SETUP:Activation</td>
+  </tr>
+  <tr>
+    <td>Replace Card / Replace Receiver</td>
+    <td>SETUP:Activation</td>
+  </tr>
+  <tr>
+    <td>HDDVR Kit</td>
+    <td>SETUP:Activation</td>
+  </tr>
+  <tr>
+    <td>U-Verse</td>
+    <td>SETUP:U-verse Connect a Wireless Device</td>
+  </tr>
+  <tr>
+    <td>Internet Setup</td>
+    <td>SETUP:Internet Setup for Receivers</td>
+  </tr>
+  <tr>
+    <td>Pending Account</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Suspended Account</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Change Name/Phone Number/Address</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Change Account Information</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Disconnect Receivers</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Disconnect Account</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Military Deployment</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Disaster Handling Request</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Where's My Equipment</td>
+    <td>INFORM:Account Information/Status</td>
+  </tr>
+  <tr>
+    <td>Return Equipment</td>
+    <td>INFORM:Equipment Return</td>
+  </tr>
+  <tr>
+    <td>Package Compare (Upgrade ,Reduce,Swap)</td>
+    <td>INFORM:Services</td>
+  </tr>
+  <tr>
+    <td>Change Services (Upgrade ,Reduce,Swap)</td>
+    <td>INFORM:Services</td>
+  </tr>
+  <tr>
+    <td>Protection Plan (Adding Protection Plan , Removing Protection Plan )</td>
+    <td>INFORM:Services</td>
+  </tr>
+  <tr>
+    <td>Confirm Appointment</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Technician Estimated Time of Arrival (ETA)</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Customer Disappointed with Install</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Customer Claims Install Incomplete</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Reschedule Truck Roll</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Cancel Service Call</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Cancel OMS Order</td>
+    <td>INFORM:Appointments (w/ Service Call)</td>
+  </tr>
+  <tr>
+    <td>Modify Order</td>
+    <td>INFORM:Appointments (w/ and w/out Service Call)</td>
+  </tr>
+  <tr>
+    <td>Movers Inquiry</td>
+    <td>INFORM:Appointments (w/ and w/out Service Call)</td>
+  </tr>
+  <tr>
+    <td>Customer Disappointed with Install</td>
+    <td>INFORM:Appointments (w/out Service Call)</td>
+  </tr>
+  <tr>
+    <td>Customer Claims Install Incomplete</td>
+    <td>INFORM:Appointments (w/out Service Call)</td>
+  </tr>
+  <tr>
+    <td>Troubleshoot an Issue</td>
+    <td>INFORM:Appointments (w/out Service Call)</td>
+  </tr>
+  <tr>
+    <td>Fees</td>
+    <td>INFORM:Billing</td>
+  </tr>
+  <tr>
+    <td>Payments</td>
+    <td>INFORM:Billing</td>
+  </tr>
+  <tr>
+    <td>Resend Bill</td>
+    <td>INFORM:Billing</td>
+  </tr>
+  <tr>
+    <td>Joint Billing</td>
+    <td>INFORM:Billing</td>
+  </tr>
+  <tr>
+    <td>ATT Unlimited Plus Plan</td>
+    <td>INFORM:Billing</td>
+  </tr>
+  <tr>
+    <td>Credit/Offer Guidelines</td>
+    <td>INFORM:Credits</td>
+  </tr>
+  <tr>
+    <td>Refunds</td>
+    <td>INFORM:Credits</td>
+  </tr>
+  <tr>
+    <td>3D TV</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>4K Ultra HD / HDR</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Active Channel</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Auto Tune</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Caller ID</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>DVR/HD DVR Features</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Talking Guide</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>DVR Scheduler</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Parental Control</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Score Guide</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>TV APPs</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Whole Home DVR</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Live TV Streaming</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Favorites</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>Rewind/Restart On Demand</td>
+    <td>INFORM:DIRECTV Features</td>
+  </tr>
+  <tr>
+    <td>PPV Rental Expiration</td>
+    <td>INFORM:On Demand / PPV</td>
+  </tr>
+  <tr>
+    <td>On Demand/PPV Delivery Methods</td>
+    <td>INFORM:On Demand / PPV</td>
+  </tr>
+  <tr>
+    <td>PPV Ordering (Watch on TV)</td>
+    <td>INFORM:On Demand / PPV</td>
+  </tr>
+  <tr>
+    <td>PPV Billing Issues</td>
+    <td>INFORM:On Demand / PPV</td>
+  </tr>
+  <tr>
+    <td>Fraud</td>
+    <td>INFORM:Fraud</td>
+  </tr>
+  <tr>
+    <td>Privacy Policy</td>
+    <td>INFORM:Privacy Policy</td>
+  </tr>
+  <tr>
+    <td>Damage Claim (After Installation)</td>
+    <td>INFORM:Claims</td>
+  </tr>
+  <tr>
+    <td>Lost, Damaged Equipment, or Stolen Equipment</td>
+    <td>INFORM:Claims</td>
+  </tr>
+  <tr>
+    <td>Standard Professional Installation</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>Grounding and Line of Sight</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>Installation Offers and Relocate</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>CCK Upgrade</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>Mobile Vehicle Equipment</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>Offer Upgrade</td>
+    <td>INFORM:Installation</td>
+  </tr>
+  <tr>
+    <td>Channel Lineup</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Entertainment Tool</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Package Compare</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Package Tool</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Sports Availability Tool</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>NFL Sunday Ticket</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>ESPN</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Contract Negotiations</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>NBA League Pass</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>NHL Center Ice</td>
+    <td>INFORM:Programming</td>
+  </tr>
+  <tr>
+    <td>Third Party Apps / Streaming</td>
+    <td>INFORM:Third Party Apps / Streaming</td>
+  </tr>
+  <tr>
+    <td>Modern User Interface</td>
+    <td>INFORM:Modern User Interface</td>
+  </tr>
+  <tr>
+    <td>Bury Wire</td>
+    <td>INFORM:Bury Wire</td>
+  </tr>
+  <tr>
     <td></td>
     <td></td>
   </tr>
-</table>
-
+    </Table>
+    </div>
+    
 <script>
-function myFunction() {
-  var input, filter, table, tr, td, i;
-  input = document.getElementById("myInput");
-  filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
-  tr = table.getElementsByTagName("tr");
-  for (i = 0; i < tr.length; i++) {
-    td = tr[i].getElementsByTagName("td")[0];
-    if (td) {
-      if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-        tr[i].style.display = "";
-      } else {
-        tr[i].style.display = "none";
+  function searchWFE() {
+    var input, filter, table, tr, td, i;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    table = document.getElementById("myTable");
+    tr = table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[0];
+      if (td) {
+        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
       }
     }
   }
-}
+</script>
+<script>
+  window.onscroll = function() {myFunction()};
+    var header = document.getElementById("mySearchBox");
+    var sticky = header.offsetTop;
+  function myFunction() {
+    if (window.pageYOffset > sticky) {
+      header.classList.add("sticky");
+    } else {
+      header.classList.remove("sticky");
+    }
+  }
 </script>
   </FORM>
 </BODY>
-
+  
   <script src="/htmlview.min.js"></script>
   <script>HTMLView.init();</script>
   
