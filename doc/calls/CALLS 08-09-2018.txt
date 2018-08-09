@@ -1,0 +1,268 @@
+01-----------------------
+NAME: PATRICIA WALTON
+BAN: 11835620
+PHONE: 2078524718
+
+ISSUE: issue genie with genie hardrive, error code 222
+FIXED: fixed by reset
+confirm 289898579
+
+02-----------------------
+NAME: WILLIAM ZIFF
+BAN: 1093910
+PHONE: 8458550769
+
+ISSUE: claim, ACCESS CARD 0635
+FIXED: replaced 289900712
+
+03-----------------------
+NAME: FELICE BALISS
+BAN: 554093
+PHONE: 7027620767
+
+ISSUE: cant get local channels, error code 721
+FIXED: 
+
+04-----------------------
+NAME: MARY GUZMAN
+BAN: 26032591
+PHONE: 5017014068
+
+ISSUE: talking guide is on, wants to turn it off,
+FIXED: RC73, program remote
+
+05-----------------------
+NAME: LEO TALLENT
+BAN: 28213842
+PHONE: 2286234636
+
+ISSUE: no satelite signal on
+FIXED: yellow light on video bridge
+
+SALE 1-233166050633R2
+
+06-----------------------
+NAME: CHRISTINA GOLDEN
+BAN: 46925796
+PHONE: 9450246880
+
+ISSUE: inquiry about upgrade
+FIXED: installation, confirmation 289910322
+
+07-----------------------
+NAME: DEVIN ADAMS
+BAN: 77270516
+PHONE: 2089997192
+
+ISSUE: reconnecting to wifi, error occured while, password entry didnt work
+FIXED: tried reset box, reset network, still wont connect
+installation upgrade confirm 289914946
+
+08-----------------------
+NAME: SUSAN SANIC
+BAN: 7673671
+PHONE: 6164466746
+
+ISSUE: inquiry program remote 
+FIXED: upgrade 289918335
+
+SALE 1-233178343978R2
+
+09-----------------------
+NAME: PATRICIA PARKER
+BAN: 26354285
+PHONE: 3367228516
+
+ISSUE: program remote, genie
+FIXED: setup ir
+
+10-----------------------
+NAME: KATHY DROMMER
+BAN: 21428556
+PHONE: 9033649961
+
+ISSUE: bill inquiry, credit $20.99, premier was added without customers connsent 
+FIXED:
+
+SALE REDUCED R21-233183399733
+
+11-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+12-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+13-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+14-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+15-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+16-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+17-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+18-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+19-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+20-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+21-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+22-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+23-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+24-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+25-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+26-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+27-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+28-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+29-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
+30-----------------------
+NAME:
+BAN:
+PHONE:
+
+ISSUE:
+FIXED:
+
+
