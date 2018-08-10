@@ -1,56 +1,81 @@
 <!DOCTYPE html>
 <HTML lang="en">
 <HEAD>
-  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta charset="utf-8">
 	<meta name="author" content="Benz Rodrigo">
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" >
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<Title>MyPay</Title>
 
-<STYLE>
-  
+  <STYLE>
+  Body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  #myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 11px;
+  }
+  #myTable th, #myTable td {
+    text-align: left;
+    padding: 8px;
+  }
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  #myTable tr.header {
+    font-size: 12px;
+    font-style: bold;
+  }
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
   </STYLE>
 </HEAD>
 
 <BODY>
   
 	<FORM id="previewform" action="">
-		<label type="text" ><b>BASIC PAY:</b></label>
-    <input type="number" id="basic" width="30%" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)" autofocus>
-		<input onclick=cal() type="button" value="Calculate">
-    <br>
-    <table>
-      <tr><td align="left" colSpan="2">
-        Daily Rate: <input type="number" id="rateday" readonly>&nbsp;
-        Hourly Rate: <input type="number" id="ratehour" readonly></td></tr>
+    <Table id="myTable">
+	  <tr class="header">
+	    <th style="width:30%;">BASIC PAY</th>
+	    <th style="width:20%;">Daily Rate</th>
+	    <th style="width:20%;">Hourly Rate</th>
+	   </tr>
+	   <tr>
+		  <td><b>&#8369;&nbsp;&nbsp;<input type="number" id="basic" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)" autofocus></b></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="rateday" readonly></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="ratehour" readonly></td>
+		</tr>
     </table>
     <br>
-
 <!-- Input Days Worked -->
-	<fieldset type="text">
-    <legend type="text"><b>REGULAR HOURS WORKED</b></legend>
-	<table>
-		<tr><td align="left" colSpan="2" width="40%"><b>Regular Hrs.:</b></td>
-        <td align="right" colSpan="1"><input type="number" id="reghrs" width="30%" oninput="reg(this.value)" onchange="reg(this.value)"></td>
-		<tr><td align="left" colSpan="2" width="40%"><b>Nt. Diff-Reg. Hrs.:</b></td>
-        <td align="right" colSpan="1"><input type="number" id="regndif" width="30%" oninput="regnd(this.value)" onchange="regnd(this.value)"></td>
+	<Table id="myTable">
+	  <tr class="header">
+	    <th style="width:20%;">ENTER YOUR WORKED HOURS</th>
+	    <th style="width:15%;">HOURS WORKED</th>
+	    <th style="width:15%;">NIGHT DIFF</th>
+	   </tr>
+		<tr>
+		  <td><b>REGULAR WORK</b></td>
+		  <td><input type="number" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
+		  <td><input type="number" id="regndif" oninput="regnd(this.value)" onchange="regnd(this.value)"></td>
+		</tr>
+		<tr>
+		  <td><b>HOLIDAY-REGULAR</b></td>
+		  <td><input type="number" id="hdreg" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
+		  <td><input type="number" id="hdrndif" oninput="rhdiff(this.value)" onchange="rhdiff(this.value)"></td>
+		</tr>
+		<tr>
+		  <td><b>HOLIDAY-SPECIAL</b></td>
+		  <td><input type="number" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
+		  <td><input type="number" id="hdsndif" oninput="shdiff(this.value)" onchange="shdiff(this.value)"></td>
+		</tr>
 		</table>
-	</fieldset>
-
-<!-- Input Holidays Days Worked -->
-	<fieldset type="text">
-	<table>
-    <tr><td align="left" colSpan="2" width="40%"><b>HOLIDAY WORKED</b></td>
-      <td align="right" colSpan="1">Hrs.</td>
-      <td align="right" colSpan="1">Nt. Diff.</td></tr>
-		<tr><td align="left" colSpan="2" width="40%"><b>Reg. Holiday(s):</b></td>
-       <td align="right" colSpan="1"><input type="number" id="hdreg" width="10%" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
-		    <td align="right" colSpan="1"><input type="number" id="hdrndif" width="10%" oninput="rhdiff(this.value)" onchange="rhdiff(this.value)"></td></tr>
-		<tr><td align="left" colSpan="2" width="40%"><b>Spec. Holiday(s):</b></td>
-        <td align="right" colSpan="1"><input type="number" id="hdspec" width="10%" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
-        <td align="right" colSpan="1"><input type="number" id="hdsndif" width="10%" oninput="shdiff(this.value)" onchange="shdiff(this.value)"></td></tr>
-		</table>
-	</fieldset>
 
 <!-- Show Result Computation -->
 	<fieldset type="text"> <legend type="text"><b>Gross Earnings</b></legend>
