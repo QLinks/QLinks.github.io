@@ -28,7 +28,7 @@
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
-    font-size: 10px;
+    font-size: 11px;
   }
   #myTable th, #myTable td {
     text-align: left;
@@ -37,23 +37,33 @@
   #myTable tr {
     border-bottom: 1px solid #ddd;
   }
+  #myTable tr.header {
+    font-size: 12px;
+    font-style: bold;
+  }
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
   }
-  
-  /* container */
+  h2 {
+    font-size: 20px;
+  }
+/* Style Container */
   .top-container {
-    background-color: #f1f1f1;
+    background-color: #2E86C1; color: #FFFFFF;
     padding: 2px;
     text-align: center;
+    margin-bottom: 2px;
+    width: 100%;
   }
   .search-box {
     padding: 2px 16px;
     background: #555;
     color: #f1f1f1;
+    width: 100%;
   }
   .content {
     padding: 16px;
+    width: 100%;
   }
   .sticky {
     position: fixed;
@@ -63,13 +73,19 @@
   .sticky + .content {
     padding-top: 102px;
   }
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 650px) {
+    h2 {
+      font-size: 16px;
+    }
+  }
   </STYLE>
 </HEAD>
 
 <BODY>
   <FORM id="previewform" action="">
     <div class="top-container">
-      <h3>GUIDE: WFE-FSI FLOW</h3>
+      <h2>GUIDE: WFE FLOW - FSI (Fix,Setup,Inform)</h2>
     </div>
     <div class="search-box" id="mySearchBox">
       <input type="text" id="myInput" onkeyup="searchWFE()" placeholder="Type in the possible issue or keywords of the concern. . ." title="Type in a issue">
@@ -77,620 +93,779 @@
     <div class="content">
     <Table id="myTable">
       <tr class="header">
-        <th style="width:60%;">ISSUE</th>
-        <th style="width:40%;">FSI FLOW (Fix/Setup/Inform)</th>
+        <th style="width:50%;">ISSUE</th>
+        <th style="width:10%;">FSI</th>
+        <th style="width:15%;">WFE FLOW</th>
       </tr>
       <tr>
         <td>Blue Black Gray Screen</td>
-        <td>FIX:No Picture and No Sound</td>
+        <td>FIX</td>
+        <td>No Picture and No Sound</td>
       </tr>
       <tr>
         <td>Snowy Screen/Static Interference</td>
-        <td>FIX:No Picture and No Sound</td>
+        <td>FIX</td>
+        <td>No Picture and No Sound</td>
         </tr>
       <tr>
-    <td>Set Top Box OSDs</td>
-    <td>FIX:Error Message On Screen</td>
-  </tr>
-  <tr>
-    <td>DIRECTV APP</td>
-    <td>FIX:Error Message On Screen</td>
-  </tr>
-  <tr>
-    <td>Picture Freezing</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Banner No Program</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Bars On Picture</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Audio OK, No Video</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Banner Does Not Match Program</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Black & White Picture</td>
-    <td>FIX:Picture Problems</td>
-  </tr>
+        <td>Set Top Box OSDs (203/711/721/722/724-725-726/727/731-732-733-736/734-741-742-743/744/745-746/749)</td>
+        <td>FIX</td>
+        <td>Error Message On Screen</td>
+      </tr>
+      <tr>
+        <td>Set Top Box OSDs (752/761-762/763/764/771/773/774/775/920/927)</td>
+        <td>FIX</td>
+        <td>Error Message On Screen</td>
+      </tr>
+      <tr>
+        <td>DIRECTV APP</td>
+        <td>FIX</td>
+        <td>Error Message On Screen</td>
+      </tr>
+      <tr>
+        <td>Picture Freezing</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
+      <tr>
+        <td>Banner No Program</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
+      <tr>
+        <td>Bars On Picture</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
+      <tr>
+        <td>Audio OK, No Video</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
+      <tr>
+        <td>Banner Does Not Match Program</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
+      <tr>
+        <td>Black & White Picture</td>
+        <td>FIX</td>
+        <td>Picture Problems</td>
+      </tr>
   <tr>
     <td>Blurry / Jittery Picture</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Cannot Get HD Quality Picture</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Contrast Ratio & Maximum Resolution</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Screen Burn</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Lines On Picture</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>DIRECTV Logo On Screen</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Black Box On Screen</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Tinted Images</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>Closed Captioning</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>No Signal</td>
-    <td>FIX:Picture Problems</td>
+    <td>FIX</td>
+    <td>Picture Problems</td>
   </tr>
   <tr>
     <td>No Audio</td>
-    <td>FIX:Sound Problems</td>
+    <td>FIX</td>
+    <td>Sound Problems</td>
   </tr>
   <tr>
     <td>Poor Audio</td>
-    <td>FIX:Sound Problems</td>
+    <td>FIX</td>
+    <td>Sound Problems</td>
   </tr>
   <tr>
     <td>Wrong Audio</td>
-    <td>FIX:Sound Problems</td>
+    <td>FIX</td>
+    <td>Sound Problems</td>
   </tr>
   <tr>
     <td>Troubleshoot with Remote</td>
-    <td>FIX:Remote Control</td>
+    <td>FIX</td>
+    <td>Remote Control</td>
   </tr>
   <tr>
-    <td>DVR / HD-DVR (Deleted or Missed Recordings,Unknown or Mysterious Recordings,Recording Reruns or Multiple Copies,Recording Partial, Black or Goes to Delete)</td>
-    <td>FIX:DVR - Recorded TV</td>
+    <td>DVR/HD-DVR (Deleted/Unknown/Mysterious Recordings,Recording Reruns or Multiple Copies,Recording Partial/Black/Goes to Delete)</td>
+    <td>FIX</td>
+    <td>DVR - Recorded TV</td>
   </tr>
   <tr>
-    <td>Whole Home DVR (Cannot Record a Program,Cannot Delete a Program,Cannot Play a Recorded Program,Cannot See Recordings/HD DVR Server)</td>
-    <td>FIX:DVR - Recorded TV</td>
+    <td>Whole Home DVR/HD DVR Server (Cannot Record/Cannot Delete a Program,Cannot Play a Recorded Program,Cannot See Recordings)</td>
+    <td>FIX</td>
+    <td>DVR - Recorded TV</td>
   </tr>
   <tr>
     <td>PPV Not Working</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Unable to order IPPV (731/733/736)</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Unable to order IPPV (777/780/781)</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>1080p Video Issues</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Satellite Download Issue</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Content Different than Downloaded Title</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Channels do not show in Guide</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Channel is Currently Not Available</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Copyright does not Permit Viewing</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Partial Recording</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Playback Frozen or Paused</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Title Doesn’t Appear in Playlist</td>
-    <td>FIX:On Demand / PPV</td>
+    <td>FIX</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Missing Guide Info - 920</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Guide Channels Missing</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Banner Does Not Match Program</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Banner No Program</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Channel Not Available</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>To Be Announced</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Program Guide is Incorrect</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Cannot Find 4K Titles</td>
-    <td>FIX:Program Guide & Channel Info.</td>
+    <td>FIX</td>
+    <td>Program Guide & Channel Info.</td>
   </tr>
   <tr>
     <td>Noisy Receiver</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Receiver Changes Channels on Its Own</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Receiver Hot Overheated</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Receiver Resets Itself</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Receiver Will Not Turn On/Off</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Slow Channel Change</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>System Locked Up</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>System Slowness-Receiver or Remote</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Receiver Ties Up Phone Line</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Consumer Electronics (PPP or PPP w/ADH)</td>
-    <td>FIX:Hardware Issues</td>
+    <td>FIX</td>
+    <td>Hardware Issues</td>
   </tr>
   <tr>
     <td>Caller ID</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Closed Captioning & Subtitles Issue</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Pandora</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Trickmode</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Mobile Applications (DIRECTV,NFL Sunday Ticket,GenieGo,DIRECTV NOW,Other / Not Listed)</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Parental Controls</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>4K Ultra HD / 4K HDR</td>
-    <td>FIX:Features</td>
+    <td>FIX</td>
+    <td>Features</td>
   </tr>
   <tr>
     <td>Program DIRECTV Remote </td>
-    <td>SETUP:Remote Control</td>
+    <td>SETUP</td>
+    <td>Remote Control</td>
   </tr>
   <tr>
     <td>Program Black TiVo Remote</td>
-    <td>SETUP:Remote Control</td>
+    <td>SETUP</td>
+    <td>Remote Control</td>
   </tr>
   <tr>
     <td>New Genie</td>
-    <td>SETUP:Genie Setup</td>
+    <td>SETUP</td>
+    <td>Genie Setup</td>
   </tr>
   <tr>
     <td>Phone or Tablet</td>
-    <td>SETUP:DIRECTV APP</td>
+    <td>SETUP</td>
+    <td>DIRECTV APP</td>
   </tr>
   <tr>
     <td>DIRECTV.com</td>
-    <td>SETUP:DIRECTV APP</td>
+    <td>SETUP</td>
+    <td>DIRECTV APP</td>
   </tr>
   <tr>
     <td>Mobile DVR</td>
-    <td>SETUP:DIRECTV APP</td>
+    <td>SETUP</td>
+    <td>DIRECTV APP</td>
   </tr>
   <tr>
     <td>Over the Air Antenna</td>
-    <td>SETUP:Help Connecting Other</td>
+    <td>SETUP</td>
+    <td>Help Connecting Other</td>
   </tr>
       <tr>
         <td>Other Device</td>
-        <td>SETUP:Help Connecting Other</td>
+        <td>SETUP</td>
+        <td>Help Connecting Other</td>
       </tr>
   <tr>
     <td>Add Receiver</td>
-    <td>SETUP:Activation</td>
+    <td>SETUP</td>
+    <td>Activation</td>
   </tr>
   <tr>
     <td>Reactivate Device</td>
-    <td>SETUP:Activation</td>
+    <td>SETUP</td>
+    <td>Activation</td>
   </tr>
   <tr>
     <td>Replace Card / Replace Receiver</td>
-    <td>SETUP:Activation</td>
+    <td>SETUP</td>
+    <td>Activation</td>
   </tr>
   <tr>
     <td>HDDVR Kit</td>
-    <td>SETUP:Activation</td>
+    <td>SETUP</td>
+    <td>Activation</td>
   </tr>
   <tr>
     <td>U-Verse</td>
-    <td>SETUP:U-verse Connect a Wireless Device</td>
+    <td>SETUP</td>
+    <td>U-verse Connect a Wireless Device</td>
   </tr>
   <tr>
     <td>Internet Setup</td>
-    <td>SETUP:Internet Setup for Receivers</td>
+    <td>SETUP</td>
+    <td>Internet Setup for Receivers</td>
   </tr>
       <tr>
         <td>Amazon Devices</td>
-        <td>SETUP:Amazon Devices</td>
+        <td>SETUP</td>
+        <td>Amazon Devices</td>
       </tr>
   <tr>
     <td>Pending Account</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Suspended Account</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Change Name/Phone Number/Address</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Change Account Information</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Disconnect Receivers</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Disconnect Account</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Military Deployment</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Disaster Handling Request</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Where's My Equipment</td>
-    <td>INFORM:Account Information/Status</td>
+    <td>INFORM</td>
+    <td>Account Information/Status</td>
   </tr>
   <tr>
     <td>Return Equipment</td>
-    <td>INFORM:Equipment Return</td>
+    <td>INFORM</td>
+    <td>Equipment Return</td>
   </tr>
   <tr>
     <td>Package Compare (Upgrade ,Reduce,Swap)</td>
-    <td>INFORM:Services</td>
+    <td>INFORM</td>
+    <td>Services</td>
   </tr>
   <tr>
     <td>Change Services (Upgrade ,Reduce,Swap)</td>
-    <td>INFORM:Services</td>
+    <td>INFORM</td>
+    <td>Services</td>
   </tr>
   <tr>
     <td>Protection Plan (Adding Protection Plan , Removing Protection Plan )</td>
-    <td>INFORM:Services</td>
+    <td>INFORM</td>
+    <td>Services</td>
   </tr>
   <tr>
     <td>Confirm Appointment</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Technician Estimated Time of Arrival (ETA)</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Customer Disappointed with Install</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Customer Claims Install Incomplete</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Reschedule Truck Roll</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Cancel Service Call</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Cancel OMS Order</td>
-    <td>INFORM:Appointments (w/ Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ Service Call)</td>
   </tr>
   <tr>
     <td>Modify Order</td>
-    <td>INFORM:Appointments (w/ and w/out Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ and w/out Service Call)</td>
   </tr>
   <tr>
     <td>Movers Inquiry</td>
-    <td>INFORM:Appointments (w/ and w/out Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/ and w/out Service Call)</td>
   </tr>
   <tr>
     <td>Customer Disappointed with Install</td>
-    <td>INFORM:Appointments (w/out Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/out Service Call)</td>
   </tr>
   <tr>
     <td>Customer Claims Install Incomplete</td>
-    <td>INFORM:Appointments (w/out Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/out Service Call)</td>
   </tr>
   <tr>
     <td>Troubleshoot an Issue</td>
-    <td>INFORM:Appointments (w/out Service Call)</td>
+    <td>INFORM</td>
+    <td>Appointments (w/out Service Call)</td>
   </tr>
   <tr>
     <td>Fees</td>
-    <td>INFORM:Billing</td>
+    <td>INFORM</td>
+    <td>Billing</td>
   </tr>
   <tr>
     <td>Payments</td>
-    <td>INFORM:Billing</td>
+    <td>INFORM</td>
+    <td>Billing</td>
   </tr>
   <tr>
     <td>Resend Bill</td>
-    <td>INFORM:Billing</td>
+    <td>INFORM</td>
+    <td>Billing</td>
   </tr>
   <tr>
     <td>Joint Billing</td>
-    <td>INFORM:Billing</td>
+    <td>INFORM</td>
+    <td>Billing</td>
   </tr>
   <tr>
     <td>ATT Unlimited Plus Plan</td>
-    <td>INFORM:Billing</td>
+    <td>INFORM</td>
+    <td>Billing</td>
   </tr>
   <tr>
     <td>Credit/Offer Guidelines</td>
-    <td>INFORM:Credits</td>
+    <td>INFORM</td>
+    <td>Credits</td>
   </tr>
   <tr>
     <td>Refunds</td>
-    <td>INFORM:Credits</td>
+    <td>INFORM</td>
+    <td>Credits</td>
   </tr>
   <tr>
     <td>3D TV</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>4K Ultra HD / HDR</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Active Channel</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Auto Tune</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Caller ID</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>DVR/HD DVR Features</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Talking Guide</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>DVR Scheduler</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Parental Control</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Score Guide</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>TV APPs</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Whole Home DVR</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Live TV Streaming</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Favorites</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>Rewind/Restart On Demand</td>
-    <td>INFORM:DIRECTV Features</td>
+    <td>INFORM</td>
+    <td>DIRECTV Features</td>
   </tr>
   <tr>
     <td>PPV Rental Expiration</td>
-    <td>INFORM:On Demand / PPV</td>
+    <td>INFORM</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>On Demand/PPV Delivery Methods</td>
-    <td>INFORM:On Demand / PPV</td>
+    <td>INFORM</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>PPV Ordering (Watch on TV)</td>
-    <td>INFORM:On Demand / PPV</td>
+    <td>INFORM</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>PPV Billing Issues</td>
-    <td>INFORM:On Demand / PPV</td>
+    <td>INFORM</td>
+    <td>On Demand / PPV</td>
   </tr>
   <tr>
     <td>Fraud</td>
-    <td>INFORM:Fraud</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
   <tr>
     <td>Privacy Policy</td>
-    <td>INFORM:Privacy Policy</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
   <tr>
     <td>Damage Claim (After Installation)</td>
-    <td>INFORM:Claims</td>
+    <td>INFORM</td>
+    <td>Claims</td>
   </tr>
   <tr>
     <td>Lost, Damaged Equipment, or Stolen Equipment</td>
-    <td>INFORM:Claims</td>
+    <td>INFORM</td>
+    <td>Claims</td>
   </tr>
   <tr>
     <td>Standard Professional Installation</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>Grounding and Line of Sight</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>Installation Offers and Relocate</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>CCK Upgrade</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>Mobile Vehicle Equipment</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>Offer Upgrade</td>
-    <td>INFORM:Installation</td>
+    <td>INFORM</td>
+    <td>Installation</td>
   </tr>
   <tr>
     <td>Channel Lineup</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Entertainment Tool</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Package Compare</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Package Tool</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Sports Availability Tool</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>NFL Sunday Ticket</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>ESPN</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Contract Negotiations</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>NBA League Pass</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>NHL Center Ice</td>
-    <td>INFORM:Programming</td>
+    <td>INFORM</td>
+    <td>Programming</td>
   </tr>
   <tr>
     <td>Third Party Apps / Streaming</td>
-    <td>INFORM:Third Party Apps / Streaming</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
   <tr>
     <td>Modern User Interface</td>
-    <td>INFORM:Modern User Interface</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
   <tr>
     <td>Bury Wire</td>
-    <td>INFORM:Bury Wire</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
   <tr>
     <td>Order Remote</td>
-    <td>INFORM:Order Remote</td>
+    <td>INFORM</td>
+    <td>[mycsp article]</td>
   </tr>
     </Table>
     </div>
