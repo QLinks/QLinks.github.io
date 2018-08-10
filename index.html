@@ -53,7 +53,7 @@
   .vline {
     position: absolute; left: 50%;
     transform: translate(-50%);
-    border: 2px solid #ddd; height: 175px;
+    border: 2px solid #ddd; height: 100px;
   }
   /* text inside the vertical line */
   .vline-innertext {
@@ -88,14 +88,12 @@
     color:black; background-color:white;
 		width: 250px;
     padding: 10px;
-		border: none;
-		border-radius: 4px;
-		margin: 5px 0;
-		opacity: 0.85;
+		border: none; border-radius: 4px;
+		margin: 5px 0; opacity: 0.85;
 		font-size: 11px;
 		line-height: 20px;
 		}
-	input:hover, .btn:hover, .m-btn:hover {
+	input:hover, .btn:hover, .m-btn:hover, .d-btn {
 		opacity: 1;
 	}
 	input, .btn, .m-btn, .d-btn, a {
@@ -106,31 +104,32 @@
 		background-color: #1E90FF; color: #FFFFFF;
 		font-style: bold;
 		border: none; border-radius: 4px;
-		padding: 6px; margin: 5px 0;
-		width:100px;
-		opacity: 0.85;
-		display: inline-block;
+		padding: 6px 6px; margin: 5px 0;
+		width: 100px;
+		opacity: 0.85; display: inline-block;
 		cursor: pointer;
-	}
-	.m-btn:hover, .d-btn:hover {
-		background-color: #0000A0;
 	}
 	.d-btn {
 	  font-size: 12px; font-family: "Arial", Lato, sans-serif; font-style: bold;
 	  background-color: #1E90FF; color: #FFFFFF;
 		border: none; border-radius: 4px;
-		padding: 6px 6px; margin: 2px 2px;
+		padding: 6px 6px; margin: 5px 0;
+		width: 100px;
 		opacity: 0.85; display: inline-block;
 		cursor: pointer;
 	}
+	.m-btn:hover, .d-btn:hover { background-color: #2874A6; }
+	/* style select box */
   .s-box {
     font-size: 11px; font-family: "Arial", Lato, sans-serif; font-style: bold;
     background-color: white; color: black;
     border: 1px solid #1E90FF; border-radius: 4px;
     padding: 6px 6px; margin: 2px 2px;
+    width:120px;
     opacity: 0.85; display: inline-block;
     cursor: pointer;
   }
+  .s-box:hover { border: 2px solid #1F618D; }
 	.footer {
 		text-align:center; font-size:10px;
 		margin: 20px 0;
@@ -150,7 +149,18 @@
     display: table;
     clear: both;
   }
-   
+/* Responsive layout - when the screen is less than 650px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 650px) {
+    .btn, .vline {
+      display: none;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    label {
+      font-size: 12px;
+    }
+  }
 </STYLE>
 </HEAD>
 	
@@ -162,7 +172,7 @@
           <span>Quick Links | <i><a href="https://github.com/qlinks">View on Github</a></i></span>
         </div>
     <div class="row"><br><br>
-        
+      
 		  <div class="col">
 		    <label>PRODUCTION:LIVE TOOLS</label><br>
 		    <button class="m-btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
@@ -173,21 +183,22 @@
 			</div>
         
 			<div class="col">
-				<label>GUIDES, LINKS, &#38; OTHER TOOLS</label><br>
-				<button class="d-btn" onclick="openSWFE()">G:WFE-FSI FLOW</button>&nbsp;
+				<label>GUIDES, LINKS, &#38; OTHERS</label><br>
+				<button class="d-btn" onclick="openSWFE()">WFE FLOW:FSI</button>&nbsp;
 				<select class="s-box" id="dtvTools" onchange="location = this.value;">
           <option value="https://qlinks.github.io/">DTV:TOOLS</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">HOW-TO TOOL</option>
 				  <option value="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">DATA-LOOKUP</option>
 				  <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">PRODUCT TOOL</option>
-				  <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHANNEL &#38; PACKS</option>
-					<option value="http://lil-lookup.directv.com:8080/lil/lilIndex.htm?site=res&requestor=DORIS">LOCAL CHANNEL AVAILABILITY</option>
+				  <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHANNEL LINEUP</option>
+				  <option value="http://lil-lookup.directv.com:8080/lil/lilIndex.htm?site=res&requestor=">LOCAL CHANNELS</option>
         </select>&nbsp;
         <select class="s-box" id="dtvWeb" onchange="location = this.value;">
 				  <option value="https://qlinks.github.io/">LINKS:DirecTV</option>
 				  <option value="https://www.directv.com">DIRECTV.COM</option>
 				  <option value="https://support.directv.com/">SUPPORT.DTV.COM</option>
-          <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">REMOTE CTRL CODE</option>
+				  <option value="https://support.directv.com/">Receiver Error Codes</option>
+          <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">Remote Control Code-Lookup</option>
 				  <option value="https://www.directvdeals.com/my-directv/channel-guide/">DTVDEALS.COM</option>
 					<option value="https://www.att.com/ecms/dam/att/consumer/help/pdf/Genie2-Product-Manual.pdf">Genie 2 Manual</option>
 					<option value="https://www.directv.com/technology/compare_receivers">Compare Receivers</option>
@@ -209,16 +220,15 @@
       </div>
       
     </div><!-- end for first row -->
-      
-
     </FORM>
   </DIV>
+  
   <DIV class="container-bottom"><!-- footer content -->
-    <p><a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" data-icon="octicon-repo-forked/" targe="_blank">My Docs</a>&nbsp;
-      <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true">Master File</a>&nbsp;
+    <p><a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" targe="_blank"><i class="fa fa-folder"></i> Documents</a>&nbsp;
+      <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true"><i class="fa fa-file-excel-o"></i> Master File</a>&nbsp;
 				<a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/doc/Calc.xlsx?raw=true">PayCalu</a>&nbsp;
-        <a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/notepad.exe?raw=true">Notepad</a>&nbsp;
-				<a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/StikyNotes.exe?raw=true">StikyNotes</a>
+        <a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/notepad.exe?raw=true"><i class="fa fa-download"></i> Notepad</a>&nbsp;
+				<a class="btn" href="https://github.com/qlinks/qlinks.github.io/blob/master/exe/StikyNotes.exe?raw=true"><i class="fa fa-download"></i> Stiky Notes</a>
       </p>
     <div class="footer">&copy; Quick Links | 2018 All Rights Reserved.
 		  <br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
