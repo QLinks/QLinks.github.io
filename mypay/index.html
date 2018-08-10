@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" >
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<Title>MyPay</Title>
-  
+
 <STYLE>
   
   </STYLE>
@@ -34,7 +34,7 @@
         <td align="right" colSpan="1"><input type="number" id="reghrs" width="30%" oninput="reg(this.value)" onchange="reg(this.value)"></td>
 		<tr><td align="left" colSpan="2" width="40%"><b>Nt. Diff-Reg. Hrs.:</b></td>
         <td align="right" colSpan="1"><input type="number" id="regndif" width="30%" oninput="regnd(this.value)" onchange="regnd(this.value)"></td>
-		</table>	
+		</table>
 	</fieldset>
 
 <!-- Input Holidays Days Worked -->
@@ -44,42 +44,43 @@
       <td align="right" colSpan="1">Hrs.</td>
       <td align="right" colSpan="1">Nt. Diff.</td></tr>
 		<tr><td align="left" colSpan="2" width="40%"><b>Reg. Holiday(s):</b></td>
-       <td align="right" colSpan="1"><input type="number" id="hdreg" width="10%" oninput="hdreg(this.value)" onchange="hdreg(this.value)"></td>
-		    <td align="right" colSpan="1"><input type="number" id="hrndif" width="10%"></td></tr>
+       <td align="right" colSpan="1"><input type="number" id="hdreg" width="10%" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
+		    <td align="right" colSpan="1"><input type="number" id="hdrndif" width="10%" oninput="rhdiff(this.value)" onchange="rhdiff(this.value)"></td></tr>
 		<tr><td align="left" colSpan="2" width="40%"><b>Spec. Holiday(s):</b></td>
-        <td align="right" colSpan="1"><input type="number" id="hdspec" width="10%"></td>
-        <td align="right" colSpan="1"><input type="number" id="hsndif" width="10%"></td></tr>
+        <td align="right" colSpan="1"><input type="number" id="hdspec" width="10%" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
+        <td align="right" colSpan="1"><input type="number" id="hdsndif" width="10%" oninput="shdiff(this.value)" onchange="shdiff(this.value)"></td></tr>
 		</table>
 	</fieldset>
 
 <!-- Show Result Computation -->
 	<fieldset type="text"> <legend type="text"><b>Gross Earnings</b></legend>
-	<table>                
+	<table>
 		<tr><td align="left" colSpan="2">Regular Hrs.:</td>
       <td align="right" colSpan="1">&#8369;<input type="number" id="preghrs" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Regular Hrs.:</td>
+		<tr><td align="left" colSpan="2">N.Diff-Regular Hrs.: (20%)</td>
       <td align="right" colSpan="1">&#8369;<input type="number" id="pregndif" readonly></td></tr>
     
-		<tr><td align="left" colSpan="2">Reg. Holiday:</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayreg" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Reg. Holiday:</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayrndif" readonly></td></tr>
+		<tr><td align="left" colSpan="2">Reg. Holiday: (200%)</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdreg" readonly></td></tr>
+		<tr><td align="left" colSpan="2">N.Diff-Reg. Holiday: (40%)</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdrndif" readonly></td></tr>
     
-    <tr><td align="left" colSpan="2">Spec. Holiday:</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdayspec" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Spec. Holiday:</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdaysndif" readonly></td></tr>
-    <tr><td align="left" colSpan="2"><b>TOTAL GROSS:</b></td>
+    <tr><td align="left" colSpan="2">Spec. Holiday: (130%)</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdspec" readonly></td></tr>
+		<tr><td align="left" colSpan="2">N.Diff-Spec. Holiday: (26%)</td>
+      <td align="right" colSpan="1">&#8369;<input type="number" id="phdsndif" readonly></td></tr>
+    <tr><td align="left" colSpan="2"><b>TOTAL GROSS:</b><button onclick="gross()">GET GROSS</button></td>
       <td align="right" colSpan="1">&#8369;<input type="number" id="tgross" readonly></td></tr>
 		</table>
 	</fieldset>
+  
   <script>
-    
     function getRates(rate) {
       var rateday = rate*12/26/10;
       var ratehour = rate*12/26/10/8;
       document.getElementById("rateday").value = rateday.toFixed(2);
       document.getElementById("ratehour").value= ratehour.toFixed(2);
+      gross();
     }
     function reg(hrs) {
       var phrs = hrs * document.getElementById("ratehour").value;
@@ -90,10 +91,29 @@
       var prnd = nd * ndreg;
       document.getElementById("pregndif").value = prnd.toFixed(2);
     }
-    function hdreg(hd) {
-      var hdr = document.getElementById("ratehour").value * 2;
-      var prhd = hd * hdr;
-      document.getElementById("phdayreg").value = prhd.toFixed(2);
+    function reghd(hd) {
+      var hdr = document.getElementById("ratehour").value*2;
+      var phdr = hd * hdr;
+      document.getElementById("phdreg").value = phdr.toFixed(2);
+    }
+    function rhdiff(hrd) {
+      var ndhdr = document.getElementById("basic").value*12/26/10/8*.40;
+      var phdrnd = hrd * ndhdr;
+      document.getElementById("phdrndif").value = phdrnd.toFixed(2);
+    }
+    function spehd(shd) {
+      var hds = document.getElementById("ratehour").value*1.30;
+      var phds = shd * hds;
+      document.getElementById("phdspec").value = phds.toFixed(2);
+    }
+    function shdiff(hsd) {
+      var ndhds = document.getElementById("basic").value*12/26/10/8*.26;
+      var phdsnd = hsd * ndhds;
+      document.getElementById("phdsndif").value = phdsnd.toFixed(2);
+    }
+    function gross() {
+      var greg = document.getElementById("preghrs").value + document.getElementById("pregndif").value;
+      document.getElementById("tgross").value = greg.toFixed(2);
     }
   </script>
     
