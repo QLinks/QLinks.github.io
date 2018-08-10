@@ -1,0 +1,257 @@
+01----------------------
+NAME: JOHN RATCLIFF
+BAN: 5459217
+PHONE: 3716792039
+
+ISSUE: having roof repair, wants to move dish to other side.
+FIXED: provided movers 18774074720
+
+02----------------------
+NAME: LYNETTE PIERRELOUIS
+BAN: 59665383
+PHONE: 7168126297
+
+ISSUE: DOD, just received new replacement box of still the same issue, taking too long to work, keeps on saying connecting
+FIXED: box in masterbedroom
+
+03----------------------
+NAME: TONY  PROSOWSKI
+BAN: 15882542
+PHONE: 2162535450
+
+ISSUE: on demand, no titles available
+FIXED: 
+fsr for technician, disapointed with installation, 
+credit aug4-AUG09 time without service, cx has complains about tech,rood
+
+04----------------------
+NAME: THELMA BUSTAMANTE
+BAN: 64628774
+PHONE: 7138062413
+
+ISSUE: upgrade-wed, unsatisfied with installation
+FIXED: FSR tech was roud, wasnt helpfull about features about new boxes
+wants to have tech fix and setup properly the dish that was installed, cx very dissapointed about the tech installation
+
+05----------------------
+NAME: LIZZA COZZI
+BAN: 44794166
+PHONE: 9144472479
+
+ISSUE: deactivate boxes
+FIXED: 
+0917 MASTERBEDROOM
+1658 DANNYS ROOM
+4078 KITCHEN
+1356 FAMILY ROOM
+
+DISCONNECT 0938, 4014
+that wasnt deactivated, inform cx that if they are not using the box they need to deavtivate it to avoid $7 charge, cx wants credit for the other box
+
+06----------------------
+NAME: JUNE BRANNON
+BAN: 76209170
+PHONE: 7702147457
+
+ISSUE: transfered to uverse
+
+07----------------------
+NAME: LISA STEELMAN
+BAN: 70798407
+PHONE:  4172600437
+
+ISSUE: cancel/resched appointment 
+
+08----------------------
+NAME: CAROLYN CLARK
+BAN: 2809820
+PHONE: 4233388422
+
+ISSUE: this program content protection-312, 316-picture-no sound
+
+09----------------------
+NAME: CHRIS FITZGERALD
+BAN: 32808501
+PHONE: 6788365798
+
+ISSUE: adviced by tech that dish needs to be moved to fixed signal issue. 
+FIXED: transferd to movers 18774074720
+
+10----------------------
+NAME: TIMOTHY  HEDGEPETH
+BAN: 28323149
+PHONE: 2525869828
+
+ISSUE: remote not working with box
+FIXED: program to rf
+
+11----------------------
+NAME: SHERYL ROBINSON
+BAN: 29519303
+PHONE: 5106547244
+
+ISSUE: mini geni required message on screen, unable to hit continue
+FIXED: reprogram remote
+
+
+12----------------------
+NAME: MILANDA SCHNEIDEWIND
+BAN: 75989131
+PHONE: 6182953420
+
+ISSUE: taking 15mins for genie client to turn on, all minies
+FIXED: run diag check, offer upgrade 289943534 for genie 2+4wireless
+
+13----------------------
+NAME: VERA ZASADNYJ
+BAN: 76520232
+PHONE: 8604719340
+
+ISSUE: local channel 3,8,4. error code 721
+FIXED: resend service auth
+
+14----------------------
+NAME: DEBBIE SULLENBARGER
+BAN: 3721187
+PHONE: 2603480208
+
+ISSUE: remote replacement, genie
+FIXED: confirmation 289952053 
+
+15----------------------
+NAME: KEONNTA DRAYTON
+BAN: 44976094
+PHONE: 8178990723
+
+ISSUE: 771-searching for satelite signal, 1 receiver-lvng rm-hr24,chan 242
+FIXED: DISPATCH AUG-10 4PM-6PM
+
+16----------------------
+NAME: DEBORAH CONNER
+BAN: 16556299
+PHONE: 7754500580
+
+ISSUE: dtv logo on screen-not moving
+
+17----------------------
+NAME: CONTESSIA CARLYLE
+BAN: 25877736
+PHONE: 4147327395
+
+ISSUE: uverse
+FIXED: transfered to uverse
+
+**SALE
+
+18----------------------
+NAME: MARK MITCHELL
+BAN: 77444923
+PHONE: 4094980039
+
+ISSUE: Diag Code 86-662, reconnect box to new modem, hr44-main box
+FIXED: whent thru setup
+
+19----------------------
+NAME: ROBERT  BUCHER
+BAN: 1173292
+PHONE: 2197662341
+
+ISSUE: rc72-remote replacement-doesnt turn on
+FIXED: confirmation 289958019 
+
+20----------------------
+NAME: HARRIS TANNENBAUM
+BAN: 32219244
+PHONE: 4043689032
+
+ISSUE: no signal, rectangle
+FIXED: HDMI CABLE ORDER 289960387 
+
+**SALE R21-233238556501
+
+21----------------------
+NAME: JIM MARTIN
+BAN: 33001028
+PHONE: 2605806241
+
+ISSUE: no signal, blue screen,local station-14, HR44
+FIXED: reset button, cycle thru input
+
+22----------------------
+NAME: STACEY CARNES
+BAN: 22509251
+PHONE: 8647840269
+
+ISSUE: dish realignment
+FIXED: DISPATCH, deactivated SN0110, sched callback monday
+
+23----------------------
+NAME: ERIC JAMES WYSE
+BAN: 46913320
+PHONE: 2062459290
+
+ISSUE: DVR recording not showing, has to reset.
+FIXED: infrom about ongoing issue
+
+24----------------------
+NAME: SUSAN LARROW
+BAN: 36930476
+PHONE: 4133867026
+
+ISSUE: remote not working with tv, genie, HR54-RC73
+FIXED: 
+Venturer 46LA45RC-11240
+
+25----------------------
+NAME: JUDIE PEYTON
+BAN: 37828943
+PHONE: 6628204889
+
+ISSUE: resched appoint
+FIXED: cx wants to resched the service call that canceled for the same issue 771. RESCHED AUG-13 4PM-8PM
+
+26----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIXED: 
+
+
+27----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIXED: 
+
+
+28----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIXED: 
+
+
+29----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIXED: 
+
+
+30----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIXED: 
+
+
