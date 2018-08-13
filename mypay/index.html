@@ -42,103 +42,159 @@
 	<FORM id="previewform" action="">
     <Table id="myTable">
 	  <tr class="header">
-	    <th style="width:30%;">BASIC PAY</th>
-	    <th style="width:20%;">Daily Rate</th>
-	    <th style="width:20%;">Hourly Rate</th>
+	    <th style="width:20%;">BASIC PAY</th>
+	    <th style="width:20%;"><b>&#8369;&nbsp;&nbsp;<input type="number" id="basic" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)"></b></th>
+	    <th style="width:20%;"><button id="reset" value="reset">RESET</button></th>
 	   </tr>
 	   <tr>
-		  <td><b>&#8369;&nbsp;&nbsp;<input type="number" id="basic" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)" autofocus></b></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="rateday" readonly></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="ratehour" readonly></td>
+		  <td><i>Daily Rate</i></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="rateday" value="646.15" readonly></td>
+		  <td></td>
 		</tr>
-    </table>
+		<tr>
+		  <td><i>Hourly Rate</i></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="ratehour" value="80.77" readonly></td>
+		  <td></td>
+		</tr>
+  </table>
     <br>
 <!-- Input Days Worked -->
 	<Table id="myTable">
 	  <tr class="header">
-	    <th style="width:20%;">ENTER YOUR WORKED HOURS</th>
-	    <th style="width:15%;">HOURS WORKED</th>
-	    <th style="width:15%;">NIGHT DIFF</th>
+	    <th style="width:20%;">HOURS AND EARNINGS</th>
+	    <th style="width:15%;">HOURS</th>
+	    <th style="width:15%;">AMOUNT</th>
 	   </tr>
 		<tr>
-		  <td><b>REGULAR WORK</b></td>
+		  <td><i>Regular Work Day</i></td>
 		  <td><input type="number" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
-		  <td><input type="number" id="regndif" oninput="regnd(this.value)" onchange="regnd(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" name="payReg" id="payReg" readonly></td>
 		</tr>
 		<tr>
-		  <td><b>HOLIDAY-REGULAR</b></td>
+		  <td><i>ND Regular Work Day</i></td>
+		  <td><input type="number" id="regndif" oninput="regND(this.value)" onchange="regND(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" name="payRegND" id="payRegND" readonly></td>
+		</tr>
+		<tr>
+		  <td><i>Regular OT</i></td>
+		  <td><input type="number" id="regot" oninput="regOT(this.value)" onchange="regOT(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" name="payOT" id="payOT" readonly></td>
+		</tr>
+		<tr>
+		  <td><i>ND Regular OT</i></td>
+		  <td><input type="number" id="regotND" oninput="regOTND(this.value)" onchange="regOTND(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" name="payOTND" id="payOTND" readonly></td>
+		</tr>
+		<tr>
+		  <td><i>Holiday-Regular</i></td>
 		  <td><input type="number" id="hdreg" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
-		  <td><input type="number" id="hdrndif" oninput="rhdiff(this.value)" onchange="rhdiff(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" id="payreghd" readonly></td>
 		</tr>
 		<tr>
-		  <td><b>HOLIDAY-SPECIAL</b></td>
-		  <td><input type="number" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
-		  <td><input type="number" id="hdsndif" oninput="shdiff(this.value)" onchange="shdiff(this.value)"></td>
+		  <td><i>ND Holiday-Regular</i></td>
+		  <td><input type="number" id="hdregND" oninput="reghdND(this.value)" onchange="reghdND(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" id="payreghdND" readonly></td>
 		</tr>
-		</table>
+		<tr>
+		  <td><i>Holiday-Special</i></td>
+		  <td><input type="number" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" id="payspehd" readonly></td>
+		</tr>
+		<tr>
+		  <td><i>ND Holiday-SpecialL</i></td>
+		  <td><input type="number" id="hdsndif" oninput="spehdND(this.value)" onchange="spehdND(this.value)"></td>
+		  <td>&#8369;&nbsp;<input type="number" id="payspehdND" readonly></td>
+		</tr>
+	</Table>
+		<br>
+	<Table id="myTable">
+	  <tr class="header">
+	    <th style="width:20%;">Gross Earnings:</th>
+	    <th style="width:15%;">&#8369;&nbsp;<input type="number" readonly id="payGross"></th>
+	    <th style="width:15%;"><button type="button" onclick="myGross()">Calculate</button></th>
+	   </tr>
+		<tr>
+		  <td></td>
+		  <td></td>
+		  <td></td>
+		</tr>
+	</Table>
 
-<!-- Show Result Computation -->
-	<fieldset type="text"> <legend type="text"><b>Gross Earnings</b></legend>
-	<table>
-		<tr><td align="left" colSpan="2">Regular Hrs.:</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="preghrs" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Regular Hrs.: (20%)</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="pregndif" readonly></td></tr>
-    
-		<tr><td align="left" colSpan="2">Reg. Holiday: (200%)</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdreg" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Reg. Holiday: (40%)</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdrndif" readonly></td></tr>
-    
-    <tr><td align="left" colSpan="2">Spec. Holiday: (130%)</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdspec" readonly></td></tr>
-		<tr><td align="left" colSpan="2">N.Diff-Spec. Holiday: (26%)</td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="phdsndif" readonly></td></tr>
-    <tr><td align="left" colSpan="2"><b>TOTAL GROSS:</b><button onclick="gross()">GET GROSS</button></td>
-      <td align="right" colSpan="1">&#8369;<input type="number" id="tgross" readonly></td></tr>
-		</table>
-	</fieldset>
-  
   <script>
+  var input;
+  
     function getRates(rate) {
       var rateday = rate*12/26/10;
       var ratehour = rate*12/26/10/8;
       document.getElementById("rateday").value = rateday.toFixed(2);
       document.getElementById("ratehour").value= ratehour.toFixed(2);
-      gross();
     }
+    
+    function gross() {
+      var mygross;
+      var pgross = document.getElementById("payGross").value;
+      var x = document.getElementById("reghrs").value;
+      var preg = document.getElementById("payReg").value;
+
+      if (isNaN(x) || x < 1 || x > 10000) {
+        mygross = input;
+      } else {
+        mygross = pgross + preg;
+      }
+      document.getElementById("payGross").value = mygross;
+    }
+    
+    function myGross () {
+      var mygross;
+      var pgross = document.getElementById("payGross").value;
+      
+      document.getElementById("payGross").value = 0;
+      
+      var x = document.getElementById("payReg").value;
+      var y = document.getElementById("payRegND").value;
+      var mygross = pgross+x+y;
+      
+      document.getElementById("payGross").value = mygross;
+    }
+    
     function reg(hrs) {
       var phrs = hrs * document.getElementById("ratehour").value;
-      document.getElementById("preghrs").value = phrs.toFixed(2);
+      document.getElementById("payReg").value = phrs.toFixed(2);
     }
-    function regnd(nd) {
+    function regND(nd) {
       var ndreg = document.getElementById("basic").value*12/26/10/8*.20;
       var prnd = nd * ndreg;
-      document.getElementById("pregndif").value = prnd.toFixed(2);
+      document.getElementById("payRegND").value = prnd.toFixed(2);
+    }
+    function regOT(ot) {
+      var rateOT = document.getElementById("ratehour").value*1.25;
+      var pregOT = ot * rateOT;
+      document.getElementById("payOT").value = pregOT.toFixed(2);
+    }
+    function regOTND(otnd) {
+      var rateOTnd = document.getElementById("basic").value*12/26/10/8*.25;
+      var pOTnd = otnd * rateOTnd;
+      document.getElementById("payOTND").value = pOTnd.toFixed(2);
     }
     function reghd(hd) {
-      var hdr = document.getElementById("ratehour").value*2;
-      var phdr = hd * hdr;
-      document.getElementById("phdreg").value = phdr.toFixed(2);
+      var rateHDreg = document.getElementById("ratehour").value*2;
+      var phdr = hd * rateHDreg;
+      document.getElementById("payreghd").value = phdr.toFixed(2);
     }
-    function rhdiff(hrd) {
+    function reghdND(hrd) {
       var ndhdr = document.getElementById("basic").value*12/26/10/8*.40;
       var phdrnd = hrd * ndhdr;
-      document.getElementById("phdrndif").value = phdrnd.toFixed(2);
+      document.getElementById("payreghdND").value = phdrnd.toFixed(2);
     }
     function spehd(shd) {
       var hds = document.getElementById("ratehour").value*1.30;
       var phds = shd * hds;
-      document.getElementById("phdspec").value = phds.toFixed(2);
+      document.getElementById("payspehd").value = phds.toFixed(2);
     }
-    function shdiff(hsd) {
+    function spehdND(hsd) {
       var ndhds = document.getElementById("basic").value*12/26/10/8*.26;
       var phdsnd = hsd * ndhds;
-      document.getElementById("phdsndif").value = phdsnd.toFixed(2);
-    }
-    function gross() {
-      var greg = document.getElementById("preghrs").value + document.getElementById("pregndif").value;
-      document.getElementById("tgross").value = greg.toFixed(2);
+      document.getElementById("payspehdND").value = phdsnd.toFixed(2);
     }
   </script>
     
