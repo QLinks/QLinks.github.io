@@ -1,0 +1,249 @@
+01----------------
+NAME: MERI CHILDRESS
+BAN: 46061831
+PHONE: 8649016388
+
+ISSUE: 025263348713, DVR,
+FIX: credit for cadie not able to record in genie-approve by sme
+
+02----------------
+NAME: SUSAN ROGERS
+BAN: 17191725
+PHONE: 5599402346
+
+ISSUE: stuck in receiving in satelite signal
+FIX: schedule service call08-15, upgrade for next week 290151366
+
+sale 1-233517975219R2
+
+03----------------
+NAME: FREDERICK WILLIAMS
+BAN: 75589027
+PHONE: 4343642308
+
+ISSUE: no sound-all channels service call 08-17
+FIX: sale R21-233521421041
+
+04----------------
+NAME: POLLY PRICE
+BAN: 21920871
+PHONE: 7064002592
+
+ISSUE: NO SIGNAL
+FIX: cycle input
+
+05----------------
+NAME: PAMELA BOOTHE
+BAN: 51883724
+PHONE: 3607013864
+
+ISSUE: cannot change internet setup
+FIX: sorry
+
+06----------------
+NAME: TIM LAWS
+BAN: 4942767
+PHONE: 8289299210
+
+ISSUE: dod
+FIX: claim damage storme
+
+07----------------
+NAME: FINIS BALES
+BAN: 25458978
+PHONE: 5033645998
+
+ISSUE: recording
+FIX: 
+website for feedback?
+
+08----------------
+NAME: JERRY REED
+BAN: 13264605
+PHONE: 5408412992
+
+ISSUE: MISSING RECORDINGS
+FIX: INFORM ABOUT CADIE
+
+09----------------
+NAME: AARON ZAELEZNIK
+BAN: 25963598
+PHONE: 7655081491
+
+ISSUE: HBO NOT SHOWING, SUNDAY NFL TICKET
+FIX: 
+customer calling in about hbo & nfl ticket free for first 3 months, check oms its canceled, customer didn't request for cancelation, customer wants to add this back
+/added on account credit was applied by smartchat
+
+10----------------
+NAME: FLOYD GOFF
+BAN: 895431
+PHONE: 8015718544
+
+ISSUE: fuzzy static picture
+FIX: 
+Confirmation # 290165937 
+
+11----------------
+NAME: ASHLEY WALLACE
+BAN: 24291900
+PHONE: 9102204157
+
+ISSUE: MISSING CHANNELS, 721
+FIX: reset and service auth
+
+12----------------
+NAME: ROGER JONES
+BAN: 18884558
+PHONE: 
+
+ISSUE: breaking in
+
+13----------------
+NAME: ANTHONY KARELS
+BAN: 4608448
+PHONE: 8322462906
+
+ISSUE: MISSING CHANNELS, 721-MLB, 740
+FIX: 
+739 ROCKIES ASTROS
+
+14----------------
+NAME: AMY BLAIR
+BAN: 33685026
+PHONE: 5099453358
+
+ISSUE: PASSWORD ISSUE
+
+15----------------
+NAME: GREG CHENOWTH
+BAN: 21592875
+PHONE: 7606028277
+
+ISSUE: REQUEST FOR REPLACEMENT BOX
+FIX: NOTE THAT HIS NOT HAPPY WITH THE NEW UI
+
+16----------------
+NAME: JAMES FLESSNER
+BAN: 36150802
+PHONE: 9257852923
+
+ISSUE: FREEZE,WILL ASK YOU TO DELETE, CHANNEL 5-7
+FIX: WANTS TO GET UPDATE
+
+17----------------
+NAME: KANESHA TOWERS
+BAN: 4420782
+PHONE: 4057350622
+
+ISSUE: activate 023852503277
+FIX: cant pass activate
+
+18----------------
+NAME: KURT WHITMER
+BAN: 9203397
+PHONE: 7147345848
+
+ISSUE: DVR CADIE ISSUE
+
+19----------------
+NAME: EDDIE VAN ALLEN
+BAN: 38850244
+PHONE: 5592804846
+
+ISSUE: RECEIVING SATELLITE SIGNAL
+
+20----------------
+NAME: KRISTINA BATTEN
+BAN: 44891853
+PHONE: 6192534902
+
+ISSUE: RECORDINGS ARE NOT SHOWING IN THE LIST
+
+21----------------
+NAME: MARY BERRY
+BAN: 50161507
+PHONE: 4358304066
+
+ISSUE: CHANNEL 5 MISSING
+FIX: INFORM ABOUT CADIE
+
+22----------------
+NAME: NELL KURTZ
+BAN: 68365492
+PHONE: 7759720498
+
+ISSUE: WIRELESS CONNECTION LOST
+
+23----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+24----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+25----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+26----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+27----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+28----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+29----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+30----------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
