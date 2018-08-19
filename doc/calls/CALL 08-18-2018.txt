@@ -1,0 +1,250 @@
+01--------------------
+NAME: MICHAEL FILIPIAK
+BAN: 26136248
+PHONE: 3095310777
+
+ISSUE: add new location, c61r2-200, 1C3ADE441A70
+FIX: *ACTIVATED C61-200 CLIENT WITH MAC 1C3ADE441A70, *WFE NOT WORKING, *DEACTIVATED OLDER BOX, *NEW PRIMARY IS THE ONE IN BEDROOM
+
+02--------------------
+NAME: MICHAEL PERLOVE
+BAN: 45569706
+PHONE: 
+
+ISSUE: asking about 2-4hours
+
+03--------------------
+NAME: MARTY BONK
+BAN: 74733914
+PHONE: 5047229815
+
+ISSUE: replace small box G61JB6RN300762-claims-no longer working
+FIX: box only turn on for 4 sec, Confirmation # 290278699
+
+04--------------------
+NAME: BRENDA TUCKER
+BAN: 58530498
+PHONE: 8179920331
+
+ISSUE: 775, already check cables
+FIX: scheduled service call *WFE NOT WORKING
+
+05--------------------
+NAME: JEMUEL DELEON
+BAN: 70049076
+PHONE: 7752303874
+
+ISSUE: wants to get upgrade for 1 sd box
+FIX: confirmation 290280584
+replaced all 3 boxes, free of cost due to protection plan offer,
+*wfe not working
+
+06--------------------
+NAME: STEPAHNIE SMITH
+BAN: 22988045
+PHONE: 3342164706
+
+ISSUE: 771, cannot tune, all boxes, has been happening for a week, cx already check cables and reset box 242,245 TNT HD
+FIX: service call
+DIAG CODE 717395375
+REFUND $35.00-TIME WITHOUT SERVICE FROM 08-13 TO 08-20
+*wfe not working
+
+07--------------------
+NAME: VALERIE L BARNHART
+BAN: 2122632
+PHONE: 7026480205
+
+ISSUE: deactive box A51LF5KW100257
+FIX: setup parental controls
+
+08--------------------
+NAME: SHERRY GLAWSON
+BAN: 25099088
+PHONE: 9364044382
+
+ISSUE:CX WANTS TO ADD CHANNEL 251 ONLY/
+FIX: INFORM CX ABOUT THE NEED TO UPGRADE PACKAGE FROM SELECT TO EXTRA FOR THAT CHANNEL TO BE AVAILABLE FOR HER, EDUCATED CX ABOUT ADDITIONAL CHANNELS(79) AND COST($39) FOR THE UPGRADE/CX DECLINE OFFER, DOESNT WANT TO PAY COST
+*WFE NOT WORKING
+
+09--------------------
+NAME: BEVERLY GAYLORD
+BAN: 37246351
+PHONE: 5086689254
+
+ISSUE: NO SERVERS, ALL BOXES,
+
+10--------------------
+NAME: MAGGIE OLIVEIRA
+BAN: 24868534
+PHONE: 8286850225
+
+ISSUE: having problems reconnecting box to wifi, gave diag code 86-778, 
+FIX: reset network, resetup wireles, 
+
+SALE: R21-233707286841
+VERY VERY HELPFUL
+
+11--------------------
+NAME: PAUL KENNELLY
+BAN: 27193672
+PHONE: 5807060210
+
+ISSUE: ppv not working, only showing dtv logo channel 131, SEND NET ESCALATION
+
+12--------------------
+NAME: LINDA TURNER
+BAN: 15452544
+PHONE: 9016167903
+
+ISSUE: SPORTS CHANNEL-219
+
+13--------------------
+NAME: MAE H  DENSON
+BAN: 7654597
+PHONE: 9106482011
+
+ISSUE: program cannot fast forwarded-wast trieng to watch recording-living room tv
+FIX: reset box
+
+14--------------------
+NAME: FERNANDO CANALES
+BAN: 24562279
+PHONE: 7606813192
+
+ISSUE: RECONNECT
+FIX: 98-507
+
+15--------------------
+NAME: YVONNE RAMOS
+BAN: 33426504
+PHONE: 5755204980
+
+ISSUE: NFL-212-BLACK OUT-721
+FIX: INFORM ABOUT CADIE
+
+16--------------------
+NAME: JOSE SUAREZ
+BAN: 41534938
+PHONE: 6508046135
+
+ISSUE: NO SIGNAL, CABLE IS OK, CX ATTACHED IT TO ANOTHER DEVICE, HDMI PORT IS DEFECTIVE
+FIX: REPLACE G63DB7PP200319
+Confirmation # 290291857
+
+17--------------------
+NAME: TROY BUCK
+BAN: 36328433
+PHONE: 8703538023
+
+ISSUE: REMOTE ISSUE
+FIX: PROGRAM REMOTE
+
+18--------------------
+NAME: BOB TOUCHETTE
+BAN: 4612586
+PHONE: 
+
+ISSUE: 212-NFL BLACKOUT-GAME SEARCHING-727
+FIX: EXPLAIN TO CX THAT SIGNAL IS BLOCK BY THE BROADCASTING NETWORK AS OF WFE
+
+19--------------------
+NAME: CONNIE PEPPPER
+BAN: 3581020
+PHONE: 7756235028
+
+ISSUE: RECORDING ISSUE
+FIX: PLAYLIST ISSUE WITH GENIE CADIE
+
+20--------------------
+NAME: 
+BAN: 
+PHONE: NO ACCOUNT
+
+ISSUE: 
+FIX: 
+
+21--------------------
+NAME: RICHARD NORMAN 
+BAN: 20302163
+PHONE: 
+
+ISSUE: HBO CHANNEL-KEEPS ON BUFFERING-CHANNEL 1501
+
+22--------------------
+NAME: 
+BAN: 
+PHONE: NO ACCOUNT
+
+ISSUE: 
+FIX: 
+
+23--------------------
+NAME: MARY STOBAUGH
+BAN: 10183896
+PHONE: 5015140858
+
+ISSUE: APPOINTMENT CONFIRMATION
+
+CALLBACK
+
+24--------------------
+NAME: LITA  BARRIE
+BAN: 83750709
+PHONE: 3232291676
+
+ISSUE: CONFIGURE DISH TYPE DOESN'T MATCH, received a new box when cx tried to activate it, its giving that error message
+
+25--------------------
+NAME: RYAN CAPATI
+BAN: 47602606
+PHONE: 9514559794
+
+ISSUE: CHANNEL NOT AVAILABLE-TFC DIRECT 2060
+FIX: cx already reset the box, INSTALLED NEW DISH 36/CONFIRMATION 290292566
+
+26--------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+27--------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+28--------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+29--------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+30--------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
