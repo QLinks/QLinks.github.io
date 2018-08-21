@@ -1,0 +1,323 @@
+01---------------------
+NAME: CURTIS ROBERTSON
+BAN: 50745129
+PHONE: 8327269054
+
+ISSUE: 771-esnhd 207-not all channels
+FIX: SERVICE CALL
+
+SALE: 1-233757323063R2
+
+02---------------------
+NAME: GEORGIA CHILDERS
+BAN: 58584785
+PHONE: 3045291641
+
+ISSUE: channel 4-all 3 tvs
+FIX: CADIE
+
+03---------------------
+NAME: BENNY RUSSELL
+BAN: 45302504
+PHONE: 215478215 2154392079
+
+ISSUE: box blocking the garage door, needs to be moved  3-4 inches
+FIX: SERVICE CALL
+
+04---------------------
+NAME: ROBERT
+BAN: 
+PHONE: DROP CALL
+
+ISSUE: 1000
+FIX: 
+
+05---------------------
+NAME: DICK NORLANDER
+BAN: 78119
+PHONE: 2188380944
+
+ISSUE: AUG 28
+FIX: modify existing sched
+movers 8774074720
+
+06---------------------
+NAME: CONCHITA CATARIG
+BAN: 23167253
+PHONE: 5866199430
+
+ISSUE: missing-TFC 2060-A particular show-inform cx about schedule of airing
+
+07---------------------
+NAME: STEVE BARNETT
+BAN: 682815
+PHONE: 9707283040
+
+ISSUE: hdmi port on box no longer working-already check cable
+FIX: Confirmation # 290330283
+
+08---------------------
+NAME: BRIAN HUGHES
+BAN: 83280780
+PHONE: 6146348012
+
+ISSUE: DOD
+FIX: PREFERED DATES ARE AUG-22 OR AUG-25/AS OF NOW OUTSIDE TIME FRAME
+
+09---------------------
+NAME: JOHNIE HENDRICKS
+
+BAN: 41490270
+PHONE: 7576639749
+
+ISSUE: TECH ETA
+FIX: TRANSFERED TO MOVERS
+
+10---------------------
+NAME: GLINDA HINTON
+BAN: 46643179
+PHONE: 2404552899
+
+ISSUE: ORDER REMOTE
+FIX: Confirmation # 290335147 
+
+11---------------------
+NAME: BEN KIMBLE
+BAN: 57736066
+PHONE: 5703523028
+
+ISSUE: NO SERVERS DETECTED
+FIX: reset video bridge
+
+12---------------------
+NAME: STACY ADAMS
+BAN: 57453990
+PHONE: 8142628836
+
+ISSUE: CANCEL APPOINTMENT
+
+13---------------------
+NAME: MICHEAL HOUT
+BAN: 10860240
+PHONE: 7165794269
+
+ISSUE: UPGRADE
+FIX: CONFIRMATION 290338669
+
+14---------------------
+NAME: DANA BLACKBURN
+BAN: 10163525
+PHONE: 9312229473
+
+ISSUE: CLAIMS REPLACEMENT
+FIX: Confirmation # 290339403
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: drop call
+
+16---------------------
+NAME: 
+BAN: 
+PHONE: no account
+
+17---------------------
+NAME: ANGELIQUE BODDIE
+BAN: 56743618
+PHONE: 6144839192
+
+ISSUE: no servers detected
+FIX: no signal
+
+
+18---------------------
+NAME: JAMES PROCTOR
+BAN: 81564574
+PHONE: 5134641642
+
+ISSUE: 771-350 working, no bad weather
+FIX: service call
+
+19---------------------
+NAME: LUPE LUGO
+BAN: 71462576
+PHONE: 7147139039
+
+ISSUE: ORDER REMOTE-genie rc71
+FIX: Confirmation # 290346239 
+
+20---------------------
+NAME: JUDY BERRY
+BAN: 27113643
+PHONE: 8163634833
+
+ISSUE: claims
+FIX: Confirmation # 290346972 
+
+21---------------------
+NAME: THOMAS MAYNE
+BAN: 21865892
+PHONE: 7577680393
+
+ISSUE: ON DEMAND ISSUES
+FIX: DOD
+
+22---------------------
+NAME: SHIRLEY SWALLOW
+BAN: 39625330
+PHONE: 4082941901
+
+ISSUE: BLUE SCREEN
+FIX: DOD
+
+23---------------------
+NAME: TOM DAVIS
+BAN: 27642243
+PHONE:
+3234931039
+3237575284
+ISSUE: CLAIMS
+FIX: 
+
+R0073612730
+S2326553450
+1409 W 110th Pl, Los Angeles, CA 90047 
+
+24---------------------
+NAME: CORNELIUS JONES
+BAN: 22486507
+PHONE: 2406236305
+
+ISSUE: stars & hbo
+FIX: 
+transfer to ace 2
+
+25---------------------
+NAME: RANDY KING
+BAN: 32211399
+PHONE: 5044320270
+
+ISSUE: 775
+FIX: 
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: NO ACCOUNT
+
+27---------------------
+NAME: ANGELA ROMERO
+BAN: 68930098
+PHONE: 3039364863
+3035227371
+ISSUE: GENIE
+FIX: PROGRAM REMOTE
+
+28---------------------
+NAME: CHRISTIAN SAUCEDO
+BAN: 65573645
+PHONE: 7733445689
+
+ISSUE: adding MTV
+FIX: UPGRADE TO SELECT FROM FAMILY
+
+29---------------------
+NAME: WILLIE WILLIAMS
+BAN: 19006000
+PHONE: 9014637870
+
+ISSUE: SERVICE INTERUPTION
+FIX: 9012922716
+
+CALLBACK 6:00
+
+30---------------------
+NAME: ROXANNE EARHAM
+BAN: 25493634
+PHONE: 6787906567
+
+ISSUE: CHANNEL 341
+FIX: UPGRADE PACKAGE
+
+31---------------------
+NAME: TAMMY LANCE
+BAN: 9745897
+PHONE: 7063920368
+
+ISSUE: RESET PASSCODE FOR PARENTAL CONTROLS
+
+32---------------------
+NAME: SHEILA WIGGINS
+BAN: 13509679
+PHONE: 4804534449
+
+ISSUE: replacement
+FIX: Confirmation # 290357734 
+
+33---------------------
+NAME: MICHAEL SWIFT
+BAN: 75295698
+PHONE: 8324015660
+
+ISSUE: directv app not working
+FIX: lockout
+
+34---------------------
+NAME: DON BARTON
+BAN: 63303790
+PHONE: 6622974660
+
+ISSUE: UNABLE TO LOGIN TO DIRECTV.COM
+
+35---------------------
+NAME: WALTER COLVIN
+BAN: 16216148
+PHONE: 5012305640
+
+ISSUE: only allows to watch recordings, 
+FIX: white screen D61GB6HFXG0266
+
+36---------------------
+NAME: DEE MOORE
+BAN: 8514423
+PHONE: 7652374341
+
+ISSUE: 775-educated cx that their is no possible way for me to sched it to another date
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
