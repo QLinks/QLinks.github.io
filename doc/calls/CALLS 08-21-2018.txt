@@ -1,0 +1,254 @@
+01-----------------------
+NAME: JOSPEH JOHNSON
+BAN: 37083523
+PHONE: 9036695011
+
+ISSUE: add box to whole home-wired
+FIX: walkthru 
+
+02-----------------------
+NAME: RODNEY BLAKNEY
+BAN: 46754911
+PHONE: 7048901656
+
+ISSUE: 726,
+FIX: RID 000900376872, CAD 001887426565
+
+03-----------------------
+NAME: PATRICIA BUTLER
+BAN: 69710738
+PHONE: 6468538550
+
+ISSUE: DOD
+FIX: CREDIT FOR $24.80
+
+04-----------------------
+NAME: KIMBERLY SUPECK
+BAN: 37280439
+PHONE: 2167602960
+
+ISSUE: 761-the receiver rebooted itself, and it was fixed-advice cx to check card on the side
+
+SALE: R21-233866710931
+
+05-----------------------
+NAME: JOSEPH MONTANO
+BAN: 74822973
+PHONE: 
+
+ISSUE: 18v-13v, installation staus-odd-even option to retest-satelite setup-configure dish type doesnt match order-
+FIX: error odd95 odd103 even103
+
+06-----------------------
+NAME: JILL ROTH
+BAN: 81700420
+PHONE: 9497682647/9492354868
+
+ISSUE: 776
+FIX: SERVICE CALL
+
+07-----------------------
+NAME: ROLAND CHAVEZ
+BAN: 20635653
+PHONE: 8155291022
+
+ISSUE: TURNS BLACK FOR 10SEC, HAPPENS ON LIVE TV AND RECORDINGS, CX ALREADY TRIED TO RESET HR25-500-FIX BY CYCLING THRU RESOLUTION
+
+08-----------------------
+NAME: ROBERT SEUZENEAU
+BAN: 16709089
+PHONE: 5042617843
+
+ISSUE: CLAIMS-no display-claims
+FIX: G63DA6DC202107 Confirmation # 290401606 
+
+09-----------------------
+NAME: ROBERT MCKINLAY
+BAN: 44838407
+PHONE: 5593073268
+8018670505
+ISSUE: NO PICTURE
+
+10-----------------------
+NAME: DERIK SUKSTORF
+BAN: 35179700
+PHONE: 3072154100
+
+ISSUE: RECORDINGS NOT SHOWING
+FIX: INFORM CX ABOUT CADIE-CX ASKED TO SPEAK WITH CLG-DISCONNECT
+
+11-----------------------
+NAME: JESSICA PICKETT
+BAN: 65377419
+PHONE: 9514908116
+
+ISSUE: RECONNECT 86-56
+FIX: reset network
+
+12-----------------------
+NAME: TISA WATSON
+BAN: 34936149
+PHONE: 6018091685
+
+ISSUE: BLACK SCREEN
+FIX: Confirmation # 290403206
+
+13-----------------------
+NAME: ROSS MAGAZINE
+BAN: 37584921
+PHONE: 9495894373
+
+ISSUE: 775-box in the living room-rid 6985-only 1 box is affected
+FIX: possible cable-service call
+
+14-----------------------
+NAME: DORSIE MACHICAO
+BAN: 19257021
+PHONE: 6189932563
+
+ISSUE: SETUP WHOLE HOME-PIN
+FIX: walkthru 
+
+15-----------------------
+NAME: SHERRY BROWN
+BAN: 44144091
+PHONE: 6157798208
+
+ISSUE: no server detected
+FIX: 4558
+
+16-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+17-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+18-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+19-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+20-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+21-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+22-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+23-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+24-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+25-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+26-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+27-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+28-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+29-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
+30-----------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+FIX: 
+
+
