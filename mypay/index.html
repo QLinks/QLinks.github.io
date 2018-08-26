@@ -14,6 +14,12 @@
   * {
     box-sizing: border-box;
   }
+/* Containers */
+  .container {
+    padding: 16px;
+    background-color: white;
+    width: 40%;
+  }
   #myTable {
     border-collapse: collapse;
     width: 100%;
@@ -34,26 +40,29 @@
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
   }
+  input {
+    width: 100px;
+  }
   </STYLE>
 </HEAD>
 
 <BODY>
-  
 	<FORM id="previewform" action="">
+	  <div class="container">
     <Table id="myTable">
 	  <tr class="header">
-	    <th style="width:20%;">BASIC PAY</th>
-	    <th style="width:20%;"><b>&#8369;&nbsp;&nbsp;<input type="number" id="basic" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)"></b></th>
-	    <th style="width:20%;"><button id="reset" value="reset">RESET</button></th>
+	    <th style="width:10%;">BASIC PAY</th>
+	    <th style="width:10%;">&#8369;&nbsp;<input type="text" id="basic" value="14000" oninput="getRates(this.value)" onchange="getRates(this.value)"></th>
+	    <th style="width:10%;"><button id="btn" onclick="resetBTN()">RESET</button></th>
 	   </tr>
 	   <tr>
 		  <td><i>Daily Rate</i></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="rateday" value="646.15" readonly></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="text" id="rateday" value="646.15" readonly></td>
 		  <td></td>
 		</tr>
 		<tr>
 		  <td><i>Hourly Rate</i></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="number" id="ratehour" value="80.77" readonly></td>
+		  <td>&#8369;&nbsp;&nbsp;<input type="text" id="ratehour" value="80.77" readonly></td>
 		  <td></td>
 		</tr>
   </table>
@@ -67,51 +76,51 @@
 	   </tr>
 		<tr>
 		  <td><i>Regular Work Day</i></td>
-		  <td><input type="number" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" name="payReg" id="payReg" readonly></td>
+		  <td><input type="text" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
+		  <td><p type="text" id="payreg">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>ND Regular Work Day</i></td>
-		  <td><input type="number" id="regndif" oninput="regND(this.value)" onchange="regND(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" name="payRegND" id="payRegND" readonly></td>
+		  <td><input type="text" id="regndif" oninput="regND(this.value)" onchange="regND(this.value)"></td>
+		  <td><p type="text" id="payregND">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>Regular OT</i></td>
-		  <td><input type="number" id="regot" oninput="regOT(this.value)" onchange="regOT(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" name="payOT" id="payOT" readonly></td>
+		  <td><input type="text" id="regot" oninput="regOT(this.value)" onchange="regOT(this.value)"></td>
+		  <td><p type="text" id="payOT">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>ND Regular OT</i></td>
-		  <td><input type="number" id="regotND" oninput="regOTND(this.value)" onchange="regOTND(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" name="payOTND" id="payOTND" readonly></td>
+		  <td><input type="text" id="regotnd" oninput="regOTND(this.value)" onchange="regOTND(this.value)"></td>
+		  <td><p type="text" id="payOTND">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>Holiday-Regular</i></td>
-		  <td><input type="number" id="hdreg" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" id="payreghd" readonly></td>
+		  <td><input type="text" id="hdreg" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
+		  <td><p type="text" id="payreghd">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>ND Holiday-Regular</i></td>
-		  <td><input type="number" id="hdregND" oninput="reghdND(this.value)" onchange="reghdND(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" id="payreghdND" readonly></td>
+		  <td><input type="text" id="hdregND" oninput="reghdND(this.value)" onchange="reghdND(this.value)"></td>
+		  <td><p type="text" id="payreghdND">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
 		  <td><i>Holiday-Special</i></td>
-		  <td><input type="number" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" id="payspehd" readonly></td>
+		  <td><input type="text" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
+		  <td><p type="text" id="payspehd">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>ND Holiday-SpecialL</i></td>
-		  <td><input type="number" id="hdsndif" oninput="spehdND(this.value)" onchange="spehdND(this.value)"></td>
-		  <td>&#8369;&nbsp;<input type="number" id="payspehdND" readonly></td>
+		  <td><i>ND Holiday-Special</i></td>
+		  <td><input type="text" id="hdsndif" oninput="spehdND(this.value)" onchange="spehdND(this.value)"></td>
+		  <td><p type="text" id="payspehdND">&#8369; 0.00</p></td>
 		</tr>
 	</Table>
 		<br>
 	<Table id="myTable">
 	  <tr class="header">
 	    <th style="width:20%;">Gross Earnings:</th>
-	    <th style="width:15%;">&#8369;&nbsp;<input type="number" readonly id="payGross"></th>
-	    <th style="width:15%;"><button type="button" onclick="myGross()">Calculate</button></th>
+	    <th style="width:15%;">&#8369;&nbsp;<input type="text" readonly id="payGross"></th>
+	    <th style="width:15%;"><button type="button" onclick="myGROSS()">Calculate</button></th>
 	   </tr>
 		<tr>
 		  <td></td>
@@ -119,15 +128,26 @@
 		  <td></td>
 		</tr>
 	</Table>
-
+  </div>
   <script>
-  var input;
+    var input;
   
+    function resetBTN() {
+      document.getElementById('reghrs').value = 0;
+      document.getElementById('regndif').value = 0;
+      document.getElementById('regot').value = 0;
+      document.getElementById('regotnd').value = 0;
+    }
+    
     function getRates(rate) {
       var rateday = rate*12/26/10;
       var ratehour = rate*12/26/10/8;
       document.getElementById("rateday").value = rateday.toFixed(2);
       document.getElementById("ratehour").value= ratehour.toFixed(2);
+      reg();
+      regND();
+      regOT();
+      regOTND();
     }
     
     function gross() {
@@ -144,63 +164,68 @@
       document.getElementById("payGross").value = mygross;
     }
     
-    function myGross () {
-      var mygross;
-      var pgross = document.getElementById("payGross").value;
-      
-      document.getElementById("payGross").value = 0;
-      
-      var x = document.getElementById("payReg").value;
-      var y = document.getElementById("payRegND").value;
-      var mygross = pgross+x+y;
-      
-      document.getElementById("payGross").value = mygross;
+    function myGROSS() {
+      var pgross = input;
+      document.getElementById("payGross").value = pgross;
     }
     
     function reg(hrs) {
-      var phrs = hrs * document.getElementById("ratehour").value;
-      document.getElementById("payReg").value = phrs.toFixed(2);
+      var rhrs = document.getElementById("basic").value*12/26/10/8;
+      var hrs = document.getElementById("reghrs").value;
+      var phrs = hrs * rhrs;
+      var phrs = phrs.toFixed(2);
+      document.getElementById("payreg").innerHTML = "&#8369; " + phrs;
     }
     function regND(nd) {
       var ndreg = document.getElementById("basic").value*12/26/10/8*.20;
+      var nd = document.getElementById("regndif").value;
       var prnd = nd * ndreg;
-      document.getElementById("payRegND").value = prnd.toFixed(2);
+      var prnd = prnd.toFixed(2);
+      document.getElementById("payregND").innerHTML = "&#8369; " + prnd;
     }
     function regOT(ot) {
       var rateOT = document.getElementById("ratehour").value*1.25;
+      var ot = document.getElementById('regot').value;
       var pregOT = ot * rateOT;
-      document.getElementById("payOT").value = pregOT.toFixed(2);
+      var pregOT = pregOT.toFixed(2);
+      document.getElementById("payOT").innerHTML = "&#8369; " + pregOT;
     }
     function regOTND(otnd) {
       var rateOTnd = document.getElementById("basic").value*12/26/10/8*.25;
+      var otnd = document.getElementById('regotnd').value
       var pOTnd = otnd * rateOTnd;
-      document.getElementById("payOTND").value = pOTnd.toFixed(2);
+      var pOTnd = pOTnd.toFixed(2);
+      document.getElementById("payOTND").innerHTML = "&#8369; " + pOTnd;
     }
     function reghd(hd) {
       var rateHDreg = document.getElementById("ratehour").value*2;
       var phdr = hd * rateHDreg;
-      document.getElementById("payreghd").value = phdr.toFixed(2);
+      var phdr = phdr.toFixed(2);
+      document.getElementById("payreghd").innerHTML = "&#8369; " + phdr;
     }
     function reghdND(hrd) {
       var ndhdr = document.getElementById("basic").value*12/26/10/8*.40;
       var phdrnd = hrd * ndhdr;
-      document.getElementById("payreghdND").value = phdrnd.toFixed(2);
+      var phdrnd = phdrnd.toFixed(2);
+      document.getElementById("payreghdND").innerHTML = "&#8369; " + phdrnd;
     }
     function spehd(shd) {
       var hds = document.getElementById("ratehour").value*1.30;
       var phds = shd * hds;
-      document.getElementById("payspehd").value = phds.toFixed(2);
+      var phds = phds.toFixed(2);
+      document.getElementById("payspehd").innerHTML = "&#8369; " + phds;
     }
     function spehdND(hsd) {
       var ndhds = document.getElementById("basic").value*12/26/10/8*.26;
       var phdsnd = hsd * ndhds;
-      document.getElementById("payspehdND").value = phdsnd.toFixed(2);
+      var phdsnd = phdsnd.toFixed(2);
+      document.getElementById("payspehdND").innerHTML = "&#8369; " + phdsnd;
     }
   </script>
     
     </FORM>
 
-</BODY>
 	<script src="/htmlview.min.js"></script>
 	<script>HTMLview.init();</script>
+</BODY>
 </HTML>
