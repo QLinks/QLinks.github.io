@@ -1,440 +1,360 @@
-01--------------------
+01---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-02--------------------
+02---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-03--------------------
+03---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-04--------------------
+04---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-05--------------------
+05---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-06--------------------
+06---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-07--------------------
+07---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-08--------------------
+08---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-09--------------------
+09---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-10--------------------
+10---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-11--------------------
+11---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-12--------------------
+12---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-13--------------------
+13---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-14--------------------
+14---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-15--------------------
+15---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-16--------------------
+16---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-17--------------------
+17---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-18--------------------
+18---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-19--------------------
+19---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-20--------------------
+20---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-21--------------------
+21---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-22--------------------
+22---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-23--------------------
+23---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-24--------------------
+24---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-25--------------------
+25---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-26--------------------
+26---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-27--------------------
+27---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-28--------------------
+28---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-29--------------------
+29---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-30--------------------
+30---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-31--------------------
+31---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-32--------------------
+32---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-33--------------------
+33---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-34--------------------
+34---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-35--------------------
+35---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-36--------------------
+36---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-37--------------------
+37---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-38--------------------
+38---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-39--------------------
+39---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
-40--------------------
+40---------------------
 NAME: 
 BAN: 
 PHONE: 
 
 ISSUE: 
-CX STEPS TAKEN: 
-
 RESU: 
 
 
