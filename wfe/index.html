@@ -1,18 +1,44 @@
 <!DOCTYPE html>
-<HTML>
+<!-- Created and Modefied by Benz Rodrigo @iambenzrodrigo //-->
+<HTML lang="en">
 <HEAD>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="shortcut icon" type="image/x-icon" href="/icon/favicon.ico">
-  <Title>WFE Flow</Title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="/x-icons/favicon.ico">
+  
+  <TITLE>WFE Flow</TITLE>
+  <meta name="author" content="Benz Rodrigo">
+  <meta name="description" content="Easy launch and access to production tools and more.">
+  <meta name="keywords" content="Github, QLinks, QuickLinks, Quick, Links, DTV, Follow, Star, Fork, API, Benz Rodrigo, iambenzrodrigo">
   
   <STYLE>
-  Body {
+  BODY {
     font-family: Arial, Helvetica, sans-serif;
   }
   * {
     box-sizing: border-box;
   }
+/* containers */
+  .body-container {
+    padding: 0px;
+    background-color: white;
+    width: 45%;
+  }
+  .top-container {
+    background-color: #2E86C1; color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 0px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .container {
+    padding: 16px;
+    background-color: white;
+  }
+/* tables */
   #myInput {
     background-image: url('/wfe/icon/searchicon.png');
     background-position: 10px 10px;
@@ -47,19 +73,12 @@
   h2 {
     font-size: 20px;
   }
-/* Style Container */
-  .top-container {
-    background-color: #2E86C1; color: #FFFFFF;
-    padding: 2px;
-    text-align: center;
-    margin-bottom: 2px;
-    width: 100%;
-  }
   .search-box {
-    padding: 2px 16px;
+    padding: 4px 16px;
     background: #555;
     color: #f1f1f1;
     width: 100%;
+    border-radius: 0px 0px 4px 4px;
   }
   .content {
     padding: 16px;
@@ -68,7 +87,7 @@
   .sticky {
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 45%;
   }
   .sticky + .content {
     padding-top: 102px;
@@ -84,94 +103,96 @@
 
 <BODY>
   <FORM id="previewform" action="">
-    <div class="top-container">
+  <DIV class="body-container">
+    <DIV class="top-container">
       <h2>GUIDE: WFE FLOW - FSI (Fix,Setup,Inform)</h2>
-    </div>
+      <p>Use the search box to easily know what and where to find the flow to follow.</p>
+    </DIV>
     <div class="search-box" id="mySearchBox">
-      <input type="text" id="myInput" onkeyup="searchWFE()" placeholder="SEARCH: Type in the possible issue or keywords of the concern. . ." title="Type in a issue">
+      <input type="text" id="myInput" onkeyup="searchWFE()" placeholder="Search . . ." autofocus>
     </div>
-    <div class="content">
-    <Table id="myTable">
-      <tr class="header">
-        <th style="width:50%;">ISSUE</th>
-        <th style="width:10%;">FSI</th>
-        <th style="width:15%;">WFE FLOW</th>
-      </tr>
-      <tr>
-        <td>Blue Black Gray Screen</td>
-        <td>FIX</td>
-        <td>No Picture and No Sound</td>
-      </tr>
-      <tr>
-        <td>Snowy Screen/Static Interference</td>
-        <td>FIX</td>
-        <td>No Picture and No Sound</td>
+    <DIV class="content">
+      <Table id="myTable">
+        <tr class="header">
+          <th style="width:50%;">ISSUE</th>
+          <th style="width:10%;">FSI</th>
+          <th style="width:15%;">WFE FLOW</th>
         </tr>
-      <tr>
-        <td>Set Top Box OSDs (203/711/721/722/724-725-726/727/731-732-733-736/734-741-742-743/744/745-746/749)</td>
-        <td>FIX</td>
-        <td>Error Message On Screen</td>
+        <tr>
+          <td>Blue Black Gray Screen</td>
+          <td>FIX</td>
+          <td>No Picture and No Sound</td>
+        </tr>
+        <tr>
+          <td>Snowy Screen/Static Interference</td>
+          <td>FIX</td>
+          <td>No Picture and No Sound</td>
+        </tr>
+        <tr>
+          <td>Set Top Box OSDs (203/711/721/722/724-725-726/727/731-732-733-736/734-741-742-743/744/745-746/749)</td>
+          <td>FIX</td>
+          <td>Error Message On Screen</td>
+        </tr>
+        <tr>
+          <td>Set Top Box OSDs (752/761-762/763/764/771/773/774/775/920/927)</td>
+          <td>FIX</td>
+          <td>Error Message On Screen</td>
+        </tr>
+        <tr>
+          <td>Set Top Box OSDs (Wired Connection Lost/Wireless Connection Lost/No Servers Detected/Connecting)</td>
+          <td>FIX</td>
+          <td>Error Message On Screen</td>
+        </tr>
+        <tr>
+          <td>DIRECTV APP</td>
+          <td>FIX</td>
+          <td>Error Message On Screen</td>
+        </tr>
+        <tr>
+          <td>Picture Freezing</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Banner No Program</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Bars On Picture</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Audio OK, No Video</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Banner Does Not Match Program</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Black & White Picture</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Blurry / Jittery Picture</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Cannot Get HD Quality Picture</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
+        </tr>
+        <tr>
+          <td>Contrast Ratio & Maximum Resolution</td>
+          <td>FIX</td>
+          <td>Picture Problems</td>
       </tr>
-      <tr>
-        <td>Set Top Box OSDs (752/761-762/763/764/771/773/774/775/920/927)</td>
-        <td>FIX</td>
-        <td>Error Message On Screen</td>
-      </tr>
-      <tr>
-        <td>Set Top Box OSDs (Wired Connection Lost/Wireless Connection Lost/No Servers Detected/Connecting)</td>
-        <td>FIX</td>
-        <td>Error Message On Screen</td>
-      </tr>
-      <tr>
-        <td>DIRECTV APP</td>
-        <td>FIX</td>
-        <td>Error Message On Screen</td>
-      </tr>
-      <tr>
-        <td>Picture Freezing</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-      <tr>
-        <td>Banner No Program</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-      <tr>
-        <td>Bars On Picture</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-      <tr>
-        <td>Audio OK, No Video</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-      <tr>
-        <td>Banner Does Not Match Program</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-      <tr>
-        <td>Black & White Picture</td>
-        <td>FIX</td>
-        <td>Picture Problems</td>
-      </tr>
-  <tr>
-    <td>Blurry / Jittery Picture</td>
-    <td>FIX</td>
-    <td>Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Cannot Get HD Quality Picture</td>
-    <td>FIX</td>
-    <td>Picture Problems</td>
-  </tr>
-  <tr>
-    <td>Contrast Ratio & Maximum Resolution</td>
-    <td>FIX</td>
-    <td>Picture Problems</td>
-  </tr>
   <tr>
     <td>Screen Burn</td>
     <td>FIX</td>
@@ -874,42 +895,43 @@
   </tr>
     </Table>
     </div>
-    
-<script>
-  function searchWFE() {
-    var input, filter, table, tr, td, i;
-    input = document.getElementById("myInput");
-    filter = input.value.toUpperCase();
-    table = document.getElementById("myTable");
-    tr = table.getElementsByTagName("tr");
-    for (i = 0; i < tr.length; i++) {
-      td = tr[i].getElementsByTagName("td")[0];
-      if (td) {
-        if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
-          tr[i].style.display = "";
-        } else {
-          tr[i].style.display = "none";
+  </DIV>
+  
+  <script>
+    function searchWFE() {
+      var input, filter, table, tr, td, i;
+      input = document.getElementById("myInput");
+      filter = input.value.toUpperCase();
+      table = document.getElementById("myTable");
+      tr = table.getElementsByTagName("tr");
+      
+      for (i = 0; i < tr.length; i++) {
+        td = tr[i].getElementsByTagName("td")[0];
+        if (td) {
+          if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            tr[i].style.display = "";
+          } else {
+            tr[i].style.display = "none";
+          }
         }
       }
     }
-  }
-</script>
-<script>
-  window.onscroll = function() {myFunction()};
+  </script>
+  <script>
+    window.onscroll = function() {myFunction()};
     var header = document.getElementById("mySearchBox");
     var sticky = header.offsetTop;
-  function myFunction() {
-    if (window.pageYOffset > sticky) {
-      header.classList.add("sticky");
-    } else {
-      header.classList.remove("sticky");
+    
+    function myFunction() {
+      if (window.pageYOffset > sticky) {
+        header.classList.add("sticky");
+      } else {
+        header.classList.remove("sticky");
+      }
     }
-  }
-</script>
+  </script>
   </FORM>
+    <script src="/htmlview.min.js"></script>
+    <script>HTMLView.init();</script>
 </BODY>
-  
-  <script src="/htmlview.min.js"></script>
-  <script>HTMLView.init();</script>
-  
 </HTML>
