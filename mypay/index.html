@@ -15,16 +15,21 @@
     box-sizing: border-box;
   }
 /* Containers */
+  .body-container {
+    padding: 0px;
+    background-color: white;
+    width: 100%;
+  }
   .container {
     padding: 16px;
     background-color: white;
-    width: 40%;
+    width: 50%;
   }
   #myTable {
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
-    font-size: 11px;
+    font-size: 10px;
   }
   #myTable th, #myTable td {
     text-align: left;
@@ -40,30 +45,31 @@
   #myTable tr.header, #myTable tr:hover {
     background-color: #f1f1f1;
   }
-  input {
-    width: 100px;
+  .basic-box {
+    font-size: 12px;
+    width: 80px;
+  }
+  .hrs-box {
+    width: 50px;
+    text-align: center;
   }
   </STYLE>
 </HEAD>
 
 <BODY>
 	<FORM id="previewform" action="">
+	  <DIV class="body-container">
 	  <div class="container">
     <Table id="myTable">
 	  <tr class="header">
 	    <th style="width:10%;">BASIC PAY</th>
-	    <th style="width:10%;">&#8369;&nbsp;<input type="text" id="basic" value="14000" oninput="getRates(this.value)" onchange="getRates(this.value)"></th>
+	    <th style="width:10%;">&#8369;&nbsp;<input class="basic-box" type="text" id="basic" value="14000" onfocus="getRates(this.value)" oninput="getRates(this.value)" onchange="getRates(this.value)" autofocus></th>
 	    <th style="width:10%;"><button id="btn" onclick="resetBTN()">RESET</button></th>
 	   </tr>
 	   <tr>
-		  <td><i>Daily Rate</i></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="text" id="rateday" value="646.15" readonly></td>
-		  <td></td>
-		</tr>
-		<tr>
-		  <td><i>Hourly Rate</i></td>
-		  <td>&#8369;&nbsp;&nbsp;<input type="text" id="ratehour" value="80.77" readonly></td>
-		  <td></td>
+		  <td>RATES:</td>
+		  <td><i><p type="text" id="rateday">per day &#8369; 0.00</p></i></td>
+		  <td><i><p type="text" id="ratehour">per hour &#8369; 0.00</p></i></td>
 		</tr>
   </table>
     <br>
@@ -71,83 +77,219 @@
 	<Table id="myTable">
 	  <tr class="header">
 	    <th style="width:20%;">HOURS AND EARNINGS</th>
-	    <th style="width:15%;">HOURS</th>
-	    <th style="width:15%;">AMOUNT</th>
+	    <th style="width:15%;">Hours</th>
+	    <th style="width:15%;">Amount</th>
 	   </tr>
 		<tr>
 		  <td><i>Regular Work Day</i></td>
-		  <td><input type="text" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
-		  <td><p type="text" id="payreg">&#8369; 0.00</p></td>
+		  <td><input class="hrs-box" type="text" id="reghrs" oninput="reg(this.value)" onchange="reg(this.value)"></td>
+		  <td><p type="text" id="payREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>ND Regular Work Day</i></td>
-		  <td><input type="text" id="regndif" oninput="regND(this.value)" onchange="regND(this.value)"></td>
-		  <td><p type="text" id="payregND">&#8369; 0.00</p></td>
+		  <td><i>ND Regular Work Day (20%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndreg" oninput="regND(this.value)" onchange="regND(this.value)"></td>
+		  <td><p type="text" id="payNDREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>Regular OT</i></td>
-		  <td><input type="text" id="regot" oninput="regOT(this.value)" onchange="regOT(this.value)"></td>
-		  <td><p type="text" id="payOT">&#8369; 0.00</p></td>
+		  <td><i>Regular OT (125%)</i></td>
+		  <td><input class="hrs-box" type="text" id="otreg" oninput="regOT(this.value)" onchange="regOT(this.value)"></td>
+		  <td><p type="text" id="payOTREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>ND Regular OT</i></td>
-		  <td><input type="text" id="regotnd" oninput="regOTND(this.value)" onchange="regOTND(this.value)"></td>
-		  <td><p type="text" id="payOTND">&#8369; 0.00</p></td>
+		  <td><i>ND Reg OT (25%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndotreg" oninput="regOTND(this.value)" onchange="regOTND(this.value)"></td>
+		  <td><p type="text" id="payNDOTREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>Holiday-Regular</i></td>
-		  <td><input type="text" id="hdreg" oninput="reghd(this.value)" onchange="reghd(this.value)"></td>
-		  <td><p type="text" id="payreghd">&#8369; 0.00</p></td>
+		  <td><i>Holiday-Regular (200%)</i></td>
+		  <td><input class="hrs-box" type="text" id="hdreg" oninput="regHD(this.value)" onchange="regHD(this.value)"></td>
+		  <td><p type="text" id="payHDREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>ND Holiday-Regular</i></td>
-		  <td><input type="text" id="hdregND" oninput="reghdND(this.value)" onchange="reghdND(this.value)"></td>
-		  <td><p type="text" id="payreghdND">&#8369; 0.00</p></td>
+		  <td><i>ND Holiday-Reg (40%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndhdreg" oninput="regHDND(this.value)" onchange="regHDND(this.value)"></td>
+		  <td><p type="text" id="payNDHDREG">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>Holiday-Special</i></td>
-		  <td><input type="text" id="hdspec" oninput="spehd(this.value)" onchange="spehd(this.value)"></td>
-		  <td><p type="text" id="payspehd">&#8369; 0.00</p></td>
+		  <td><i>Holiday-Special (130%)</i></td>
+		  <td><input class="hrs-box" type="text" id="hdspe" oninput="speHD(this.value)" onchange="speHD(this.value)"></td>
+		  <td><p type="text" id="payHDSPE">&#8369; 0.00</p></td>
 		</tr>
 		<tr>
-		  <td><i>ND Holiday-Special</i></td>
-		  <td><input type="text" id="hdsndif" oninput="spehdND(this.value)" onchange="spehdND(this.value)"></td>
-		  <td><p type="text" id="payspehdND">&#8369; 0.00</p></td>
+		  <td><i>ND Holiday-Spe (26%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndhdspe" oninput="speHDND(this.value)" onchange="speHDND(this.value)"></td>
+		  <td><p type="text" id="payNDHDSPE">&#8369; 0.00</p></td>
 		</tr>
 	</Table>
 		<br>
 	<Table id="myTable">
 	  <tr class="header">
-	    <th style="width:20%;">Gross Earnings:</th>
-	    <th style="width:15%;">&#8369;&nbsp;<input type="text" readonly id="payGross"></th>
-	    <th style="width:15%;"><button type="button" onclick="myGROSS()">Calculate</button></th>
+	    <th style="width:20%;">RDOT</th>
+	    <th style="width:15%;">Hours</th>
+	    <th style="width:15%;">Amount</th>
 	   </tr>
-		<tr>
-		  <td></td>
-		  <td></td>
-		  <td></td>
+	  <tr>
+		  <td><i>RDOT (130%)</i></td>
+		  <td><input class="hrs-box" type="text" id="rdot" oninput="rdOT(this.value)" onchange="rdOT(this.value)"></td>
+		  <td><p type="text" id="payRDOT">&#8369; 0.00</p></td>
 		</tr>
+		<tr>
+		  <td><i>ND RDOT (26%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndrdot" oninput="rdotND(this.value)" onchange="rdotND(this.value)"></td>
+		  <td><p type="text" id="payNDRDOT">&#8369; 0.00</p></td>
+		</tr>
+		<tr>
+		  <td><i>RDOT-Reg. Holiday (260%)</i></td>
+		  <td><input class="hrs-box" type="text" id="rdotrhd" oninput="rdotRHD(this.value)" onchange="rdotRHD(this.value)"></td>
+		  <td><p type="text" id="payRDOTRHD">&#8369; 0.00</p></td>
+		</tr>
+		<tr>
+		  <td><i>ND RDOT-Reg. Holiday (52%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndrdotrhd" oninput="rdotRHDND(this.value)" onchange="rdotRHDND(this.value)"></td>
+		  <td><p type="text" id="payNDRDOTRHD">&#8369; 0.00</p></td>
+		</tr>
+		<tr>
+		  <td><i>RDOT-Spe. Holiday (150%)</i></td>
+		  <td><input class="hrs-box" type="text" id="rdotshd" oninput="rdotSHD(this.value)" onchange="rdotSHD(this.value)"></td>
+		  <td><p type="text" id="payRDOTSHD">&#8369; 0.00</p></td>
+		</tr>
+		<tr>
+		  <td><i>ND RDOT-Spe. Holiday (30%)</i></td>
+		  <td><input class="hrs-box" type="text" id="ndrdotshd" oninput="rdotSHDND(this.value)" onchange="rdotSHDND(this.value)"></td>
+		  <td><p type="text" id="payNDRDOTSHD">&#8369; 0.00</p></td>
+		</tr>
+		
 	</Table>
   </div>
+  </DIV>
   <script>
     var input;
   
     function resetBTN() {
       document.getElementById('reghrs').value = 0;
-      document.getElementById('regndif').value = 0;
-      document.getElementById('regot').value = 0;
-      document.getElementById('regotnd').value = 0;
+      document.getElementById('ndreg').value = 0;
+      document.getElementById('otreg').value = 0;
+      document.getElementById('ndotreg').value = 0;
+      document.getElementById('hdreg').value = 0;
+      document.getElementById('ndhdreg').value = 0;
+      document.getElementById('hdspe').value = 0;
+      document.getElementById('ndhdspe').value = 0;
     }
     
-    function getRates(rate) {
-      var rateday = rate*12/26/10;
-      var ratehour = rate*12/26/10/8;
-      document.getElementById("rateday").value = rateday.toFixed(2);
-      document.getElementById("ratehour").value= ratehour.toFixed(2);
-      reg();
-      regND();
-      regOT();
-      regOTND();
+    function getRates(basic) {
+      var rday = basic*12/26/10;
+      var rhour = basic*12/26/10/8;
+      var rday = rday.toFixed(2);
+      var rhour = rhour.toFixed(2);
+      document.getElementById('rateday').innerHTML = "per day &#8369; " + rday;
+      document.getElementById('ratehour').innerHTML = "per hour &#8369; " + rhour;
+      reg(); regND();
+      regOT(); regOTND();
+      regHD(); regHDND();
+      speHD(); speHDND();
+      rdOT(); rdotND();
+      rdotRHD(); rdotRHDND();
+      rdotSHD(); rdotSHDND();
+    }
+    
+    function rdOT(rdot) {
+      var rrdot = document.getElementById('basic').value*12/26/10/8*1.30;
+      var rdot = document.getElementById('rdot').value;
+      var prdot = rdot * rrdot;
+      var prdot = prdot.toFixed(2);
+      document.getElementById('payRDOT').innerHTML = "&#8369; " + prdot;
+    }
+    function rdotND(rdot) {
+      var ndrdot = document.getElementById('basic').value*12/26/10/8*.26;
+      var rdot = document.getElementById('ndrdot').value;
+      var pndrdot = rdot * ndrdot;
+      var pndrdot = pndrdot.toFixed(2);
+      document.getElementById('payNDRDOT').innerHTML = "&#8369; " + pndrdot;
+    }
+    function rdotRHD(rdotrhd) {
+      var rrdotrhd = document.getElementById('basic').value*12/26/10/8*2.60;
+      var rdotrhd = document.getElementById('rdotrhd').value;
+      var prdotrhd = rdotrhd * rrdotrhd;
+      var prdotrhd = prdotrhd.toFixed(2);
+      document.getElementById('payRDOTRHD').innerHTML = "&#8369; " + prdotrhd;
+    }
+    function rdotRHDND(rdotrhd) {
+      var ndrdotrhd = document.getElementById('basic').value*12/26/10/8*.52;
+      var rdotrhd = document.getElementById('ndrdotrhd').value;
+      var pndrdotrhd =  rdotrhd * ndrdotrhd;
+      var pndrdotrhd = pndrdotrhd.toFixed(2);
+      document.getElementById('payNDRDOTRHD').innerHTML = "&#8369; " + pndrdotrhd;
+    }
+    function rdotSHD(rdotshd) {
+      var rrdotshd = document.getElementById('basic').value*12/26/10/8*1.50;
+      var rdotshd = document.getElementById('rdotshd').value;
+      var prdotshd = rdotshd * rrdotshd;
+      var prdotshd = prdotshd.toFixed(2);
+      document.getElementById('payRDOTSHD').innerHTML = "&#8369; " + prdotshd;
+    }
+    function rdotSHDND(rdotshd) {
+      var ndrdotshd = document.getElementById('basic').value*12/26/10/8*.30;
+      var rdotshd = document.getElementById('ndrdotshd').value;
+      var pndrdotshd =  rdotshd * ndrdotshd;
+      var pndrdotshd = pndrdotshd.toFixed(2);
+      document.getElementById('payNDRDOTSHD').innerHTML = "&#8369; " + pndrdotshd;
+    }
+    
+    function reg(reg) {
+      var rreg = document.getElementById('basic').value*12/26/10/8;
+      var reg = document.getElementById('reghrs').value;
+      var phrs = reg * rreg;
+      var phrs = phrs.toFixed(2);
+      document.getElementById('payREG').innerHTML = "&#8369; " + phrs;
+    }
+    function regND(reg) {
+      var ndreg = document.getElementById('basic').value*12/26/10/8*.20;
+      var reg = document.getElementById('ndreg').value;
+      var pndreg = reg * ndreg;
+      var pndreg = pndreg.toFixed(2);
+      document.getElementById('payNDREG').innerHTML = "&#8369; " + pndreg;
+    }
+    function regOT(ot) {
+      var rregot = document.getElementById('basic').value*12/26/10/8*1.25;
+      var ot = document.getElementById('otreg').value;
+      var pregot = ot * rregot;
+      var pregot = pregot.toFixed(2);
+      document.getElementById('payOTREG').innerHTML = "&#8369; " + pregot;
+    }
+    function regOTND(ot) {
+      var ndot = document.getElementById('basic').value*12/26/10/8*.25;
+      var ot = document.getElementById('ndotreg').value;
+      var pndot = ot * ndot;
+      var pndot = pndot.toFixed(2);
+      document.getElementById('payNDOTREG').innerHTML = "&#8369; " + pndot;
+    }
+    function regHD(rhd) {
+      var rreghd = document.getElementById('basic').value*12/26/10/8*2;
+      var rhd = document.getElementById('hdreg').value;
+      var preghd = rhd * rreghd;
+      var preghd = preghd.toFixed(2);
+      document.getElementById('payHDREG').innerHTML = "&#8369; " + preghd;
+    }
+    function regHDND(rhd) {
+      var ndrhd = document.getElementById('basic').value*12/26/10/8*.40;
+      var rhd = document.getElementById('ndhdreg').value;
+      var pndrhd = rhd * ndrhd;
+      var pndrhd = pndrhd.toFixed(2);
+      document.getElementById('payNDHDREG').innerHTML = "&#8369; " + pndrhd;
+    }
+    function speHD(shd) {
+      var rspehd = document.getElementById('basic').value*12/26/10/8*1.30;
+      var shd = document.getElementById('hdspe').value;
+      var pspehd = shd * rspehd;
+      var pspehd = pspehd.toFixed(2);
+      document.getElementById('payHDSPE').innerHTML = "&#8369; " + pspehd;
+    }
+    function speHDND(shd) {
+      var ndshd = document.getElementById('basic').value*12/26/10/8*.26;
+      var shd = document.getElementById('ndhdspe').value;
+      var pndshd = shd * ndshd;
+      var pndshd = pndshd.toFixed(2);
+      document.getElementById('payNDHDSPE').innerHTML = "&#8369; " + pndshd;
     }
     
     function gross() {
@@ -167,59 +309,6 @@
     function myGROSS() {
       var pgross = input;
       document.getElementById("payGross").value = pgross;
-    }
-    
-    function reg(hrs) {
-      var rhrs = document.getElementById("basic").value*12/26/10/8;
-      var hrs = document.getElementById("reghrs").value;
-      var phrs = hrs * rhrs;
-      var phrs = phrs.toFixed(2);
-      document.getElementById("payreg").innerHTML = "&#8369; " + phrs;
-    }
-    function regND(nd) {
-      var ndreg = document.getElementById("basic").value*12/26/10/8*.20;
-      var nd = document.getElementById("regndif").value;
-      var prnd = nd * ndreg;
-      var prnd = prnd.toFixed(2);
-      document.getElementById("payregND").innerHTML = "&#8369; " + prnd;
-    }
-    function regOT(ot) {
-      var rateOT = document.getElementById("ratehour").value*1.25;
-      var ot = document.getElementById('regot').value;
-      var pregOT = ot * rateOT;
-      var pregOT = pregOT.toFixed(2);
-      document.getElementById("payOT").innerHTML = "&#8369; " + pregOT;
-    }
-    function regOTND(otnd) {
-      var rateOTnd = document.getElementById("basic").value*12/26/10/8*.25;
-      var otnd = document.getElementById('regotnd').value
-      var pOTnd = otnd * rateOTnd;
-      var pOTnd = pOTnd.toFixed(2);
-      document.getElementById("payOTND").innerHTML = "&#8369; " + pOTnd;
-    }
-    function reghd(hd) {
-      var rateHDreg = document.getElementById("ratehour").value*2;
-      var phdr = hd * rateHDreg;
-      var phdr = phdr.toFixed(2);
-      document.getElementById("payreghd").innerHTML = "&#8369; " + phdr;
-    }
-    function reghdND(hrd) {
-      var ndhdr = document.getElementById("basic").value*12/26/10/8*.40;
-      var phdrnd = hrd * ndhdr;
-      var phdrnd = phdrnd.toFixed(2);
-      document.getElementById("payreghdND").innerHTML = "&#8369; " + phdrnd;
-    }
-    function spehd(shd) {
-      var hds = document.getElementById("ratehour").value*1.30;
-      var phds = shd * hds;
-      var phds = phds.toFixed(2);
-      document.getElementById("payspehd").innerHTML = "&#8369; " + phds;
-    }
-    function spehdND(hsd) {
-      var ndhds = document.getElementById("basic").value*12/26/10/8*.26;
-      var phdsnd = hsd * ndhds;
-      var phdsnd = phdsnd.toFixed(2);
-      document.getElementById("payspehdND").innerHTML = "&#8369; " + phdsnd;
     }
   </script>
     
