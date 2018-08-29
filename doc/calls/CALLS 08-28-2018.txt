@@ -1,0 +1,340 @@
+01---------------------
+NAME: HESTER FREEMAN
+BAN: 77681082
+PHONE: 6172987169
+
+ISSUE: distorted image
+RESU: 7807 resolution
+
+sale R21-234249034591
+
+sale R21-234249326921 / 51225329
+
+02---------------------
+NAME: DENIS PLASZEWSKI
+BAN: 
+PHONE: 
+
+DROP
+
+03---------------------
+NAME: LAURA WHARRY
+BAN: RRQ64N 24136222
+PHONE: 2487036161
+
+ISSUE: DOD
+RESU: 
+
+sale 1-234246959570R2
+04---------------------
+NAME: CHARLES MARTIN
+BAN: 18037253
+PHONE: 2054752856
+
+ISSUE: wireles connection lost 
+RESU: service call 08.29 12pm-4pm
+
+05---------------------
+NAME: MARK WATSON
+BAN: 62692237
+PHONE: 8032402718
+
+ISSUE: CADIE-DVR-GENIE
+RESU: issue credit for 15.00
+
+06---------------------
+NAME: LYNN BROOKS
+BAN: 23068107
+PHONE: 6625019698
+
+ISSUE: status account
+
+07---------------------
+NAME: RICHARD HORN
+BAN: 51711068
+PHONE: 7132408071
+
+ISSUE: DOD
+RESU: SERVICE CALL 08.30 4PM-6PM
+
+08---------------------
+NAME: ALICE JENNERJOHN
+BAN: 9281628
+PHONE: 9207794418
+
+ISSUE: 771-32-374
+
+09---------------------
+NAME: 
+BAN: 
+PHONE: no account
+
+
+10---------------------
+NAME: GEORGE MANSOUR
+BAN: 3487522
+PHONE: 4402239617
+
+ISSUE: PPV NOT WORKING
+
+11---------------------
+NAME: JASON ARNDT
+BAN: 11053909
+PHONE: 2152849852
+
+ISSUE: blackscreen
+
+12---------------------
+NAME: DARLENE SCHWIETERMAN
+BAN: 9977005
+PHONE: 3605535661
+3605736566
+ISSUE: SCREEN FREEZES
+
+13---------------------
+NAME: GERALD CATO
+BAN: 25916916
+PHONE: 3128744211
+
+ISSUE: WIRELESS VIDEO SURVEY
+RESU: $10.00
+
+14---------------------
+NAME: MARTY MOLDEN
+BAN: 32648938
+PHONE: 6199859392
+
+ISSUE: DOD
+RESU: SERVICE CALL 08.30 4PM-8PM
+
+15---------------------
+NAME: LOYD VALE
+BAN: 41044592
+PHONE: 3187890596
+
+ISSUE: REACTIVAE BOX
+
+16---------------------
+NAME: RUISS BOULTON
+BAN: 81247233
+PHONE: 8019439388
+
+ISSUE: 5-NOT YET SHOWING
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
