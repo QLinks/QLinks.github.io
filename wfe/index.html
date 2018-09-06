@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/x-icons/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/x-assets/ico/favicon.ico">
   
   <TITLE>WFE Flow</TITLE>
   <meta name="author" content="Benz Rodrigo">
@@ -21,18 +21,18 @@
     box-sizing: border-box;
   }
 /* containers */
-  .body-container {
+  .main-container {
     padding: 0px;
     background-color: white;
     width: 100%;
   }
   .top-container {
-    background-color: #2E86C1; color: #FFFFFF;
+    background-color: #0085cc; color: #FFFFFF;
     padding: 2px;
     text-align: center;
     margin-bottom: 0px;
     width: 100%;
-    border-radius: 4px 4px 0px 0px;
+    border-radius: 5px 5px 0px 0px;
   }
   .buttom-container {
     padding: 16px;
@@ -54,6 +54,7 @@
     border-collapse: collapse;
     width: 100%;
     border: 1px solid #ddd;
+    border-radius: 5px 5px 0px 0px;
     font-size: 11px;
   }
   #myTable th, #myTable td {
@@ -72,6 +73,9 @@
   }
   h2 {
     font-size: 20px;
+  }
+  p {
+    font-size: 12px;
   }
   .search-box {
     padding: 4px 16px;
@@ -103,7 +107,7 @@
 
 <BODY>
   <FORM id="previewform" action="">
-  <DIV class="body-container">
+  <DIV class="main-container">
     <Div class="top-container">
       <h2>GUIDE: WFE FLOW - FSI (Fix,Setup,Inform)</h2>
       <p>Use the search box to easily know what and where to find the flow to follow.</p>
@@ -228,131 +232,141 @@
           <td>FIX</td>
           <td>Picture Problems</td>
         </tr>
-  <tr>
-    <td>No Audio</td>
-    <td>FIX</td>
-    <td>Sound Problems</td>
-  </tr>
-  <tr>
-    <td>Poor Audio</td>
-    <td>FIX</td>
-    <td>Sound Problems</td>
-  </tr>
-  <tr>
-    <td>Wrong Audio</td>
-    <td>FIX</td>
-    <td>Sound Problems</td>
-  </tr>
-  <tr>
-    <td>Troubleshoot with Remote</td>
-    <td>FIX</td>
-    <td>Remote Control</td>
-  </tr>
-  <tr>
-    <td>DVR/HD-DVR (Deleted/Unknown/Mysterious Recordings,Recording Reruns or Multiple Copies,Recording Partial/Black/Goes to Delete)</td>
-    <td>FIX</td>
-    <td>DVR - Recorded TV</td>
-  </tr>
-  <tr>
-    <td>Whole Home DVR/HD DVR Server (Cannot Record/Cannot Delete a Program,Cannot Play a Recorded Program,Cannot See Recordings)</td>
-    <td>FIX</td>
-    <td>DVR - Recorded TV</td>
-  </tr>
-  <tr>
-    <td>PPV Not Working</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Unable to order IPPV (731/733/736)</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Unable to order IPPV (777/780/781)</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>1080p Video Issues</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Satellite Download Issue</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Content Different than Downloaded Title</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Channels do not show in Guide</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Channel is Currently Not Available</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Copyright does not Permit Viewing</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Partial Recording</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Playback Frozen or Paused</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Title Doesn’t Appear in Playlist</td>
-    <td>FIX</td>
-    <td>On Demand / PPV</td>
-  </tr>
-  <tr>
-    <td>Missing Guide Info - 920</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>Guide Channels Missing</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>Banner Does Not Match Program</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>Banner No Program</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>Channel Not Available</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>To Be Announced</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
-  <tr>
-    <td>Program Guide is Incorrect</td>
-    <td>FIX</td>
-    <td>Program Guide & Channel Info.</td>
-  </tr>
+        <tr>
+          <td>No Audio</td>
+          <td>FIX</td>
+          <td>Sound Problems</td>
+        </tr>
+        <tr>
+          <td>Poor Audio</td>
+          <td>FIX</td>
+          <td>Sound Problems</td>
+        </tr>
+        <tr>
+          <td>Wrong Audio</td>
+          <td>FIX</td>
+          <td>Sound Problems</td>
+        </tr>
+        <tr>
+          <td>Troubleshoot Remote Control</td>
+          <td>FIX</td>
+          <td>Remote Control</td>
+        </tr>
+        <tr>
+          <td>DVR/HD-DVR (Deleted Recordings, Missed Recordings, Unknown Recordings, Mysterious Recordings)</td>
+          <td>FIX</td>
+          <td>DVR - Recorded TV</td>
+        </tr>
+        <tr>
+          <td>DVR/HD-DVR (Recording Reruns or Multiple Copies, Recording Partial/Black/Goes to Delete)</td>
+          <td>FIX</td>
+          <td>DVR - Recorded TV</td>
+        </tr>
+        <tr>
+          <td>Whole Home DVR/HD DVR Server (Cant Record or Delete a Program, Cannot Play a Recorded Program)</td>
+          <td>FIX</td>
+          <td>DVR - Recorded TV</td>
+        </tr>
+        <tr>
+          <td>Whole Home DVR/HD DVR Server (Cant See Recordings/HD DVR Server)</td>
+          <td>FIX</td>
+          <td>DVR - Recorded TV</td>
+        </tr>
+        <tr>
+          <td>Paperview (PPV) Not Working</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Unable to order Paperview (IPPV) (731/733/736)</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Unable to order Paperview IPPV (777/780/781)</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>1080p Video Issues</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Satellite Download Issue</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Content Different than Downloaded Title</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Channels do not show in Guide</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Channel is Currently Not Available</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Copyright does not Permit Viewing</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Partial Recording</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Playback Frozen or Paused</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Title Doesn’t Appear in Playlist</td>
+          <td>FIX</td>
+          <td>On Demand / PPV</td>
+        </tr>
+        <tr>
+          <td>Missing Guide Info - 920</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>Guide Channels Missing</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>Banner Does Not Match Program</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>Banner No Program</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>Channel Not Available</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>To Be Announced</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
+        <tr>
+          <td>Program Guide is Incorrect</td>
+          <td>FIX</td>
+          <td>Program Guide & Channel Info.</td>
+        </tr>
   <tr>
     <td>Cannot Find 4K Titles</td>
     <td>FIX</td>
@@ -789,7 +803,7 @@
     <td>Claims</td>
   </tr>
   <tr>
-    <td>Lost, Damaged Equipment, or Stolen Equipment</td>
+    <td>Claims Lost, Damaged Equipment, or Stolen Equipment</td>
     <td>INFORM</td>
     <td>Claims</td>
   </tr>
