@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="shortcut icon" type="image/x-icon" href="/x-icons/favicon.ico">
+  <link rel="shortcut icon" type="image/x-icon" href="/x-assets/ico/favicon.ico">
   
   <TITLE>QLinks</TITLE>
   <meta name="author" content="Benz Rodrigo">
@@ -24,14 +24,22 @@
 /* container */
 	.main-container {
 		position: relative; overflow: hidden;
-		border-radius: 5px;
-		padding: 20px 0 30px 0;
+		padding: 20px 0px 30px 0;
 		margin-top: 0;
 		background-color: #f2f2f2;
+		
+	}
+	.top-container {
+	  background-color: #0085cc; color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
 	}
 	.bottom-container {
 		text-align: center; background-color: #666;
-		border-radius: 0px 0px 4px 4px;
+		border-radius: 0px 0px 5px 5px;
     color:white;
 	}
 /*Line Designs and text Inside */
@@ -68,7 +76,7 @@
   
 /* Style for text and input */
 	h2 {
-		font-size: 20px; color: #0085cc;
+		font-size: 18px;
 		font-style: bold;
 		text-align: center;
 		}
@@ -78,6 +86,12 @@
 	}
   i {
     font-size: 10px;
+  }
+  a {
+    color: #FFFFFF;
+  }
+  a:hover {
+    text-decoration: underline;
   }
 	strong {
 		color: #333;
@@ -167,57 +181,59 @@
 	
 <BODY>
   <FORM id="previewform" action="">
+      <Div class="top-container">
+        <h2>QLINKS.GITHUB.IO</h2>
+      </Div>
     <DIV class="main-container">
-      <h2>QLINKS.GITHUB.IO</h2>
-        <div class="hline">
-          <span>Quick Links | <i><a href="https://github.com/qlinks">View on Github</a></i></span>
-        </div>
-      <Div class="row"><br><br>
+      <Div class="row">
         <div class="col">
           <label>PRODUCTION:LIVE TOOLS</label><br>
           <button class="m-btn" onclick="openWFE()">ATT:CAP-WFE</button>&nbsp;
           <button class="m-btn" onclick="openRIO()">ATT:RIO</button>&nbsp;
           <button class="m-btn" onclick="openOMS()">ATT:OMS</button>&nbsp;
-          <button class="m-btn" onclick="openMyCSP()">ATT:MY CSP</button>&nbsp;
+          <select class="s-box" id="dtvTools" onchange="location = this.value;">
+            <option value="https://qlinks.github.io/">DTV:TOOLS</option>
+            <option value="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">- HOW-TO TOOL</option>
+            <option value="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">- DATA-LOOKUP</option>
+            <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">- PRODUCT TOOL</option>
+            <option value="https://www.e-access.att.com/digi-tools/dtvagenttools/cabling_diagram/cabling_diagram.htm">- CABLING DIAGRAM</option>
+            <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">- CHANNEL LINEUP</option>
+            <option value="https://www.e-access.att.com/digi-tools/dtvagenttools/sell_premium/sell_premium.htm#/sports/lookup">- SPORTS SALES TOOL</option>
+            <option value="https://lil-lookup.directv.com:8080/lil/lilIndex.htm?site=res&requestor=">- LOCAL CHANNELS</option>
+            <option value="http://mycsp.web.att.com/mycspportal/">- MY CSP</option>
+          </select>&nbsp;
           <button class="m-btn" onclick="openSales()">SALES TRACK</button>
         </div>
         <div class="col">
           <label>GUIDES, LINKS, &#38; OTHERS</label><br>
           <button class="d-btn" onclick="openSWFE()">WFE FLOW:FSI</button>&nbsp;
-          <select class="s-box" id="dtvTools" onchange="location = this.value;">
-            <option value="https://qlinks.github.io/">DTV:TOOLS</option>
-            <option value="http://mycsp.web.att.com/mycspportal/tools/htbf/howto.htm">HOW-TO TOOL</option>
-            <option value="http://mycsp.web.att.com/mycspportal/tools/lookups/lookups.htm">DATA-LOOKUP</option>
-            <option value="http://mcsinitialtraining.web.att.com:8110/ncportal/content/DBS/Source_Files/DIRECTV_Product_Tool_Core/Product_Tool/Product_Tool_Integration.htm">PRODUCT TOOL</option>
-            <option value="https://www.e-access.att.com/digi-tools/dtvagenttools/cabling_diagram/cabling_diagram.htm">CABLING DIAGRAM</option>
-            <option value="https://www.e-access.att.com/mycsp/mycspportal/tools/channels_packages/channels_packages.htm">CHANNEL LINEUP</option>
-            <option value="https://www.e-access.att.com/digi-tools/dtvagenttools/sell_premium/sell_premium.htm#/sports/lookup">SPORTS SALES TOOL</option>
-            <option value="https://lil-lookup.directv.com:8080/lil/lilIndex.htm?site=res&requestor=">LOCAL CHANNELS</option>
-          </select>&nbsp;
           <select class="s-box" id="dtvWeb" onchange="location = this.value;">
             <option value="https://qlinks.github.io/">DTV:WEB LINKS</option>
-            <option value="https://www.directv.com">DIRECTV.COM</option>
-            <option value="https://www.directvdeals.com/my-directv/channel-guide/">DIRECTVDEALS.COM</option>
-            <option value="http://sports.directv.com/">SPORTS.DIRECTV.COM</option>
-            <option value="http://www.goodwilldenver.org/dtvcustomer/">DIRECTV.COM/RECYCLE</option>
-            <option value="https://support.directv.com/">SUPPORT.DTV.COM</option>
-            <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">REMOTE CONTROL Code-Lookup</option>
-            <option value="https://support.directv.com/">Receiver Error Codes</option>
-            <option value="https://www.directv.com/technology/compare_receivers">Compare Receivers</option>
-            <option value="https://www.att.com/ecms/dam/att/consumer/help/pdf/Genie2-Product-Manual.pdf">Genie 2 Manual</option>
+            <option value="https://www.directv.com">- DIRECTV.COM</option>
+            <option value="https://www.directvdeals.com/my-directv/channel-guide/">- DIRECTVDEALS.COM</option>
+            <option value="https://sports.directv.com/">- SPORTS.DIRECTV.COM</option>
+            <option value="https://support.directv.com/">- SUPPORT.DTV.COM</option>
+            <option value="http://www.directv.com/DTVAPP/global/contentPageIF.jsp?assetId=P4380052">- REMOTE CTRL Code-Lookup</option>
+            <option value="http://www.goodwilldenver.org/dtvcustomer/">- DIRECTV.COM/RECYCLE</option>
+            <option value="https://www.directvpromise.com/">- DIRECTV PROMISE</option>
+            <option value="https://www.directv.com/technology/compare_receivers">- COMPARE RCVRS</option>
+            <option value="https://www.att.com/ecms/dam/att/consumer/help/pdf/Genie2-Product-Manual.pdf">- GENIE2 MANUAL</option>
           </select>&nbsp;
           <select class="s-box" id="aloWeb" onchange="location = this.value;">
-            <option value="https://www.alorica.com//">ALORICA APPS</option>
-            <option value="https://eis.alorica.com/">EIS</option>
-            <option value="https://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ">ORACLE</option>
-            <option value="https://engage.alorica.com/">ENGAGE</option>
-            <option value="https://selfservice.alorica.com:9251/showLogin.cc">SELFSERVICE</option>
-            <option value="https://cxmp.apacteleservices.com:8091/CFR_Portal/">COACHING</option>
+            <option value="https://www.alorica.com/">ALORICA APPS</option>
+            <option value="https://eis.alorica.com/">- EIS</option>
+            <option value="https://ebsprodapp.alorica.com:8020/OA_HTML/RF.jsp?function_id=1025504&resp_id=-1&resp_appl_id=-1&security_group_id=0&lang_code=US&params=TXutwIY.zBvA3dFmmZ8DEQ">- ORACLE</option>
+            <option value="https://engage.alorica.com/">- ENGAGE</option>
+            <option value="https://selfservice.alorica.com:9251/showLogin.cc">- PWS SELFSERVICE</option>
+            <option value="https://cxmp.apacteleservices.com:8091/CFR_Portal/">- COACHING</option>
+          </select>&nbsp;
+          <select class="s-box" id="more" onchange="location = this.value;">
+            <option value="https://qlinks.github.io/">MORE TOOLS</option>
+            <option value="https://qlinks.github.io/mypay/">- MY PAY</option>
+            <option value="https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/doc/TRACKER-TEMPLATE.txt">- TEMPLATE</option>
+            <option value="https://github.com/QLinks/QLinks.github.io/blob/master/directory/numbers.txt">- NUMBERS</option>
           </select>&nbsp;
           <button class="d-btn" onclick="openTBox()">TEXTBOX</button>
-        </div>
-        <div class="col">
-          <p></p>
         </div>
       </Div><!-- end for first row -->
     </DIV><!-- end for container main -->
@@ -225,15 +241,16 @@
     <DIV class="bottom-container">
       <p>
         <a class="btn" href="https://qlinks.github.io/mypay/" target="_blank"><i class="fa fa-dollar"></i> My Pay</a>&nbsp;
-        <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" targe="_blank"><i class="fa fa-folder"></i> Documents</a>&nbsp;
+        <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/tree/master/doc" targe="_blank"><i class="fa fa-folder"></i> Docs</a>&nbsp;
+        <a class="btn" href="https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/doc/TRACKER-TEMPLATE.txt" targe="_blank"><i class="fa fa-file-text-o"></i> Template</a>&nbsp;
         <a class="btn" href="https://github.com/benzfiles/benzfiles.github.com/blob/master/doc/1130807-Cebu%202%20Wave%2044%20Training%20Logins%20and%20Accounts.xlsx?raw=true"><i class="fa fa-file-excel-o"></i> Master File</a>&nbsp;
         <a class="btn" href="https://github.com/QLinks/QLinks.github.io/blob/master/x-assets/exe/notepad.exe?raw=true"><i class="fa fa-download"></i> Notepad</a>&nbsp;
         <a class="btn" href="https://github.com/QLinks/QLinks.github.io/blob/master/x-assets/exe/stikynotes.exe?raw=true"><i class="fa fa-download"></i> Stiky Notes</a>
       </p>
       <div class="footer">
-        &copy; Quick Links | 2018 All Rights Reserved.
+        &copy; <a href="https://github.com/qlinks">Quick Links</a> 2018 | All Rights Reserved.
         <br>Maintain and Developed by Benz Rodrigo | <a href="https://github.com/iambenzrodrigo">@iambenzrodrigo</a>
-        <br><i>This is a Free for all Tool, thats  Contact: qlinks.mail@yandex.com</i>
+        <br><i>Contact Me at ENGAGE: <a href="https://engage.alorica.com/employee-directory/br004615652alorica-com/">@br004615652alorica-com</a></i>
       </div>
     </DIV>
   <!-- scripts for this page -->
@@ -256,9 +273,6 @@
       }
       function openRIO() {
         window.open("http://rioui.rio.directv.com/DTVCCecommunications_enu/start.swe?SWECmd=Start&SWEHo=rioui.rio.directv.com");
-      }
-      function openMyCSP() {
-        windowMyCSP = window.open("http://mycsp.web.att.com/mycspportal/");
       }
       function openOMS() {
         window.open("https://oms.directv.com/");
