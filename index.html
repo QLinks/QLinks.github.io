@@ -234,7 +234,8 @@
             <option value="https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/doc/TRACKER-TEMPLATE.txt">- TEMPLATE</option>
             <option value="https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/directory/numbers.txt">- NUMBERS</option>
           </select>&nbsp;
-          <button class="d-btn" onclick="openTBox()">TEXTBOX</button>
+          <button class="d-btn" onclick="openTBox()">TEXTBOX</button>&nbsp;
+          <button class="d-btn" onclick="openAHT()">AHT:UPDATE</button>
         </div>
       </Div><!-- end for first row -->
     </DIV><!-- end for container main -->
@@ -262,9 +263,8 @@
       function openTBox() {
         windowTBOX = window.open("https://qlinks.github.io/textbox/", "MyTextbox","scrollbars=yes,resizable=no,top=0,left=0,width=450,height=1000");
       }
-      function resizeWin() {
-        windowTBOX.resizeTo(650, 1000);
-        windowTBOX.focus();
+      function openAHT() {
+        windowTBOX = window.open("https://qlinks.github.io/teamjam/", "AHT", "scrollbars=yes,resizable=yes,top=0,left=0,width=900, height=540");
       }
     
       function openWFE() {
