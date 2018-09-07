@@ -50,7 +50,7 @@
     font-style: bold;
     background-color: black; color: white;
   }
-  #myTable td:hover {
+  #myTable td.aht:hover {
     background-color: #f1f1f1;
   }
   #myTable td.call,#myTable th.call {
@@ -71,15 +71,15 @@
 	<Table id="myTable">
 	  <tr class="header">
 	    <th style="width:28%;">Agent Name</th>
-	    <th style="width:7%;">04:00</th>
-	    <th style="width:7%;">05:00</th>
-	    <th style="width:7%;">06:00</th>
-	    <th style="width:7%;">07:00</th>
-	    <th style="width:7%;">08:00</th>
-	    <th style="width:7%;">09:00</th>
-	    <th style="width:7%;">10:00</th>
-	    <th style="width:7%;">11:00</th>
-	    <th style="width:7%;">12:00</th>
+	    <th style="width:7%;">04:00AM</th>
+	    <th style="width:7%;">05:00AM</th>
+	    <th style="width:7%;">06:00AM</th>
+	    <th style="width:7%;">07:00AM</th>
+	    <th style="width:7%;">08:00AM</th>
+	    <th style="width:7%;">09:00AM</th>
+	    <th style="width:7%;">10:00AM</th>
+	    <th style="width:7%;">11:00AM</th>
+	    <th style="width:7%;">12:00EOD</th>
 	    <th class="call" style="width:10%;">CALLS</th>
 	   </tr>
 <!-- Enter AHT Time per Agent starting here -->
@@ -87,85 +87,59 @@
 		  <td>Abrea, Grace Cielo</td>
 		  <td class="aht">0.0</td> <!-- AHT for 04:00  -->
 		  <td class="aht">44.0</td> <!-- AHT for 05:00  -->
-		  <td class="aht"></td> <!-- AHT for 06:00  -->
+		  <td class="aht">28.31</td> <!-- AHT for 06:00  -->
 		  <td class="aht"></td> <!-- AHT for 07:00  -->
 		  <td class="aht"></td> <!-- AHT for 08:00  -->
 		  <td class="aht"></td> <!-- AHT for 09:00  -->
 		  <td class="aht"></td> <!-- AHT for 10:00  -->
 		  <td class="aht"></td> <!-- AHT for 11:00  -->
 		  <td class="aht"></td> <!-- AHT for 12:00  -->
-		  <td class="call">1</td> <!-- no. of call  -->
+		  <td class="call">3</td> <!-- no. of call  -->
 		</tr>
 		<tr>
 		  <td>Bautista, Adeleine Eloisa Marie</td>
 		  <td class="aht">20.93</td>
 		  <td class="aht">16.32</td>
+		  <td class="aht">25.45</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">4</td>
+		  <td class="call">5</td>
 		</tr>
 		<tr>
 		  <td>Brigildo, Mary Christ</td>
 		  <td class="aht">-</td>
 		  <td class="aht">-</td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
 		  <td class="call">-</td>
 		</tr>
 		<tr>
 		  <td>Del Puerto, Joseph Jude</td>
 		  <td class="aht">17.77</td>
 		  <td class="aht">17.77</td>
+		  <td class="aht">17.92</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">1</td>
+		  <td class="call">2</td>
 		</tr>
 		<tr>
 		  <td>Escora, Rochine</td>
 		  <td class="aht">12.21</td>
 		  <td class="aht">13.23</td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">3</td>
-		</tr>
-		<tr>
-		  <td>Genotiva, Ritchie Ann</td>
-		  <td class="aht">19.28</td>
-		  <td class="aht">21.64</td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">3</td>
-		</tr>
-		<tr>
-		  <td>Lagwa-an, August Ray-van</td>
-		  <td class="aht">12.31</td>
-		  <td class="aht">13.63</td>
-		  <td class="aht"></td>
+		  <td class="aht">17.18</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
@@ -175,82 +149,108 @@
 		  <td class="call">4</td>
 		</tr>
 		<tr>
+		  <td>Genotiva, Ritchie Ann</td>
+		  <td class="aht">19.28</td>
+		  <td class="aht">21.64</td>
+		  <td class="aht">22.48</td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="call">4</td>
+		</tr>
+		<tr>
+		  <td>Lagwa-an, August Ray-van</td>
+		  <td class="aht">12.31</td>
+		  <td class="aht">13.63</td>
+		  <td class="aht">14.16</td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="aht"></td>
+		  <td class="call">7</td>
+		</tr>
+		<tr>
 		  <td>Longakit, Franz Louise</td>
 		  <td class="aht">21.57</td>
 		  <td class="aht">-</td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
 		  <td class="call">1</td>
 		</tr>
 		<tr>
 		  <td>Palmes, Karl</td>
 		  <td class="aht">45.08</td>
 		  <td class="aht">72.62</td>
+		  <td class="aht">17.56</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">1</td>
+		  <td class="call">6</td>
 		</tr>
 		<tr>
 		  <td>Rodrigo, Benrico</td>
 		  <td class="aht">6.91</td>
 		  <td class="aht">10.82</td>
+		  <td class="aht">9.48</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">4</td>
+		  <td class="call">7</td>
 		</tr>
 		<tr>
 		  <td>Sandigan, Hazel</td>
 		  <td class="aht">-</td>
 		  <td class="aht">-</td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="aht"></td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
+		  <td class="aht">-</td>
 		  <td class="call">-</td>
 		</tr>
 		<tr>
 		  <td>Sulaiman, Jonathan</td>
 		  <td class="aht">26.77</td>
 		  <td class="aht">18.38</td>
+		  <td class="aht">13.28</td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
 		  <td class="aht"></td>
-		  <td class="aht"></td>
-		  <td class="call">4</td>
+		  <td class="call">8</td>
 		</tr>
 		<tr class="footer">
 		  <th>TOTAL</th>
 		  <th class="tl">19.86</th> <!-- Team AHT for 04:00  -->
 		  <th class="tl">19.12</th> <!-- Team AHT for 05:00  -->
-		  <th class="tl"></th> <!-- Team AHT for 06:00  -->
+		  <th class="tl">17.24</th> <!-- Team AHT for 06:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 07:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 08:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 09:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 10:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 11:00  -->
 		  <th class="tl"></th> <!-- Team AHT for 12:00  -->
-		  <th class="call">26</th> <!-- Team no. of calls  -->
+		  <th class="call">48</th> <!-- Team no. of calls  -->
 		</tr>
 	</Table>
 
