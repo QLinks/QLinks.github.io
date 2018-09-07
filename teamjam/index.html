@@ -58,30 +58,7 @@
   }
   </STYLE>
   
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
-  
-  <script type="text/javascript">
-  $(document).ready(function() {
-    $('#myTable td.aht').each(function() {
-        var num = parseFloat($(this).text());
-        if (num > 14.0) {
-          $(this).css('color','#f00');
-        }
-        else if (num == 0) {
-          $(this).css('color','#808080');
-        }
-        else { $(this).css('color','#000'); }
-      });
-    $('#myTable th.tl').each(function() {
-      var num = parseFloat($(this).text());
-      if (num > 14.0) {
-        $(this).css('color','#f00');
-      } else { $(this).css('color','#fff'); }
-    });
-  });
-  </script>
 </HEAD>
-
 
 <BODY>
 	<FORM id="previewform" action="">
@@ -279,7 +256,29 @@
 
   </div>
   </DIV>
-  <script>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#myTable td.aht').each(function() {
+        var num = parseFloat($(this).text());
+        if (num > 14.0) {
+          $(this).css('color','#f00');
+        }
+        else if (num == 0) {
+          $(this).css('color','#808080');
+        }
+        else { $(this).css('color','#000'); }
+      });
+    $('#myTable th.tl').each(function() {
+      var num = parseFloat($(this).text());
+      if (num > 14.0) {
+        $(this).css('color','#f00');
+      } else { $(this).css('color','#fff'); }
+    });
+  });
+
   </script>
     
     </FORM>
