@@ -1,0 +1,349 @@
+01---------------------
+NAME: ROBERT STROMAN
+BAN: 20361187
+PHONE: 6266250397
+
+ISSUE: RECONNECT RCVR TO INTERNET-CONSTANT
+RESU: RESET NETWORK
+
+02---------------------
+NAME: KRIS KNIGHT-SMITH
+BAN: 63526474
+PHONE: 4809633515
+
+ISSUE: CONNECT NOW-NOT DETECTING WIFI
+RESU: UPGRADE 291123269
+
+SALE R21-234864784041
+
+03---------------------
+NAME: NEIL
+BAN: RC1
+PHONE: 
+
+04---------------------
+NAME: KAYE WEBB
+BAN: 70372828
+PHONE: 6183445807
+
+ISSUE: 775-RESET-NO POWER IN BASEMENT
+
+05---------------------
+NAME: PHYLLIS FISCHER
+BAN: 2680233
+PHONE: 3077322530
+
+ISSUE: ESPN 206-CHANNEL NOT AVAILABLE-721
+RESU: DOESNT HAVE PACKAGE
+
+06---------------------
+NAME: ALICE DOYLE
+BAN: 29989692
+PHONE: 7855456475
+
+ISSUE: 24-FOX-LOCAL CHANNEL
+RESU: EXPLAIN CHANNEL STREAMING WAY
+
+07---------------------
+NAME: OTEE HILL
+BAN: 40430047
+PHONE: 6628432759
+
+ISSUE: REMOTE PROGRAM
+RESU: RC73-TV ONN ONC17TV001
+
+SALE R21-234874867042
+
+08---------------------
+NAME: BERTHA N GONZALES
+BAN: 47503467
+PHONE: 2102899309
+
+ISSUE: 677-721
+RESU: UPGRADE
+
+SALE: R21-234876806976
+
+09---------------------
+NAME: JEFF BUCHIGNANI
+BAN: 8976289
+PHONE: 8184023256
+
+ISSUE: ADD 1 MORE BOX, REPLACEMENT FOR MASTERBEDROOM
+RESU: 1182-CONFIRMATION 291130459
+
+10---------------------
+NAME: PRISCILLA JONES
+BAN: 29090230
+PHONE: 3369543442
+
+ISSUE: CONNECTING
+RESU: reset
+
+11---------------------
+NAME: COLTON WILSON
+BAN: 5213822
+PHONE: DROP
+
+12---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+13---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+14---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+16---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
