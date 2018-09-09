@@ -24,11 +24,11 @@
     width: 100%;
     border-radius: 5px 5px 0px 0px;
 	}
-  .body-container {
+  .main-container {
     background-color: white;
     width: 100%;
   }
-  .container {
+  .body-container {
     padding: 3px;
     background-color: white;
     width: 100%;
@@ -58,17 +58,16 @@
     text-align: center; font-size: 12px;
   }
   </STYLE>
-  
 </HEAD>
 
 <BODY>
 	<FORM id="previewform" action="">
-	  <DIV class="body-container">
+	 <DIV class="main-container">
 	   <Div class="top-container">
-	     <h3>TEAM JAM | AHT DAILY UPDATE | 08.SEPT.2018</h3>
-      </Div>
-	  <div class="container">
-	<Table id="ahtTable">
+	     <h3>TEAM JAM | AHT DAILY UPDATE | 00.SEPT.2018</h3>
+	   </Div>
+	  <Div class="body-container">
+	  <Table id="ahtTable">
 	  <tr class="header">
 	    <th style="width:28%;">AGENT NAMES</th>
 	    <th style="width:7%;">0400 AM</th>
@@ -268,7 +267,7 @@
 		</tr>
 	</Table>
 
-  </div>
+    </Div>
   </DIV>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
