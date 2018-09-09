@@ -65,7 +65,7 @@
 	<FORM id="previewform" action="">
 	  <DIV class="body-container">
 	   <Div class="top-container">
-	     <h3>TEAM JAM | AHT DAILY UPDATE | 00.SEPT.2018</h3>
+	     <h3>TEAM JAM | AHT DAILY UPDATE | 08.SEPT.2018</h3>
       </Div>
 	  <div class="container">
 	<Table id="ahtTable">
