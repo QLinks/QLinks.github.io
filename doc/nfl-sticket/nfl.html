@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<title>NFL2018</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link rel="shortcut icon" type="image/x-icon" href="/x-assets/ico/favicon.ico">
+<style>
+.mySlides {display:none}
+</style>
+
+<body>
+
+<div class="w3-content" style="max-width:800px">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-01.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-02.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-03.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-04.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-05.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-06.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-07.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-08.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-09.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-10.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-11.png" style="width:100%">
+  <img class="mySlides" src="https://qlinks.github.io/doc/nfl-sticket/nfl-sticket-12.png" style="width:100%">
+
+</div>
+
+<div class="w3-center">
+  <div class="w3-section">
+    <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">&#65308; Prev</button>
+    <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Next &#65310;</button>
+  </div>
+  <button class="w3-button demo" onclick="currentDiv(1)">01</button>
+  <button class="w3-button demo" onclick="currentDiv(2)">02</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">03</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">04</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">05</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">06</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">07</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">08</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">09</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">10</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">11</button>
+  <button class="w3-button demo" onclick="currentDiv(3)">12</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" w3-red", "");
+  }
+  x[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " w3-red";
+}
+</script>
+
+</body>
+</html>
