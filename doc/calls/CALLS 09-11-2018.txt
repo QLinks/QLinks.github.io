@@ -1,0 +1,344 @@
+01---------------------
+NAME: MARIA GALLETAN
+BAN: 29965840
+PHONE: 3092979761
+
+ISSUE: tv turns on by itself
+
+02---------------------
+NAME: CORNELIO HERNANDEZ
+BAN: 5696030
+PHONE: 2095218827
+
+ISSUE: APPOINTMENT
+
+03---------------------
+NAME: VERONICA TORRES
+BAN: 23929429
+PHONE: 8188592728
+
+ISSUE: ACCOUNT AND SERVICES
+
+04---------------------
+NAME: RHONDA PHILLIPS
+BAN: 5611104
+PHONE: 6788772711
+
+ISSUE: REMOTE ORDER
+RESU: Confirmation # 291226887 
+
+05---------------------
+NAME: ROBERT BURGESS
+BAN: 5311441
+PHONE: 8648845618
+
+ISSUE: REPLACEMENT
+RESU: Confirmation # 291228949
+
+06---------------------
+NAME: MARIAN SKOG
+BAN: 298523
+PHONE: 8457586596
+
+ISSUE: SWIM -REQUEST WHILE ACTIVATING NEW BOX
+
+07---------------------
+NAME: JON MILLER
+BAN: 76534832
+PHONE: 3525985562
+
+ISSUE: RECEIVER REPLACEMENT
+RESU: 3-4K 2-WIRELESS
+
+08---------------------
+NAME: JAMES ANDERSON
+BAN: 62979729
+PHONE: 8479773190
+
+ISSUE: ppv order
+
+09---------------------
+NAME: JAMES BETUS
+BAN: 3145896
+PHONE: 2103827673
+
+ISSUE: trasnfer
+
+10---------------------
+NAME: JANICE MARENGO
+BAN: 17176311
+PHONE: 2099519133
+2098173164
+
+ISSUE: CHANNEL 222
+RESU: 0766-WONT TURN OFF, 
+ORDER ID 291238259
+
+SALE 1-235043645448R2
+
+11---------------------
+NAME: STACY SUBIK
+BAN: 2650720
+PHONE: 9856302373
+
+ISSUE: NO SERVERS DETECTED
+RESU: CONFIRMATION 291239216
+
+12---------------------
+NAME: ROBERT RIDER
+BAN: 27437556
+PHONE: 4065229284
+
+ISSUE: CLAIMS
+RESU: CONFIRMATION 291239501
+
+SALE
+
+13---------------------
+NAME: 
+BAN: 
+PHONE: 2136371300 -D
+
+14---------------------
+NAME: ROBERT CRUZ
+BAN: 20805826
+PHONE: 2818558825
+
+ISSUE: 775
+RESU: 
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+16---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
