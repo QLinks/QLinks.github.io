@@ -1,0 +1,339 @@
+01---------------------
+NAME: BEN WEBMAN
+BAN: 77054225
+PHONE: 2072634830
+
+ISSUE: TRANSFER TO RC1
+
+02---------------------
+NAME: RC1
+BAN: 
+PHONE: 4043977640
+
+03---------------------
+NAME: MARVIN COFER
+BAN: 24362804
+PHONE: 3234791041
+
+ISSUE: DOD 
+RESU: SERVICE CALL 09.14.2018
+
+04---------------------
+NAME: DAVE
+BAN: NO ACCOUNT
+
+05---------------------
+NAME: VERNICE BECKWITH
+BAN: 8513973
+PHONE: 9019071435
+
+ISSUE: upgrade
+
+06---------------------
+NAME: JAMILIA LAWTON
+BAN: 74596731
+PHONE: 8642607152
+
+ISSUE: ORDER REMOTE-2 genie remotes
+RESU: Confirmation # 291280491 Confirmation # 291280572 
+
+07---------------------
+NAME: GRANT LANDRY
+BAN: 59258857
+PHONE: 3373420372
+
+ISSUE: EMAIL CHANGE
+RESU: grantlandry368@gmail.com
+
+08---------------------
+NAME: BETH SAIKO
+BAN: 26201569
+PHONE: 2183301485
+
+ISSUE: 928-IT FIX ITSELF-OFFERED UPGRADE
+RESU: COFORMATION 291281355
+
+09---------------------
+NAME: YEVONNE THOMPSON
+BAN: 10243230
+PHONE: 8035774335
+
+ISSUE: RELOCATION
+RESU: CONFIRMATION 291281919
+
+10---------------------
+NAME: THOMAS SOTERAKOS
+BAN: 17570109
+PHONE: 3012758790
+
+ISSUE: LHN LONG RANGE STREAMING
+
+11---------------------
+NAME: FAVIOLA CAICEDO
+BAN: 17933079
+PHONE: 4049523252
+
+ISSUE: WIRED CONNECTION LOST
+RESU: SERVICE CALL 09.17.2018 12PM-4PM
+
+12---------------------
+NAME: PAUL GARDIN
+BAN: 74813838
+PHONE: 4082254925
+
+ISSUE: RECONNECTING-HD TV, LIFETIME
+RESU: SERVICE CALL 09.16.2018
+
+13---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+14---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+16---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
