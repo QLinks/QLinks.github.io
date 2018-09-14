@@ -1,0 +1,338 @@
+01---------------------
+NAME: HELEN EDWARDS
+BAN: 28814473
+PHONE: 7402195495
+
+ISSUE: ORDER REMOTE-3PCS
+RESU: Confirmation # 291309095
+
+02---------------------
+NAME: MARK MARCHA
+BAN: 25131597
+PHONE: DROP
+
+03---------------------
+NAME: JOHN MATTHEWS
+BAN: 77425414
+PHONE: 6142648084
+
+ISSUE: UPGRADE
+RESU: CONFIRMATION 291311144
+
+04---------------------
+NAME: CAROLYN BURKE
+BAN: 32460685
+PHONE: 9034967219
+
+ISSUE: STUCK ON RECORDING SCREEN
+RESU: CONFIRMATION 29131263
+
+05---------------------
+NAME: AARON RIVERA
+BAN: 11038194
+PHONE: 8176759350
+
+ISSUE: DOD
+RESU: SERVICE CALL 09.15.2018 4PM-6PM
+
+06---------------------
+NAME: DIANA STEINBERG
+BAN: 41398019
+PHONE: 4432710903
+
+ISSUE: DOD
+RESU: SERVICE CALL 09.16.2018 12PM-4PM
+
+07---------------------
+NAME: COLLEEN HIRSCH
+BAN: 36024146
+PHONE: 5865565620
+
+ISSUE: NO SIGNAL
+
+08---------------------
+NAME: WILLIAM BUMPERS
+BAN: 2799776
+PHONE: 2516101568
+
+ISSUE: AQUIRING GUIDE DATA
+RESU: 771
+
+09---------------------
+NAME: ADELAIDA CASTRO
+BAN: 2581629
+PHONE: 3863348802
+
+ISSUE: DOESNT SUPPORT CONTENT
+RESU: CONFIRMATION 291321406
+
+10---------------------
+NAME: JOHN CIESLAK
+BAN: 35789433
+PHONE: 4809481017
+
+ISSUE: UNABLE TO STARTUP
+RESU: Confirmation # 291321833 
+
+11---------------------
+NAME: CHARLES LECLAIR
+BAN: 13940037
+PHONE: 4063349813
+
+ISSUE: RETRIVE PIN
+RESU: UPGRADE 291322441
+
+12---------------------
+NAME: RICHARD MCRAE
+BAN: 71130664
+PHONE: 9514446217
+
+ISSUE: STREAMING ISSUE
+RESU: INTERNAL ERROR-UNABLE TO COMPLETE REQUEST
+
+CALLBACK 0700
+
+13---------------------
+NAME: RC1
+BAN: 
+PHONE: 4083957442
+
+14---------------------
+NAME: RC1
+BAN: 
+PHONE: 7705213200
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: 6503856950
+
+ISSUE: canelo flight
+
+16---------------------
+NAME: JUTTA BEGER
+BAN: 35629209
+PHONE: 8015405303
+
+ISSUE: DOD-CX DOESNT WANT THE SAME TECH, WITH ID DVUT887718
+RESU: SERVICE CALL 09.15.2018 8AM-12PM
+
+SALE R21-235167384151
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
