@@ -1,0 +1,327 @@
+01---------------------
+NAME: LINDA JACKSON
+BAN: 22621755
+PHONE: 3189142293
+
+ISSUE: GENERAL QUESTION
+
+02---------------------
+NAME: HARVEY NELSON
+BAN: 50910157
+PHONE: 6517398572
+
+ISSUE: DOD
+RESU: SERVICE CALL 09.17.2018 8AM-12PM
+
+03---------------------
+NAME: IZZAC VILLAGOMEZ
+BAN: 64638138
+PHONE: 5593752509
+
+ISSUE: 22-460
+RESU: sn0255
+confirm 291385612
+
+04---------------------
+NAME: JESSICA OFFENBERGER
+BAN: 77578880
+PHONE: 7404739173
+
+ISSUE: UPGRADE-CONFIRMATION OF APPOINTMENT
+
+05---------------------
+NAME: RICHARD LOTTIER
+BAN: 38282461
+PHONE: 6572536791
+
+ISSUE: NO SIGNAL
+
+SALE R21-235261608241
+
+06---------------------
+NAME: ANDREW OLUJOBI
+BAN: 22881794
+PHONE: 
+
+07---------------------
+NAME: LETICIA GARCIA
+BAN: 50356888
+PHONE: 7143812716
+
+ISSUE: PPV ORDER
+RESU: PROCESS PAYMENT
+
+SALE R21-235264349591
+
+08---------------------
+NAME: JEWEL ARNOLD
+BAN: 17486284
+PHONE: 9018714138
+
+ISSUE: SERVICE INTERUPTION
+RESU: 329-hbo
+
+SALE R21-235268113091
+
+09---------------------
+NAME: RITA HARRINGTON
+BAN: 32338715
+PHONE: 9105285280
+
+10---------------------
+NAME: 
+BAN: 
+PHONE: rc1
+
+11---------------------
+NAME: 
+BAN: 
+PHONE: rc1
+
+12---------------------
+NAME: BETHANY HICKS
+BAN: 50907836
+PHONE: 8598066882
+
+ISSUE: FREEZING
+RESU: SERVICE CALL 09.20.2018 12PM-4PM
+
+13---------------------
+NAME: 
+BAN: 257595373
+PHONE: RC1
+
+14---------------------
+NAME: KONSTANTIN LURIE
+BAN: 63526993
+PHONE: 7743641404
+
+ISSUE: REMOTE CONTROL
+
+SALE R21-235276204212
+
+15---------------------
+NAME: 
+BAN: 
+PHONE: rc1
+
+16---------------------
+NAME: MICHELLE CORDOVA
+BAN: 46772640
+PHONE: 2542470665
+
+ISSUE: connecting
+RESU: SERVICE CALL 09.17.2018 8AM-12PM
+
+17---------------------
+NAME: BARBRA HART
+BAN: 21508436
+PHONE: 8706360266
+
+ISSUE: NO SIGNAL
+
+18---------------------
+NAME: VIVANN RUSSOTTI
+BAN: 53429174
+PHONE: 2015755581
+
+ISSUE: WIRED CONNECTION LOST
+
+19---------------------
+NAME: CLARENCE ROWAN
+BAN: 32542548
+PHONE: 8032403281
+
+ISSUE: NO SIGNAL
+
+SALE 
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
