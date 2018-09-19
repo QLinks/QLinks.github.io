@@ -1,0 +1,335 @@
+01---------------------
+NAME: ELIZABETH PRANGE
+BAN: 76354191
+PHONE: 2542901429
+
+ISSUE: CANCEL APPOINTMENT
+
+02---------------------
+NAME: CYNTHIA BUTLER
+BAN: 37207865
+PHONE: 7274703433
+
+ISSUE: PROGRAM REMOTE
+
+03---------------------
+NAME: LAURA RAYA
+BAN: 17168327
+PHONE: 3092697972
+
+ISSUE: DOD
+RESU: SERVICE CALL 09.29.2018 4PM-6PM
+
+04---------------------
+NAME: GREGORY WHITLEY
+BAN: 75345647
+PHONE: 2059024099
+
+ISSUE: CLAIMS
+RESU: Confirmation # 291484872
+
+05---------------------
+NAME: LANCE FRANKLIN
+BAN: 45647104
+PHONE: 8059079145
+
+ISSUE: GENIE RECORDING ISSUE
+
+06---------------------
+NAME: REINALDO PASTORA
+BAN: 50883401
+PHONE: 3013054421
+
+ISSUE: CANCEL
+
+07---------------------
+NAME: LAURA AUSTIN
+BAN: 46932406
+PHONE: 2526222682
+
+ISSUE: 771
+
+08---------------------
+NAME: J QUINN
+BAN: 144317
+PHONE: 4016244895
+
+ISSUE: PPV ORDERING
+
+09---------------------
+NAME: MICHAEL RUPP
+BAN: 8679213
+PHONE: 2697890814
+
+ISSUE: 771-206, 207, 269
+
+10---------------------
+NAME: TIFFANY MULLIGAN
+BAN: 16729594
+PHONE: 8057461842
+
+ISSUE: RC73
+RESU: Confirmation # 291495404 
+
+11---------------------
+NAME: MARY FISK
+BAN: 46490176
+PHONE: 9517334195
+
+ISSUE: WIRELESS CONNECTION LOST-RED LIGHT
+RESU: 5083
+
+12---------------------
+NAME: JESSICA GOODMAN
+BAN: 32027079
+PHONE: 7733013157
+
+ISSUE: SERVICE INTERUPTION
+
+13---------------------
+NAME: MARY DORMAN
+BAN: 44602235
+PHONE: 7039153416
+
+ISSUE: NO SIGNAL-NO SERVER DETECTED
+
+14---------------------
+NAME: JAMIE HAY
+BAN: 20687508
+PHONE: 
+
+ISSUE: UVERSE
+
+15---------------------
+NAME: JASON SHEPPARD
+BAN: 57567977
+PHONE: 5133136991
+
+ISSUE: CONNECT-661
+
+16---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+17---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+18---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+19---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+22---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+23---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+
