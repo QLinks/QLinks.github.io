@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<HTML lang="en">
+<HEAD>
+  <meta charset="utf-8">
+	<meta name="author" content="Benz Rodrigo">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" >
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="shortcut icon" type="image/x-icon" href="/x-assets/ico/favicon.ico">
+	<Title>TeamJAM</Title>
+
+  <STYLE>
+  Body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+/* Containers */
+  .top-container {
+	  background-color: #0085cc; color: #FFFFFF;
+    padding: 2px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+	}
+  .main-container {
+    background-color: white;
+    width: 100%;
+  }
+  .body-container {
+    padding: 3px;
+    background-color: white;
+    width: 100%;
+  }
+  #ahtTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;
+    font-size: 12px;
+  }
+  #ahtTable th, #ahtTable td {
+    text-align: left;
+    padding: 8px;
+  }
+  #ahtTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  #ahtTable tr.header, #ahtTable tr.footer {
+    font-size: 12px;
+    font-style: bold;
+    background-color: black; color: white;
+  }
+  #ahtTable td.aht:hover {
+    background-color: #f1f1f1;
+  }
+  #ahtTable td.call,#ahtTable th.call {
+    text-align: center; font-size: 12px;
+  }
+    .box {
+    font-size: 11px; font-family: "Arial", Lato, sans-serif; font-style: bold;
+    background-color: white; color: black;
+    border: 1px solid #1E90FF; border-radius: 4px;
+    padding: 6px 6px; margin: 2px 2px;
+    width:120px;
+    opacity: 0.85; display: inline-block;
+    cursor: pointer;
+  }
+  .box:hover { border: 2px solid #1F618D; }
+  .btn {
+    color:black;  background-color:white;
+		width: 70px;
+    padding: 8px;
+		border: none; border-radius: 6px;
+		opacity: 0.85;
+		font-size: 10px;
+		line-height: 5px;
+		}
+	.btn:hover {
+		opacity: 1;
+		border: none; border-radius: 6px;
+	}
+  </STYLE>
+</HEAD>
+
+<BODY>
+	<FORM id="previewform" action="">
+	 <DIV class="main-container">
+	   <Div class="top-container">
+	     <h3>TEAM JAM | AHT DAILY UPDATE | 00.SEPT.2018
+		<button value="reset" class="btn">REFRESH</button></h3>
+		<select class="box" id="dates" onchange="location = this.value;">
+			<option value="https://qlinks.github.io/teamjam/">TODAY</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/19SEPT2018.html">19-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/18SEPT2018.html">18-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/15SEPT2018.html">15-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/14SEPT2018.html">14-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/13SEPT2018.html">13-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/12SEPT2018.html">12-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/11SEPT2018.html">11-SEP-2018</option>
+			<option value="https://qlinks.github.io/?https://raw.githubusercontent.com/QLinks/QLinks.github.io/master/teamjam/2018SEPT/08SEPT2018.html">08-SEP-2018</option>
+		</select>
+	   </Div>
+	  <Div class="body-container">
+	  <Table id="ahtTable">
+	  <tr class="header">
+	    <th style="width:28%;">AGENT NAMES</th>
+	    <th style="width:7%;">0400 AM</th>
+	    <th style="width:7%;">0500 AM</th>
+	    <th style="width:7%;">0600 AM</th>
+	    <th style="width:7%;">0700 AM</th>
+	    <th style="width:7%;">0800 AM</th>
+	    <th style="width:7%;">0900 AM</th>
+	    <th style="width:7%;">1000 AM</th>
+	    <th style="width:7%;">1100 AM</th>
+	    <th style="width:7%;">EOD</th>
+	    <th class="call" style="width:9%;">ANS. CALLS</th>
+	   </tr>
+<!-- Enter AHT Time per Agent starting here -->
+		<tr>  <!-- CIELO -->
+		<td>Abrea, Grace Cielo</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-AG  -->
+		</tr>
+		<tr>  <!-- ADIE -->
+		<td>Bautista, Adeleine Eloisa Marie</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-BA  -->
+		</tr>
+		<tr><!-- CHRIST -->
+		<td>Brigildo, Mary Christ</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-BM  -->
+		</tr>
+		<tr>  <!-- ACE -->
+		<td>Del Puerto, Joseph Jude</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td>  <!-- CA-DJ  -->
+		</tr>
+		<tr>  <!-- ROCH -->
+		<td>Escora, Rochine</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-ER  -->
+		</tr>
+		<tr>  <!-- RITCH -->
+		<td>Genotiva, Ritchie Ann</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-GR  -->
+		</tr>
+		<tr>  <!-- ZAN -->
+		<td>Lagwa-an, August Ray-van</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-LA  -->
+		</tr>
+		<tr>  <!-- FRANZ -->
+		<td>Longakit, Franz Louise</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-LF  -->
+		</tr>
+		<tr>  <!-- KARL -->
+		<td>Palmes, Karl</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-PK  -->
+		</tr>
+		<tr>  <!-- BENZ -->
+		<td>Rodrigo, Benrico</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-RB  -->
+		</tr>
+		<tr>  <!-- HAZEL -->
+		<td>Sandigan, Hazel</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-SH  -->
+		</tr>
+		<tr>  <!-- THAN -->
+		<td>Sulaiman, Jonathan</td>
+		  <td class="aht"> </td>  <!-- AHT for 0400  -->
+		  <td class="aht"> </td>  <!-- AHT for 0500  -->
+		  <td class="aht"> </td>  <!-- AHT for 0600  -->
+		  <td class="aht"> </td>  <!-- AHT for 0700  -->
+		  <td class="aht"> </td>  <!-- AHT for 0800  -->
+		  <td class="aht"> </td>  <!-- AHT for 0900  -->
+		  <td class="aht"> </td>  <!-- AHT for 1000  -->
+		  <td class="aht"> </td>  <!-- AHT for 1100  -->
+		  <td class="aht"> </td>  <!-- AHT for EOD  -->
+		    <td class="call"> </td> <!-- CA-SJ  -->
+		</tr>
+<!-- Footer for Table -->
+		<tr class="footer">
+		<th>RUNNING TOTAL</th>
+		  <th class="tl"> </th> <!-- TMAHT04 -->
+		  <th class="tl"> </th> <!-- TMAHT05  -->
+		  <th class="tl"> </th> <!-- TMAHT06  -->
+		  <th class="tl"> </th> <!-- TMAHT07  -->
+		  <th class="tl"> </th> <!-- TMAHT08  -->
+		  <th class="tl"> </th> <!-- TMAHT09  -->
+		  <th class="tl"> </th> <!-- TMAHT10  -->
+		  <th class="tl"> </th> <!-- TMAHT11  -->
+		  <th class="tl"> </th> <!-- TMAHTEOD  -->
+		    <th class="call"> </th><!-- TMCA  -->
+		</tr>
+	</Table>
+
+    </Div>
+  </DIV>
+
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js"></script>
+  
+  <script type="text/javascript">
+  $(document).ready(function() {
+    $('#ahtTable td.aht').each(function() {
+        var num = parseFloat($(this).text());
+        if (num > 14.0) {
+          $(this).css('color','#f00');
+        }
+        else if (num == 0) {
+          $(this).css('color','#808080');
+        }
+        else { $(this).css('color','#000'); }
+      });
+    $('#ahtTable th.tl').each(function() {
+      var num = parseFloat($(this).text());
+      if (num > 14.0) {
+        $(this).css('color','#f00');
+      } else { $(this).css('color','#fff'); }
+    });
+  });
+
+  </script>
+    
+    </FORM>
+
+	<script src="/htmlview.min.js"></script>
+	<script>HTMLview.init();</script>
+</BODY>
+</HTML>
