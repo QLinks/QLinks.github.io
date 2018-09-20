@@ -1,0 +1,325 @@
+01---------------------
+NAME: ROGER GAUWITZ
+BAN: 51139315
+PHONE: 3092466753
+
+ISSUE: DROP
+
+02---------------------
+NAME: ROSEANN VADEWATER
+BAN: 21285555
+PHONE: 5183254364
+
+ISSUE: RECEIVER WONT TURN ON
+
+03---------------------
+NAME: SCOTT BRANSTETTER
+BAN: 58874655
+PHONE: 8587752726
+
+ISSUE: NFL SHORTCUTS-705/706-INFORM CX THAT ITS ONLY AVAILABLE TO CONNECTED DEVIES
+
+04---------------------
+NAME: DARREL BANKS
+BAN: 17471916
+PHONE: 3233704493
+
+ISSUE: SOUND ISSUE
+
+05---------------------
+NAME: SHERRY BROOKS
+BAN: 10848676
+PHONE: 9897854817
+
+ISSUE: TO BE ANOUNCED
+RESU: 41-775 SERVICE CALL 09.21.2018 12PM-4PM 
+
+06---------------------
+NAME: NIEVES VELORIA
+BAN: 6262386
+PHONE: 2096082811
+
+ISSUE: ORDER BOX
+RESU: CONFIRMATION 291531527
+
+SALE R21-235480955011
+08AM
+
+07---------------------
+NAME: HUNTER SHERIDAN
+BAN: 56507016
+PHONE: 7135426780
+
+ISSUE: RC71
+
+08---------------------
+NAME: ANTHONY NAZAR
+BAN: 36174228
+PHONE: 3306900157
+
+ISSUE: RC66RX
+RESU: 
+Confirmation # 291533995
+RC71
+
+09---------------------
+NAME: DOREEN GEITZENAUER
+BAN: 25893539
+PHONE: 5208186665
+
+ISSUE: 771-TROUBLESHOOT
+RESU: 229
+
+10---------------------
+NAME: KATHY MARTINEZ
+BAN: 41331360
+PHONE: 5754153542
+
+ISSUE: NFL TICKET
+RESU: TRANSFER TO NFL SAVES
+
+11---------------------
+NAME: KIMBERLY ESPINOZA
+BAN: 39501007
+PHONE: 9164204012
+
+ISSUE: REMOTE CONTROL
+RESU: Confirmation # 291535271 
+
+12---------------------
+NAME: GUSTAVO VASQUEZ
+BAN: 74906586
+PHONE: 8057669465
+
+ISSUE: DTV APP
+
+SALE R21-235486021941
+
+13---------------------
+NAME: BEN WOODS
+BAN: 26839459
+PHONE: 9727621056
+
+ISSUE: 771
+RESU: Confirmation # 291538926
+
+14---------------------
+NAME: ANTONIE MILES
+BAN: 7232741
+PHONE: 9033457070
+
+ISSUE: NO SIGNAL
+
+15---------------------
+NAME: DIANA HILL
+BAN: 3941622
+PHONE: 3462648338
+
+ISSUE: 775
+
+16---------------------
+NAME: LAVERNE EVANS
+BAN: 81254151
+PHONE: 7123045328
+
+ISSUE: PPV-JURASIC WORLD
+
+17---------------------
+NAME: ELVIRA PORTER
+BAN: 11578460
+PHONE: 7143941595
+9514039810
+
+ISSUE: NO SERVERS DETECTED
+RESU: 
+
+
+18---------------------
+NAME: 2104806740
+BAN: 
+PHONE: drop
+
+19---------------------
+NAME: 
+BAN: 8059012416
+PHONE: drop
+
+20---------------------
+NAME: 
+BAN: 
+PHONE: 8464412328
+
+21---------------------
+NAME: 
+BAN: 
+PHONE: 3142017691
+
+22---------------------
+NAME: SEAN GRUNENWALD
+BAN: 6130456
+PHONE: 9312498963
+
+ISSUE: SLOW RECEIVER
+
+23---------------------
+NAME: WILLIAM PRINCE
+BAN: 35914796
+PHONE: 5105992352
+
+ISSUE: RECONNECTING
+
+24---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+25---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+26---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+27---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+28---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+29---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+30---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+31---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+32---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+33---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+34---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+35---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+36---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+37---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+38---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+39---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+40---------------------
+NAME: 
+BAN: 
+PHONE: 
+
+ISSUE: 
+RESU: 
+
+
+https://www.e-access.att.com/digi-tools/dtvagenttools/index.htm
+
